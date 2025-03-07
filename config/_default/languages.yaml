@@ -20,6 +20,8 @@ fr:
     diplomas: /diplomes/:slug/
     programs_categories: /formations/categories/:slug/
     programs: /formations/:slug/
+    persons: /equipe/:slug/
+    persons_categories: /equipe/categories/:slug/
   taxonomies:
     administrator: administrators
     author: authors
