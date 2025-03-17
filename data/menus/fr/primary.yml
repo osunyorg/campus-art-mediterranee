@@ -22,20 +22,6 @@ items:
   children: []
   path: "/projects"
   file: content/fr/projects/_index.html
-- title: Équipe
-  target: "/equipe/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/persons"
-  file: content/fr/persons/_index.html
-- title: Organisations
-  target: "/organisations/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/organizations"
-  file: content/fr/organizations/_index.html
 - title: Diplômes
   target: "/diplomes/"
   kind: page
