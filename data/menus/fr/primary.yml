@@ -22,13 +22,6 @@ items:
   children: []
   path: "/projects"
   file: content/fr/projects/_index.html
-- title: Diplômes
-  target: "/diplomes/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/diplomas"
-  file: content/fr/diplomas/_index.html
 - title: Formations
   target: "/formations/"
   kind: page
@@ -36,11 +29,4 @@ items:
   children: []
   path: "/programs"
   file: content/fr/programs/_index.html
-- title: Expositions
-  target: "/expositions/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/exhibitions"
-  file: content/fr/exhibitions/_index.html
 
