@@ -20,4 +20,11 @@ items:
   children: []
   path: "/events"
   file: content/fr/events/_index.html
+- title: "(co)Productions"
+  target: "/coproductions/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/pages/coproductions"
+  file: content/fr/pages/coproductions/_index.html
 
