@@ -1,6 +1,11 @@
 ---
 title: Menu principal
 items:
+- title: Se former
+  target: "/lenseignement/formations/categories/formation/"
+  kind: url
+  new_tab: false
+  children: []
 - title: Actualités
   target: "/actualites/"
   kind: page
@@ -15,11 +20,6 @@ items:
   children: []
   path: "/projects"
   file: content/fr/projects/_index.html
-- title: Se former
-  target: "/lenseignement/formations/categories/formation/"
-  kind: url
-  new_tab: false
-  children: []
 - title: Agenda
   target: "/agenda/"
   kind: page
