@@ -1,0 +1,21 @@
+---
+title: Upper menu
+items:
+- title: Nous soutenir
+  target: "#"
+  kind: url
+  new_tab: false
+  children: []
+- title: Ateliers publics
+  target: "#"
+  kind: url
+  new_tab: false
+  children: []
+- title: Vous êtes
+  target: "/vous-etes/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/pages/vous-etes"
+  file: content/fr/pages/vous-etes/_index.html
+
