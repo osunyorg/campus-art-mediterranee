@@ -9,6 +9,17 @@ fr:
   buildFuture: true
   params:
     contact_details:
+      social_networks:
+        instagram:
+          label: >-
+            campus_art_mediterranee
+          value: >-
+            https://instagram.com/campus_art_mediterranee
+        linkedin:
+          label: >-
+            campus-art-mediterranee
+          value: >-
+            https://www.linkedin.com/company/campus-art-mediterranee
 
   permalinks:
     events: /agenda/:year/:slug/
