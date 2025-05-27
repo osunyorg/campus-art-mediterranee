@@ -1,0 +1,11 @@
+commons:
+  footer:
+    campus:
+      text: "Campus Art Méditerranée est un établissement public de coopération culturelle agréé par le ministère de la Culture, et soutenu par la Ville de Marseille."
+      ecosystem: "L’établissement compte trois entités :"
+      sites:
+        campus: Site du Campus art Méditerranée
+        conservatory: Site du Conservatoire Pierre Barbizet
+    switchboard: "L’École met en place un accueil téléphonique (standard : <a href='tel:04 91 82 83 10'>04 91 82 83 10</a>) pour les personnes sourdes et malentendantes"
+programs:
+  children: En cursus

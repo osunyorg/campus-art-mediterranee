@@ -1,0 +1,65 @@
+<div class="container">
+  <div class="footer-presentation">
+    <p>{{ i18n "commons.footer.campus.text" }}</p>
+    <p>{{ i18n "commons.footer.campus.ecosystem" }}</p>
+    {{ $ecosystem_list := partial "GetMenu" "ecosysteme-footer" }}
+    {{ if $ecosystem_list }}
+      {{ partial "commons/menu.html" (dict
+          "kind" "ecosysteme-footer"
+          "level" 1
+          "context" .
+          "class" "ecosystem-cta"
+        )}}
+    {{ end }}
+  </div>
+
+  <div class="footer-site">
+    {{ partial "footer/site.html" }}
+    {{ $file_cta := partial "GetMenu" "cta-footer" }}
+    {{ if $file_cta }}
+      {{ partial "commons/menu.html" (dict
+          "kind" "cta-footer"
+          "level" 1
+          "context" .
+          "class" "footer-cta"
+        )}}
+    {{ end }}
+  </div>
+
+  {{ $footer_internal := partial "GetMenu" "footer" }}
+  {{ if $footer_internal }}
+    {{ partial "commons/menu.html" (dict
+        "kind" "footer"
+        "level" 1
+        "stop" 1
+        "context" .
+        "class" "footer-nav"
+      )}}
+  {{ end }}
+
+  {{ $footer_external := partial "GetMenu" "footer-external" }}
+  {{ if $footer_external }}
+    {{ partial "commons/menu.html" (dict
+        "kind" "footer-external"
+        "level" 1
+        "stop" 1
+        "context" .
+        "class" "footer-nav"
+      )}}
+  {{ end }}
+    
+  </div>
+
+  <div class="container">
+  <div class="footer-social">
+    {{ partial "footer/social.html" . }}
+  </div>
+  <div class="footer-legals">
+    {{ partial "footer/legals.html" . }}
+    {{ if and site.Params.search.active (in site.Params.search.positions "footer") }}
+      <div class="footer-search">
+        {{ partial "commons/search/button.html" "footer" }}
+      </div>
+    {{ end }}
+  </div>
+  </div>
