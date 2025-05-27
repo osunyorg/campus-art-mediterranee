@@ -1,4 +1,60 @@
 footer#document-footer
+    > .container + .container
+        border-top: 1px solid $color-border-alt
+        padding-top: space(10)
+    .footer-presentation
+        .ecosystem-cta
+            li + li
+                margin-top: 0
+            li:not(:last-child)::after
+                content: '↗'
+                margin-left: 2px
+            a
+                text-decoration: underline
+                &::after
+                    content: none
+    .footer-cta li
+        text-align: left
+        a
+            text-decoration: underline
+            text-decoration-thickness: 2px
+            &::after
+                content: '↗'
+                display: inline-block
+                margin-left: 2px
+                font-family: $heading-font-family
     @include media-breakpoint-up(desktop)
         .footer-presentation
             width: columns(5)
+        .container
+            padding-bottom: 0
+            &:first-child
+                gap:: space(10)
+                > * 
+                    padding-bottom: space(10)
+                > *:not(.footer-presentation)
+                    flex: 1
+            + .container
+                ul
+                    @include meta
+                    align-items: baseline
+                    display: flex
+                    gap: var(--grid-gutter)
+                    li + li
+                        margin-top: 0
+                    &.footer-social
+                        gap: space(6)
+                        li::after
+                            margin-left: 0
+        @include media-breakpoint-down(xl)
+            .container:first-child
+                flex-wrap: wrap
+                row-gap: 0
+                .footer-presentation
+                    width: 100%
+                > *:not(.footer-presentation)
+                    padding-top: $spacing-4
+        @include media-breakpoint-up(xl)
+            > .nav-level-1
+                border-left: 1px solid $color-border-alt
+                padding-left: space(8)

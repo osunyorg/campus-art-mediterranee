@@ -8,3 +8,6 @@ params:
   logo:
     header: '/assets/images/logo.svg'
     footer: ''
+  blocks:
+    key_figures:
+      animated: false

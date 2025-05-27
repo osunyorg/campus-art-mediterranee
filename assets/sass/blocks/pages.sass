@@ -1,0 +1,31 @@
+.block-pages
+    &--cards
+        .card
+            border: 5px solid var(--color-accent)
+            padding: space(8) space(8) space(6)
+            align-items: flex-start
+            .media
+                margin-top: 0
+                picture
+                    margin-bottom: space(10)
+                    &:not(.is-svg)
+                        margin-top: -(space(8))
+                    &.is-svg
+                        width: columns(1.5)
+            .more
+                align-items: flex-end
+                flex: 1
+                margin-top: auto
+                position: relative
+                &::after
+                    content: '→'
+                    opacity: 1
+                    right: -(space())
+                    font-family: inherit
+                    font-size: inherit
+                    transform: translateX(100%)
+            &:hover 
+                .more::after
+                    transform: translateX(120%)
+                picture.is-svg
+                    filter: brightness(200)

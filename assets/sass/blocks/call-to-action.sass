@@ -1,0 +1,23 @@
+.block-call_to_action
+    .call_to_action
+        .top
+            .description p
+                @include body-text
+            + .actions
+                margin-top: $spacing-5
+        .actions
+            a,
+            a:first-child
+                @include h3
+                display: block !important
+                text-align: left
+                text-decoration: none
+                // TODO : remplacer par flèche incomplète (cf maquette)
+                &::after
+                    content: '→'
+                    display: inline-block
+                    font-family: inherit
+                    padding-left: space()
+                    transition: transform 0.2s ease
+                &:hover::after
+                    transform: translateX(25%)
