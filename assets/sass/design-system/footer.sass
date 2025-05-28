@@ -46,6 +46,10 @@ footer#document-footer
                         gap: space(6)
                         li::after
                             margin-left: 0
+            @include media-breakpoint-up(xl)
+                > .nav-level-1
+                    border-left: 1px solid $color-border-alt
+                    padding-left: space(8)
         @include media-breakpoint-down(xl)
             .container:first-child
                 flex-wrap: wrap
@@ -54,7 +58,3 @@ footer#document-footer
                     width: 100%
                 > *:not(.footer-presentation)
                     padding-top: $spacing-4
-        @include media-breakpoint-up(xl)
-            > .nav-level-1
-                border-left: 1px solid $color-border-alt
-                padding-left: space(8)
