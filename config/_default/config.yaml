@@ -11,3 +11,14 @@ params:
   blocks:
     key_figures:
       animated: false
+  organizations:
+    single:
+      backlinks: true
+  persons:
+    single:
+      backlinks: true
+  image_sizes:
+    sections:
+      home:
+        hero:
+          desktop:  1920
