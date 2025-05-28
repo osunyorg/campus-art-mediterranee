@@ -1,7 +1,18 @@
 footer#document-footer
     > .container + .container
-        border-top: 1px solid $color-border-alt
-        padding-top: space(10)
+        @include media-breakpoint-up(desktop)
+            border-top: 1px solid $color-border-alt
+            padding-top: space(10)
+        @include media-breakpoint-down(desktop)
+            display: flex
+            flex-direction: column
+            margin-top: space(8)
+            gap: space(8)
+            .footer-legals
+                order: -1
+                border-top: 1px solid $color-border-alt
+                padding-top: space(8)
+                margin-top: 0
     .footer-presentation
         .ecosystem-cta
             li + li
@@ -58,3 +69,17 @@ footer#document-footer
                     width: 100%
                 > *:not(.footer-presentation)
                     padding-top: $spacing-4
+    @include media-breakpoint-down(desktop)
+        .footer-social
+            display: flex
+            gap: space(8)
+            .site-links li 
+                + li
+                    margin-top: 0
+                &::after
+                    margin-right: 0
+        .footer-presentation
+            @include meta
+        .footer-site,
+        .footer-nav
+            margin-top: $spacing-3

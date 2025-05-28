@@ -10,8 +10,9 @@
                     margin-bottom: space(10)
                     &:not(.is-svg)
                         margin-top: -(space(8))
-                    &.is-svg
-                        width: columns(1.5)
+                    @include media-breakpoint-up(desktop)
+                        &.is-svg
+                            width: columns(1.5)
             .more
                 flex: 1
                 align-items: flex-end
