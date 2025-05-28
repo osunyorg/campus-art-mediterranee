@@ -13,8 +13,8 @@
                     &.is-svg
                         width: columns(1.5)
             .more
-                align-items: flex-end
                 flex: 1
+                align-items: flex-end
                 margin-top: auto
                 position: relative
                 &::after
@@ -23,9 +23,9 @@
                     right: -(space())
                     font-family: inherit
                     font-size: inherit
-                    transform: translateX(100%)
+                    transform: translate(100%, -25%)
             &:hover 
                 .more::after
-                    transform: translateX(120%)
+                    transform: translate(120%, -25%)
                 picture.is-svg
                     filter: brightness(200)

@@ -21,3 +21,10 @@
                     transition: transform 0.2s ease
                 &:hover::after
                     transform: translateX(25%)
+        @include in-page-without-sidebar
+            &--with-image
+                > div
+                    grid-column: 1 / 9
+                figure
+                    grid-column: 10 / 13
+                    margin-left: var(--grid-gutter-negative)
