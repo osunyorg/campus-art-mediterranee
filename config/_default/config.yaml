@@ -22,3 +22,7 @@ params:
       home:
         hero:
           desktop:  1920
+    blocks:
+      events:
+        list:
+          desktop:  400

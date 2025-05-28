@@ -4,7 +4,6 @@
             order: -1
         .event-subtitle
             @include body-text
-            color: var(--color-accent)
         .event-description
             @include meta
         .event-categories
@@ -28,6 +27,17 @@
     .media img
         aspect-ratio: 3 / 2
         object-fit: cover
+    &--list,
+    .events--list
+        @include in-page-without-sidebar
+            .event-content
+                width: columns(9)
+                hgroup,
+                > h1,
+                .event-description
+                    width: columns(5)
+            .media
+                width: columns(3)
     @include media-breakpoint-down(desktop)
         .event-content
             display: flex
