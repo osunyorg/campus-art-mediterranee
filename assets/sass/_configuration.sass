@@ -2,15 +2,11 @@ $color-background: #FFFFFF
 $color-text: #3444A5
 $color-accent: $color-text
 $color-border: $color-text
-
-$heading-font-family: "Acid Grotesk", "Helvetica", "Arial", sans-serif
-$body-font-family: $heading-font-family
-
-$hero-background-color: none
-$footer-background-color: $color-text
-$footer-color: $color-background
+$color-border-alt: rgba(255, 255, 255, 0.2)
 
 // TYPOGRAPHY
+$heading-font-family: "Acid Grotesk", "Helvetica", "Arial", sans-serif
+$body-font-family: $heading-font-family
 
 // Body
 $body-size-desktop: pxToRem(20)
@@ -52,17 +48,54 @@ $meta-size-desktop: pxToRem(14)
 $meta-size: pxToRem(14)
 $meta-line-height: 143%
 
+// lead
+$lead-sidebar-size-desktop: pxToRem(40)
+// $lead-sidebar-size: $lead-size
+// $lead-sidebar-line-height: $lead-line-height
+$lead-sidebar-line-height-desktop: 125%
+
 // COMPONENTS
 // header
 $header-background: var(--color-background)
 $header-logo-height-desktop: pxToRem(194)
 $header-border-bottom-width: 1px
 
+// upper menu
+$header-upper-menu-background: transparent
+$header-upper-menu-sticky-background: transparent
+$header-upper-menu-border-bottom-width: 0
+$header-nav-padding-y: pxToRem(20)
+$header-nav-padding-y-desktop: pxToRem(27)
+
+// hero
+$hero-background-color: none
+
+// footer
+$footer-background-color: $color-text
+$footer-color: $color-background
+$footer-text-hidden: true
+$footer-icons-size: pxToRem(36)
+$footer-icons-size-desktop: pxToRem(36)
+
+// Button
+$btn-border-width: 0
+$btn-border-radius: 0
+$btn-padding: 0
+$btn-padding-desktop: 0
+$btn-min-width: unset
+$btn-min-width-desktop: unset
+
 // BLOCKS
 // cta | call to action
-$block-call-to-action-accent-button-background: none
-$block-call-to-action-accent-button-border: none
-$block-call-to-action-accent-button-color: var(--color-background)
-$block-call-to-action-accent-button-hover-background: none
-$block-call-to-action-accent-button-hover-border: none
-$block-call-to-action-accent-button-hover-color: var(--color-background)
+$block-call-to-action-button-background: none
+$block-call-to-action-button-border: none
+$block-call-to-action-button-color: var(--color-text)
+$block-call-to-action-button-hover-background: none
+$block-call-to-action-button-hover-border: none
+$block-call-to-action-button-hover-color: var(--color-text)
+
+// pages | cards
+$block-pages-card-background: none
+
+// key figures
+$block-key_figures-number-font-weight: normal

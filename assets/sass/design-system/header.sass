@@ -1,0 +1,56 @@
+header#document-header
+    @include media-breakpoint-up(desktop)
+        .upper-menu
+            .container
+                position: relative
+            .nav-level-1
+                @include h4
+                flex-wrap: wrap
+                gap: unset
+                justify-content: flex-end
+                position: absolute
+                right: var(--grid-gutter)
+                width: auto
+                li:not(:last-child)
+                    border-bottom: 1px solid var(--color-accent)
+                    a
+                        width: 100%
+                li:nth-child(1)
+                    padding-right: space(6)
+                    &::after
+                        content: ''
+                        background: var(--color-accent)
+                        height: pxToRem(35)
+                        width: 1px 
+                        position: absolute
+                        right: 0
+                li:nth-child(2)
+                    text-align: right
+                    padding-left: space(6)
+                    a::after
+                        content: '↗'
+                        font-family: inherit
+                        padding-left: space()
+                li:last-child
+                    @include meta
+                    width: 100%
+                    a
+                        margin-left: auto
+                        &::after
+                            content: '→'
+                            display: inline-block
+                            font-family: inherit
+                            padding-left: space()
+                            transition: transform 0.2s ease
+                        &:hover::after
+                            transform: translateX(25%)
+        .primary-menu
+            > .container
+                row-gap: $spacing-4
+            .nav-level-1
+                gap: var(--grid-gutter)
+                justify-content: space-between
+                width: columns(12)
+                li
+                    a, span, button
+                        @include h4

@@ -1,0 +1,10 @@
+.block
+    .block-title
+        @include in-page-without-sidebar
+            a::after
+                opacity: 0
+                content: '→'
+                font-family: $heading-font-family
+                padding-left: space()
+            a:hover::after
+                opacity: 1

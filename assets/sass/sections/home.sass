@@ -1,0 +1,17 @@
+.page__home
+    .hero
+        &.hero--with-image
+            .content
+                padding-top: 0
+                flex-direction: column
+                figure
+                    order: -1
+                .hero-text,
+                figure
+                    width: 100%
+                @include media-breakpoint-up(desktop)
+                    margin-left: var(--grid-gutter-negative)
+                    margin-right: var(--grid-gutter-negative)
+                    .hero-text
+                        padding-left: var(--grid-gutter)
+                        padding-right: var(--grid-gutter)

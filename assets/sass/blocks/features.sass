@@ -1,0 +1,26 @@
+.block-features
+    .name
+        @include h1
+    @include media-breakpoint-down(desktop)
+        ul
+            li > div
+                border-bottom: 1px solid var(--color-accent)
+                padding-bottom: $spacing-2
+    @include media-breakpoint-up(desktop)
+        ul
+            display: block !important
+            li
+                flex-direction: row
+                gap: var(--grid-gutter)
+                > div
+                    border-top: 1px solid var(--color-accent)
+                    flex: 1
+                .name
+                    margin-top: pxToRem(5)
+                figure
+                    margin-bottom: 0
+                    order: 2
+                    width: columns(3)
+                @include in-page-with-or-without-sidebar
+                    + li
+                        margin-top: pxToRem(5)
