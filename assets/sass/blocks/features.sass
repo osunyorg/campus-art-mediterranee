@@ -3,9 +3,18 @@
         @include h1
     @include media-breakpoint-down(desktop)
         ul
-            li > div
-                border-bottom: 1px solid var(--color-accent)
-                padding-bottom: $spacing-2
+            li 
+                display: flex
+                flex-direction: column
+                > div
+                    border-top: 1px solid var(--color-accent)
+                    padding-top: $spacing-2
+                figure
+                    order: 2
+                    margin-bottom: 0
+                    margin-top: space(5)
+                + li
+                    margin-top: space(8)
     @include media-breakpoint-up(desktop)
         ul
             display: block !important
