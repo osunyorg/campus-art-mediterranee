@@ -15,6 +15,10 @@
                 text-decoration: none
                 padding: space(2) space(4)
                 border-radius: 20px
+                transition: all 0.2s ease
+                &:hover
+                    background-color: var(--color-accent)
+                    color: var(--color-background)
             li:not(:last-child) a::after
                 content: none
     .event-time
