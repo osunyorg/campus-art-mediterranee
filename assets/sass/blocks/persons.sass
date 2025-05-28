@@ -1,0 +1,19 @@
+.block-persons
+    &--grid
+        .avatar
+            border-radius: 0
+        .description
+            text-align: left
+    &.block-class-last-link-as-cta
+        .description
+            > p:last-of-type > a:last-of-type
+                @include meta
+                text-decoration-color: var(--color-accent)
+                &::after
+                    content: '→'
+                    display: inline-block
+                    font-family: inherit
+                    padding-left: space()
+                    transition: transform 0.2s ease
+                &:hover::after
+                    transform: translateX(25%)

@@ -30,3 +30,46 @@
                     transform: translate(120%, -25%)
                 picture.is-svg
                     filter: brightness(200)
+    &--grid
+        .grid
+            article
+                .page-title
+                    @include body-text
+                    a::after
+                        content: '→' !important
+                        display: inline-block
+                        font-family: inherit !important
+                        padding-left: space()
+    &--large
+        .page
+            .page-content
+                .page-title 
+                    @include h3
+                    a
+                        text-decoration: none
+                .more
+                    @include body-text
+                    margin-top: auto
+                    text-decoration: underline
+                    text-underline-offset: 2px
+                    &::after
+                        content: '↗'
+                        font-family: inherit
+                        padding-left: space()
+                &:hover .more::after
+                    transform: translate(space(), -(space()))
+            .media 
+                img
+                    aspect-ratio: 16/9
+                @include media-breakpoint-up(desktop)
+                    picture.is-svg img
+                        object-fit: none
+                        object-position: top left
+            @include in-page-without-sidebar
+                align-items: stretch
+                .page-content
+                    display: flex
+                    flex-direction: column
+                    width: columns(6)
+                .media
+                    margin-bottom: 0

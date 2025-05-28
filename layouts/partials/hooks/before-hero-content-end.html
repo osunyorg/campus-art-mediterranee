@@ -1,0 +1,20 @@
+{{ if in .Params.bodyclass "ancestor-courses_and_practices" }}
+  {{ with .Params.contents }}
+    <div class="blocks">
+      {{ range $index, $content := . }}
+        {{ if in site.Params.blocks.ignored .html_class }}
+          {{ if or (eq .template "persons") (eq .template "call_to_action") }}
+            {{ $template := printf "blocks/templates/%s.html" .template }}
+      
+            {{ if templates.Exists ( printf "partials/%s" $template ) }}
+              {{ partial $template (dict
+                  "block" $content
+                  "index" $index
+                )}}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    </div>
+  {{ end }}
+{{ end }}

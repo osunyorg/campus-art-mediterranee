@@ -9,11 +9,17 @@ params:
     header: '/assets/images/logo.svg'
     footer: ''
   blocks:
+    ignored:
+      - block-class-in-hero
     key_figures:
       animated: false
   organizations:
     single:
       backlinks: true
+  pages:
+    single:
+      taxonomies:
+        position: hero
   persons:
     single:
       backlinks: true

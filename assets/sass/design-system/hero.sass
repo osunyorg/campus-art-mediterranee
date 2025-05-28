@@ -2,11 +2,25 @@
     .content
         .hero-text
             margin-top: pxToRem(50)
+            width: 100%
+        @include media-breakpoint-up(desktop)
+            h1
+                max-width: columns(9)
+                @include media-breakpoint-up(xxl)
+                    max-width: columns(8)
         .hero-actions
             margin-top: $spacing-4 
             .btn
                 @include lead-hero
-                // TODO: icon chevron down campus
+                // TODO: remplacer par chevron
+                &::after
+                    content: '→'
+                    display: inline-block
+                    font-family: inherit
+                    padding-left: space()
+                    transition: transform 0.2s ease
+                &:hover::after
+                    transform: translateX(25%)
                 @include media-breakpoint-up(desktop)
                     @include h3
         @include media-breakpoint-down(desktop)
@@ -14,3 +28,39 @@
                 .has-lead > p,
                 .hero-actions .btn
                     @include body-text
+
+    .pages__section &
+        .taxonomies-single
+            display: flex
+            flex-wrap: wrap
+            gap: space()
+            width: 100%
+        .terms
+            .taxonomy-title
+                @extend .sr-only
+            .taxonomy-children
+                gap: space()
+                li a
+                    @extend .button
+                    @extend .button--small
+        &--with-image
+            .content
+                figure img
+                    aspect-ratio: 3/2
+                    object-fit: cover
+                @include media-breakpoint-up(desktop)
+                    .hero-text,
+                    figure
+                        width: columns(6)
+                    .hero-text
+                        display: flex
+                        flex-direction: column
+                        margin-top: 0
+                        .has-lead > p
+                            @include body-text
+                        .taxonomies-single
+                            order: -1
+                        hgroup, h1
+                            order: -2
+                    figure
+                        order: -1
