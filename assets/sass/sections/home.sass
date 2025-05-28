@@ -15,3 +15,12 @@
                     .hero-text
                         padding-left: var(--grid-gutter)
                         padding-right: var(--grid-gutter)
+                        h1
+                            max-width: columns(8)
+
+.block:not(.block-call_to_action)
+    .top
+        border-top: 1px solid var(--color-accent)
+        padding-top: pxToRem(10)
+        h2
+            @include h2

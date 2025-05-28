@@ -1,0 +1,10 @@
+.block.block-title
+    > h2
+        border-top: 1px solid var(--color-accent)
+        padding-top: pxToRem(10)
+        @include in-page-without-sidebar
+            max-width: 100%
+            padding-right: offset(4)
+    + .block
+        .block-content
+            padding-top: 0
