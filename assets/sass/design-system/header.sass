@@ -1,4 +1,22 @@
 header#document-header
+    .upper-menu
+        .nav-level-1
+            li
+                &:nth-child(2)
+                    a::after
+                        content: '↗'
+                        font-family: inherit
+                        padding-left: space()
+                &:last-child
+                    @include meta
+                    a::after
+                        content: '→'
+                        display: inline-block
+                        font-family: inherit
+                        padding-left: space()
+                        transition: transform 0.2s ease
+                    a:hover::after
+                        transform: translateX(25%)
     @include media-breakpoint-up(desktop)
         .upper-menu
             .container
@@ -27,23 +45,10 @@ header#document-header
                 li:nth-child(2)
                     text-align: right
                     padding-left: space(6)
-                    a::after
-                        content: '↗'
-                        font-family: inherit
-                        padding-left: space()
                 li:last-child
-                    @include meta
                     width: 100%
                     a
                         margin-left: auto
-                        &::after
-                            content: '→'
-                            display: inline-block
-                            font-family: inherit
-                            padding-left: space()
-                            transition: transform 0.2s ease
-                        &:hover::after
-                            transform: translateX(25%)
         .primary-menu
             .logo
                 max-width: columns(8)
@@ -56,3 +61,37 @@ header#document-header
                 li
                     a, span, button
                         @include h4
+    @include media-breakpoint-down(desktop)
+        html.has-menu-opened &
+            --color-border: var(--color-background)
+            background-color: var(--color-accent)
+            overflow: auto
+            height: 100vh
+            padding-bottom: $spacing-2
+            &, a, span, button
+                color: var(--color-background)
+            .logo img
+                filter: brightness(50)
+            .menu
+                padding-top: 0
+                margin-top: $spacing-2
+                > .nav-level-1 > li
+                    border: none
+                    > a
+                        @include h3
+                        padding: space(4) 0
+            .upper-menu
+                top: unset
+                position: relative
+                .nav-level-1 
+                    height: auto
+                    display: block
+                    > li
+                        &:not(:last-child) > a
+                            @include h3
+                        &:first-child
+                            border-bottom: 1px solid var(--color-border)
+                            margin-bottom: $spacing-3
+                            padding-bottom: $spacing-2
+                        &:last-child
+                            margin-top: space(10)
