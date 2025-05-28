@@ -1,11 +1,5 @@
 .page__home
     .hero
-        .content
-            .hero-actions
-                margin-top: $spacing-4 
-                .btn
-                    @include h3
-                    // TODO: icon chevron down campus
         &.hero--with-image
             .content
                 padding-top: 0
@@ -18,11 +12,22 @@
                 @include media-breakpoint-up(desktop)
                     margin-left: var(--grid-gutter-negative)
                     margin-right: var(--grid-gutter-negative)
-                    .hero-text
+                    .hero-text,
+                    figcaption
                         padding-left: var(--grid-gutter)
                         padding-right: var(--grid-gutter)
-                        h1
+                    h1
+                        max-width: columns(9)
+                        @include media-breakpoint-up(xxl)
                             max-width: columns(8)
+                    figcaption::before
+                        padding-right: var(--grid-gutter)
+                @include media-breakpoint-down(desktop)
+                    figure
+                        width: calc(100% + (var(--grid-gutter) * 2))
+                        img
+                            aspect-ratio: 1
+                            object-fit: cover
 
 .block:not(.block-call_to_action)
     .top

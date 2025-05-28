@@ -1,0 +1,16 @@
+.hero
+    .content
+        .hero-text
+            margin-top: pxToRem(50)
+        .hero-actions
+            margin-top: $spacing-4 
+            .btn
+                @include lead-hero
+                // TODO: icon chevron down campus
+                @include media-breakpoint-up(desktop)
+                    @include h3
+        @include media-breakpoint-down(desktop)
+            .page__home &
+                .has-lead > p,
+                .hero-actions .btn
+                    @include body-text

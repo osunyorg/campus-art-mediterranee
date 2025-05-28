@@ -2,6 +2,11 @@
     .event-content
         .event-title
             order: -1
+        .event-subtitle
+            @include body-text
+            color: var(--color-accent)
+        .event-description
+            @include meta
         .event-categories
             order: -1
             margin-top: space()
@@ -20,8 +25,16 @@
             + span::before
                 content: '→'
                 font-family: inherit
+    .media img
+        aspect-ratio: 3 / 2
+        object-fit: cover
     @include media-breakpoint-down(desktop)
         .event-content
             display: flex
             flex-direction: column
             gap: $spacing-2
+
+
+.events--list .event:where(:not(:last-child)), 
+.events--list .exhibition:where(:not(:last-child))
+    border-bottom-style: dashed
