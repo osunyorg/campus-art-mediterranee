@@ -1,35 +1,47 @@
 .block-features
-    .name
-        @include h1
-    @include media-breakpoint-down(desktop)
-        ul
-            li 
-                display: flex
-                flex-direction: column
-                > div
-                    border-top: 1px solid var(--color-accent)
-                    padding-top: $spacing-2
-                figure
-                    order: 2
-                    margin-bottom: 0
-                    margin-top: space(5)
-                + li
-                    margin-top: space(8)
-    @include media-breakpoint-up(desktop)
-        ul
-            display: block !important
-            li
-                flex-direction: row
-                gap: var(--grid-gutter)
-                > div
-                    border-top: 1px solid var(--color-accent)
-                    flex: 1
-                .name
-                    margin-top: pxToRem(5)
-                figure
-                    margin-bottom: 0
-                    order: 2
-                    width: columns(3)
-                @include in-page-with-or-without-sidebar
+    body.full-width &
+        .name
+            @include h1
+        @include media-breakpoint-down(desktop)
+            ul
+                li 
+                    display: flex
+                    flex-direction: column
+                    > div
+                        border-top: 1px solid var(--color-accent)
+                        padding-top: $spacing-2
+                    figure
+                        order: 2
+                        margin-bottom: 0
+                        margin-top: space(5)
                     + li
+                        margin-top: space(8)
+        @include media-breakpoint-up(desktop)
+            ul
+                display: block !important
+                li
+                    flex-direction: row
+                    gap: var(--grid-gutter)
+                    > div
+                        border-top: 1px solid var(--color-accent)
+                        flex: 1
+                    .name
                         margin-top: pxToRem(5)
+                    figure
+                        margin-bottom: 0
+                        order: 2
+                        width: columns(3)
+                    @include in-page-with-or-without-sidebar
+                        + li
+                            margin-top: pxToRem(5)
+    body:not(.full-width) & 
+        ul
+            li
+                figure
+                    picture.is-svg
+                        img
+                            aspect-ratio: 16/9
+                            height: 100%
+                            max-height: 100%
+                            object-fit: cover
+                            width: auto !important
