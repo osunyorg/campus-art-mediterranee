@@ -1,0 +1,25 @@
+.block-key_figures
+    ul
+        li
+            align-self: stretch
+            border-left: 1px solid var(--color-text)
+            display: flex
+            flex-direction: column
+            padding-left: $spacing-1
+            span
+                order: 2
+                padding-top: $spacing-2
+                margin-top: auto
+    @include in-page-without-sidebar
+        .block-content
+            display: flex
+            gap: var(--grid-gutter)
+        .top
+            order: 2
+            width: offset(3)
+            .description
+                @include meta
+                margin-left: auto
+        ul
+            flex: 1
+            margin-top: 0
