@@ -47,6 +47,31 @@
                                 margin-top: 0
                         .avatar
                             width: columns(2)
+        .block-organizations:not(.block-organizations--map)
+            .organizations
+                &, &.with-summaries, &:not(.with-summaries)
+                    @include media-breakpoint-up(desktop)
+                        @include grid(1)
+                    .organization
+                        gap: var(--grid-gutter)
+                        width: 100%
+                        &-content
+                            flex: 1
+                        &-title
+                            @include h3
+                            + .organization-summary
+                                @include body-text
+                                margin-top: space(5)
+                        .media
+                            width: columns(6)
+                            picture
+                                aspect-ratio: 16/9
+                        @include media-breakpoint-down(desktop)
+                            flex-direction: column
+                            .media
+                                margin-bottom: 0
+                                padding: 0
+                                width: 100%
     @include media-breakpoint-up(desktop)
         &.full-width
             .block-pages--grid

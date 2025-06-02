@@ -35,7 +35,7 @@ params:
           desktop:  864
       organizations:
         item:
-          desktop:  375
+          desktop:  864
     blocks:
       events:
         list:

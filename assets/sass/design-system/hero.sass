@@ -45,9 +45,10 @@
                     @extend .button--small
         &--with-image
             .content
-                figure img
-                    aspect-ratio: 3/2
-                    object-fit: cover
+                figure 
+                    picture:not(.is-svg) img
+                        aspect-ratio: 3/2
+                        object-fit: cover
                 @include media-breakpoint-up(desktop)
                     .hero-text,
                     figure
@@ -64,3 +65,6 @@
                             order: -2
                     figure
                         order: -1
+    .page-without-hero-image &
+        figure
+            display: none
