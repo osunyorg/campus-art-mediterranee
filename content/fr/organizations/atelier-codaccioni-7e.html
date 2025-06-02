@@ -13,7 +13,7 @@ meta:
     slug: "atelier-codaccioni-7e"
   dates:
     created_at: 2025-06-02T12:13:58+02:00
-    updated_at: 2025-06-02T12:34:01+02:00
+    updated_at: 2025-06-02T12:50:02+02:00
 search:
   id: "498beba4-e1fd-46c3-9a9b-5e9bb09698f4"
   about_id: "4cf6c175-c228-4988-8d33-cd6ef12aa644"
@@ -25,7 +25,7 @@ search:
   summary: >-
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non egestas eros, in fringilla justo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer ac consequat neque.</p>
   body: >-
-    <p>Cours et stages de ce lieu  <br> Titre du cours (6-11 ans) </p>  <p>Mercredi</p>  <p> Expérimentations plastiques (12-17 ans) </p>  <p>Mercredi</p>  <p> Construire une série photographique (12-17 ans) </p>  <p>Samedi</p>  <p> Les autres lieux de pratique  <br>  </p>  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non egestas eros, in fringilla justo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer ac consequat neque. </p>
+    <p>Cours et stages de ce lieu  <br> Les autres lieux de pratique  <br>  </p>  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non egestas eros, in fringilla justo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer ac consequat neque. </p>  <p> Des cours et des stages pour toutes et tous  <br>   <br>Enfants</p>  <p>/pratiquer-en-amateur/cours-et-stages-enfants/</p>  <p>Adolescent·es <br>Vestibulum id ligula porta felis euismod semper. Cras mattis consectetur purus sit amet fermentum. Praesent commodo.. <br>/pratiquer-en-amateur/cours-et-stages-adolescentes/</p>  <p>Adultes <br>Vestibulum id ligula porta felis euismod semper. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur elorem oimojarlknarklnelrt... <br>/pratiquer-en-amateur/cours-et-stages-adultes/</p>
 
 breadcrumbs:
   - title: >-
@@ -131,7 +131,7 @@ taxonomies:
 
 
 contents_reading_time:
-  seconds: 15
+  seconds: 25
   text: >-
     moins d'une minute
 contents:
@@ -155,128 +155,30 @@ contents:
 
 
   - kind: block
-    template: contact
+    template: datatable
     title: >-
-      Titre du cours (6-11 ans)
+      
     slug: >-
-      titre-du-cours-6-11-ans
+      
     ranks:
       base: 3
-      self: 3
-      children: 4
     top:
-      active: true
-      title: 
-        value: >-
-          Titre du cours (6-11 ans)
-        heading: 3
+      active: false
     data:
       description: >-
         
 
-      name: >-
+      columns:
+        - "Jour"
+        - "Horaire"
+        - "Public"
+        - "Pratique"
+      rows:
+        - ["Mercredi","9h30-12h30","6-11 ans","Titre du cours"]
+        - ["Mercredi","13h30-16h30","12-17 ans","Expérimentations plastiques"]
+        - ["Samedi","10h-12h","12-17 ans","Construire une série photographique"]
+      caption: >-
         
-
-      information: >-
-        
-
-      contact_details:
-
-      timetable:
-        - title: >-
-            Mercredi
-
-          time_slot_morning:
-            from: "09:30"
-            to: "12:30"
-
-          time_slot_afternoon:
-            from: ""
-            to: ""
-
-
-
-  - kind: block
-    template: contact
-    title: >-
-      Expérimentations plastiques (12-17 ans)
-    slug: >-
-      experimentations-plastiques-12-17-ans
-    ranks:
-      base: 3
-      self: 3
-      children: 4
-    top:
-      active: true
-      title: 
-        value: >-
-          Expérimentations plastiques (12-17 ans)
-        heading: 3
-    data:
-      description: >-
-        
-
-      name: >-
-        
-
-      information: >-
-        
-
-      contact_details:
-
-      timetable:
-        - title: >-
-            Mercredi
-
-          time_slot_morning:
-            from: ""
-            to: ""
-
-          time_slot_afternoon:
-            from: "13:30"
-            to: "16:30"
-
-
-
-  - kind: block
-    template: contact
-    title: >-
-      Construire une série photographique (12-17 ans)
-    slug: >-
-      construire-une-serie-photographique-12-17-ans
-    ranks:
-      base: 3
-      self: 3
-      children: 4
-    top:
-      active: true
-      title: 
-        value: >-
-          Construire une série photographique (12-17 ans)
-        heading: 3
-    data:
-      description: >-
-        
-
-      name: >-
-        
-
-      information: >-
-        
-
-      contact_details:
-
-      timetable:
-        - title: >-
-            Samedi
-
-          time_slot_morning:
-            from: "10:00"
-            to: "12:00"
-
-          time_slot_afternoon:
-            from: ""
-            to: ""
 
 
 
@@ -348,6 +250,81 @@ contents:
           slug: "atelier-chateau-gombert-13e"
           file: "content/fr/organizations/atelier-chateau-gombert-13e.html"
       quantity: 6
+
+  - kind: block
+    template: title
+    title: >-
+      Des cours et des stages pour toutes et tous
+    slug: >-
+      des-cours-et-des-stages-pour-toutes-et-tous
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Des cours et des stages pour toutes et tous
+        heading: 2
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: links
+    title: >-
+      
+    slug: >-
+      
+    ranks:
+      base: 3
+    top:
+      active: false
+    data:
+      description: >-
+        
+
+      links:
+        - title: >-
+            Enfants
+
+          description: >-
+            
+
+          url: >-
+            /pratiquer-en-amateur/cours-et-stages-enfants/
+
+          external: false
+          image:
+            id: "ef5ed149-0389-4eaf-9cd3-9b8d27116e16"
+            file: "ef5ed149-0389-4eaf-9cd3-9b8d27116e16"
+
+        - title: >-
+            Adolescent·es
+
+          description: >-
+            <p>Vestibulum id ligula porta felis euismod semper. Cras mattis consectetur purus sit amet fermentum. Praesent commodo..</p>
+
+          url: >-
+            /pratiquer-en-amateur/cours-et-stages-adolescentes/
+
+          external: false
+
+        - title: >-
+            Adultes
+
+          description: >-
+            <p>Vestibulum id ligula porta felis euismod semper. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur elorem oimojarlknarklnelrt...</p>
+
+          url: >-
+            /pratiquer-en-amateur/cours-et-stages-adultes/
+
+          external: false
+          image:
+            id: "f28d6e19-71ba-4522-89fc-7ce43e053999"
+            file: "f28d6e19-71ba-4522-89fc-7ce43e053999"
+
+
 
 
 ---
