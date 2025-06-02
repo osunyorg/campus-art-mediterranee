@@ -47,3 +47,8 @@
                                 margin-top: 0
                         .avatar
                             width: columns(2)
+    @include media-breakpoint-up(desktop)
+        &.full-width
+            .block-pages--grid
+                .grid
+                    @include grid(2)
