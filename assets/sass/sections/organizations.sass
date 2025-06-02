@@ -2,3 +2,30 @@
     .hero
         figure
             display: none
+    [itemprop="articleBody"]
+        .contacts-details
+            display: none
+    .organization-presentation
+        @include h3
+    &.full-width
+        .block-contact
+            .contact-content
+                display: flex
+                gap: var(--grid-gutter)
+                .informations
+                    order: 2
+                    width: columns(4)
+                    p:first-of-type
+                        margin-bottom: $spacing-1
+                        b, strong
+                            @include meta
+                            display: block
+                            font-weight: normal
+                .contacts
+                    @include grid(2)
+                    margin-top: 0
+                    flex: 1
+                    .address + div
+                        order: -1
+                    h2, h3
+                        margin-bottom: $spacing-1

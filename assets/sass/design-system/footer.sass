@@ -1,8 +1,11 @@
 footer#document-footer
+    padding-bottom: 0
     > .container + .container
+        padding-bottom: space(8)
         @include media-breakpoint-up(desktop)
+            align-items: center
             border-top: 1px solid $color-border-alt
-            padding-top: space(10)
+            padding-top: space(8)
         @include media-breakpoint-down(desktop)
             display: flex
             flex-direction: column
@@ -69,6 +72,8 @@ footer#document-footer
                     width: 100%
                 > *:not(.footer-presentation)
                     padding-top: $spacing-4
+    .footer-landscape img
+        width: 100%
     @include media-breakpoint-down(desktop)
         .footer-social
             display: flex
@@ -83,3 +88,6 @@ footer#document-footer
         .footer-site,
         .footer-nav
             margin-top: $spacing-3
+        .footer-landscape img
+            aspect-ratio: 1
+            object-fit: cover

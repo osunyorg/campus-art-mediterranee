@@ -2,10 +2,22 @@
     &--large
         .large
             .post
-                .meta::after
+                .more
+                    margin-top: auto
+                    &::after
                         content: '↗'
+                        display: inline-block
                         font-family: inherit
                         padding-left: space()
+                        transition: transform 0.2s ease
+                &:hover .more::after
+                    transform: translate(space(), -(space()))
+                @include media-breakpoint-up(desktop)
+                    .post-content
+                        display: flex
+                        flex-direction: column
+                    .media
+                        margin-bottom: 0
                 @include in-page-without-sidebar
                     .post-subtitle
                         @include body-text
