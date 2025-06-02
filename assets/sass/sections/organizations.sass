@@ -2,12 +2,12 @@
     .hero
         figure
             display: none
-    [itemprop="articleBody"]
-        // todo : find a way to apply this only to the 'lieu de pratique' children
-        .contacts-details
-            display: none
     .organization-presentation
         @include h3
+    &.page-practice_places
+        [itemprop="articleBody"]
+            .contacts-details
+                display: none
     &.full-width
         .block-contact
             .contact-content
