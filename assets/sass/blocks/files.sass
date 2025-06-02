@@ -1,0 +1,23 @@
+.block-files
+    .files
+        @include in-page-without-sidebar
+            @include grid(2)
+        li
+            &.with-image
+                &::before
+                    content: none
+                picture img
+                    width: columns(4)
+            @include media-breakpoint-up(desktop)
+                gap: $spacing-4
+                &.with-image
+                    display: flex
+                    picture
+                        margin-bottom: 0
+                        width: columns(2)
+                    figure
+                        border-left: 1px solid var(--color-accent)
+                        padding-left: $spacing-3
+                        height: 100%
+            a
+                @include body-text

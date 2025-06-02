@@ -11,15 +11,16 @@
                 padding-top: $spacing-2
                 margin-top: auto
     @include in-page-without-sidebar
-        .block-content
-            display: flex
-            gap: var(--grid-gutter)
-        .top
-            order: 2
-            width: offset(3)
-            .description
-                @include meta
-                margin-left: auto
-        ul
-            flex: 1
-            margin-top: 0
+        &:not(.block-titled)
+            .block-content
+                display: flex
+                gap: var(--grid-gutter)
+            .top
+                order: 2
+                width: offset(3)
+                .description
+                    @include meta
+                    margin-left: auto
+            ul
+                flex: 1
+                margin-top: 0
