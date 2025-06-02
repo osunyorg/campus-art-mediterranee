@@ -28,6 +28,9 @@ params:
       home:
         hero:
           desktop:  1920
+      posts:
+        item:
+          desktop:  864
     blocks:
       events:
         list:

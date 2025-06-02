@@ -28,3 +28,23 @@
                 figure
                     grid-column: 10 / 13
                     margin-left: var(--grid-gutter-negative)
+    &--accent_background
+        @include in-page-without-sidebar
+            background-color: transparent
+            .top
+                display: flex !important
+                gap: var(--grid-gutter)
+                grid-column: 1 / 10 !important
+                .block-title
+                    width: offset(2)
+                .description
+                    flex: 1
+            .block-content
+                background-color: var(--color-accent)
+                margin-left: 0
+                margin-right: 0
+                padding-bottom: space(8)
+                padding-top: space(8)
+            .actions
+                grid-row: 1 !important
+                align-items: flex-end !important
