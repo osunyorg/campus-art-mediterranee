@@ -8,7 +8,7 @@ bodyclass: >-
 url: "/organisations/"
 slug: "organisations"
 date: 2025-03-05T15:24:34+01:00
-lastmod: 2025-03-05T15:24:34+01:00
+lastmod: 2025-06-02T12:38:26+02:00
 meta:
   hugo:
     permalink: "/organisations/"
@@ -17,10 +17,11 @@ meta:
     slug: "organisations"
   dates:
     created_at: 2025-03-05T15:24:34+01:00
-    updated_at: 2025-03-05T15:24:34+01:00
+    updated_at: 2025-06-02T12:38:26+02:00
     published_at: 2025-03-05T15:24:34+01:00
 search:
   id: "e7d17799-7cd5-461a-83ff-77cd728cdd03"
+  about_id: "729beb20-5738-4ab2-9b8d-323614e94902"
   url: "/organisations/"
   kind: "Communication::Website::Page::Localization"
   lang: "fr"
@@ -29,7 +30,7 @@ search:
   summary: >-
     
   body: >-
-    
+    <p>Lieux de pratique  </p>
 
 breadcrumbs:
   - title: >-
@@ -43,6 +44,8 @@ design:
   toc:
     present: false
     offcanvas: false
+
+
 
 position: 12
 weight: 12
@@ -67,6 +70,45 @@ header_cta:
   external: false
 section_taxonomies:
   - name: >-
+      Catégories
+    slug: ""
+    path: ""
+    categories:
+      - permalink: "/organisations/categories/mecenat/"
+        path: "/organizations_categories/mecenat"
+        slug: "mecenat"
+        file: "content/fr/organizations_categories/mecenat/_index.html"
+        name: >-
+          Mécénat
+        count: 1
+      - permalink: "/organisations/categories/mecenat/mecenes-et-sponsors/"
+        path: "/organizations_categories/mecenat/mecenes-et-sponsors"
+        slug: "mecenat/mecenes-et-sponsors"
+        file: "content/fr/organizations_categories/mecenat/mecenes-et-sponsors/_index.html"
+        name: >-
+          Mécènes et sponsors
+        count: 1
+      - permalink: "/organisations/categories/lieux-de-pratique/"
+        path: "/organizations_categories/lieux-de-pratique"
+        slug: "lieux-de-pratique"
+        file: "content/fr/organizations_categories/lieux-de-pratique/_index.html"
+        name: >-
+          Lieux de pratique
+        count: 6
+
+  - name: >-
+      Établissements de Campus
+    slug: "etablissements-de-campus"
+    path: "/organizations_categories/etablissements-de-campus"
+    categories:
+      - permalink: "/organisations/categories/etablissements-de-campus/etablissements-fondateurs/"
+        path: "/organizations_categories/etablissements-de-campus/etablissements-fondateurs"
+        slug: "etablissements-de-campus/etablissements-fondateurs"
+        file: "content/fr/organizations_categories/etablissements-de-campus/etablissements-fondateurs/_index.html"
+        name: >-
+          Établissements fondateurs
+        count: 2
+  - name: >-
       Partenaires
     slug: "partenaires"
     path: "/organizations_categories/partenaires"
@@ -76,13 +118,87 @@ section_taxonomies:
         slug: "partenaires/partenaires-conservatoire"
         file: "content/fr/organizations_categories/partenaires/partenaires-conservatoire/_index.html"
         name: >-
-          Partenaires conservatoire
+          Partenaires Conservatoire Pierre Barbizet de Marseille
         count: 39
+      - permalink: "/organisations/categories/partenaires/partenaires-campus/"
+        path: "/organizations_categories/partenaires/partenaires-campus"
+        slug: "partenaires/partenaires-campus"
+        file: "content/fr/organizations_categories/partenaires/partenaires-campus/_index.html"
+        name: >-
+          Partenaires Campus art Méditerranée
+        count: 1
 
 contents_reading_time:
-  seconds: 0
+  seconds: 1
   text: >-
     moins d'une minute
 contents:
+  - kind: block
+    template: title
+    title: >-
+      Lieux de pratique
+    slug: >-
+      lieux-de-pratique
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Lieux de pratique
+        heading: 2
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: organizations
+    title: >-
+      
+    slug: >-
+      
+    ranks:
+      base: 3
+      children: 3
+    top:
+      active: false
+    data:
+      layout: grid
+      description: >-
+        
+
+      options:
+        link: true
+        logo: true
+        summary: false
+
+      organizations:
+        - permalink: "/organisations/atelier-chateau-gombert-13e/"
+          path: "/organizations/atelier-chateau-gombert-13e"
+          slug: "atelier-chateau-gombert-13e"
+          file: "content/fr/organizations/atelier-chateau-gombert-13e.html"
+        - permalink: "/organisations/atelier-codaccioni-7e/"
+          path: "/organizations/atelier-codaccioni-7e"
+          slug: "atelier-codaccioni-7e"
+          file: "content/fr/organizations/atelier-codaccioni-7e.html"
+        - permalink: "/organisations/atelier-saint-eloi-10e/"
+          path: "/organizations/atelier-saint-eloi-10e"
+          slug: "atelier-saint-eloi-10e"
+          file: "content/fr/organizations/atelier-saint-eloi-10e.html"
+        - permalink: "/organisations/atelier-sainte-marguerite/"
+          path: "/organizations/atelier-sainte-marguerite"
+          slug: "atelier-sainte-marguerite"
+          file: "content/fr/organizations/atelier-sainte-marguerite.html"
+        - permalink: "/organisations/atelier-sainte-marguerite-9e/"
+          path: "/organizations/atelier-sainte-marguerite-9e"
+          slug: "atelier-sainte-marguerite-9e"
+          file: "content/fr/organizations/atelier-sainte-marguerite-9e.html"
+        - permalink: "/organisations/frac-sud-cite-de-lart-contemporain-2e/"
+          path: "/organizations/frac-sud-cite-de-lart-contemporain-2e"
+          slug: "frac-sud-cite-de-lart-contemporain-2e"
+          file: "content/fr/organizations/frac-sud-cite-de-lart-contemporain-2e.html"
+      quantity: 6
+
 
 ---
