@@ -26,6 +26,9 @@ params:
       home:
         hero:
           desktop:  1920
+      pages:
+        item:
+          desktop:  864
       posts:
         item:
           desktop:  864
