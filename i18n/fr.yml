@@ -7,3 +7,6 @@ commons:
   more_aria: Découvrir “{{ .Title }}“
 programs:
   children: En cursus
+# organizations:
+#   backlinks:
+#     pages: Cours et stages à 

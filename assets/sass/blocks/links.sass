@@ -1,0 +1,21 @@
+.block-links
+    li
+        border: 5px solid var(--color-accent)
+        padding: space(8) space(8) space(6)
+        align-items: flex-start
+        height: 100%
+        .link-content
+            padding: 0
+            a
+                @include h3
+            p
+                @include body-text
+        .media
+            margin-top: 0
+            picture
+                margin-bottom: space(10)
+                &:not(.is-svg)
+                    margin-top: -(space(8))
+                @include media-breakpoint-up(desktop)
+                    &.is-svg
+                        width: columns(1.5)

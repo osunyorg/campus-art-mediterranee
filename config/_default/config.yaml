@@ -12,6 +12,7 @@ params:
     ignored:
       - block-class-in-hero
   organizations:
+    prefer_image_over_logo: true
     single:
       backlinks: true
   pages:
@@ -32,6 +33,9 @@ params:
       posts:
         item:
           desktop:  864
+      organizations:
+        item:
+          desktop:  375
     blocks:
       events:
         list:
