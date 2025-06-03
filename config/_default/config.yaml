@@ -27,6 +27,7 @@ params:
     sections:
       home:
         hero:
+          mobile:   864
           desktop:  1920
       pages:
         item:
