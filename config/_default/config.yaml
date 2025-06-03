@@ -11,6 +11,7 @@ params:
   blocks:
     ignored:
       - block-class-in-hero
+      - block-class-footer-gallery
   organizations:
     prefer_image_over_logo: true
     single:

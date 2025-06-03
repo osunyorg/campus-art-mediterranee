@@ -72,8 +72,13 @@ footer#document-footer
                     width: 100%
                 > *:not(.footer-presentation)
                     padding-top: $spacing-4
-    .footer-landscape img
-        width: 100%
+    .footer-landscape 
+        picture
+            display: none
+            &:first-child
+                display: block
+            img
+                width: 100%
     @include media-breakpoint-down(desktop)
         .footer-social
             display: flex

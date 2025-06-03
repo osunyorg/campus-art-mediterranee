@@ -47,10 +47,9 @@
         "class" "footer-nav"
       )}}
   {{ end }}
-    
-  </div>
+</div>
 
-  <div class="container">
+<div class="container">
   <div class="footer-social">
     {{ partial "footer/social.html" . }}
   </div>
@@ -63,4 +62,6 @@
     {{ end }}
   </div>
 </div>
-<div class="footer-landscape"></div>
+<div class="footer-landscape">
+  {{ partial "footer/footer-landscape.html" "footer" }}
+</div>
