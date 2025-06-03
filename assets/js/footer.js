@@ -1,34 +1,27 @@
-// class FooterShapes {
-//     constructor () {
-//         this.shapesContainer = document.querySelector('.footer-landscape');
-//         if (!this.shapesContainer) {
-//             return;
-//         }
-//         this.listen();
-//     }
+class FooterImages {
+    constructor () {
+        this.imagesContainer = document.querySelector('.footer-landscape');
+        if (!this.imagesContainer) {
+            return;
+        }
+        this.images = this.imagesContainer.querySelectorAll('picture');
+        this.total = this.images.length;
+        this.listen();
+    }
 
-//     listen () {
-//         this.images = [];
+    listen () {
+        this.hideFirstImage();
+        this.createImage();
+    }
 
-//         this.getImagesUrl();
-//         this.createImage();
-//     }
+    hideFirstImage() {
+      this.images[0].style.display = 'none';
+    }
 
-//     getImagesUrl() {
-//         for (let i = 0; i < 5; i++) {
-//             let imageIndex = i + 1;
-//             let imageUrl = `/assets/images/footer/image-${imageIndex}.jpg`;
-//             this.images.push(imageUrl);
-//         }
-//     }
+    createImage () {
+        let image = this.images[Math.floor(Math.random() * this.total)];
+        image.style.display = 'block';
+    }
+}
 
-//     createImage () {
-//         let image = document.createElement('img');
-//         let url = this.images[Math.floor(Math.random() * this.images.length)];
-
-//         image.src = url;
-//         this.shapesContainer.appendChild(image);
-//     }
-// }
-
-// export default new FooterShapes();
+export default new FooterImages();
