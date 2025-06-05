@@ -1,0 +1,19 @@
+.projects__page
+    // call to action with image
+    .block-call_to_action--no_background 
+        .call_to_action--with-image
+            .top
+                .description
+                    p
+                        @include meta
+    &:not(.full-width)
+        .block-call_to_action--no_background 
+            .call_to_action--with-image
+                gap: var(--grid-gutter)
+                figure
+                    margin-left: 0
+                    order: -1
+    // list titles more discreet
+    .block.block-title + .block
+        .top .block-title a
+            @include body-text

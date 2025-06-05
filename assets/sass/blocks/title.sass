@@ -11,3 +11,11 @@
     + .block
         .block-content
             padding-top: 0
+
+// arrow in block's titles
+.block:not(.block-title)
+    .top
+        .block-title a::after
+            content: '→'
+            padding-left: 6px
+            font-family: $heading-font-family

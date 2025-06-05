@@ -1,0 +1,37 @@
+.block-gallery
+    .top
+        .block-title
+            @include h2
+            border-top: 1px solid var(--color-accent)
+            padding-top: pxToRem(10)
+            @include media-breakpoint-down(desktop)
+                padding-right: offset(4)
+    + .block
+        .block-content
+            padding-top: 0
+    &.block-gallery--carousel
+        position: relative
+        .slider
+            display: flex
+            flex-direction: column
+            .slider-arrows
+                position: absolute
+                top: 0
+                gap: $spacing-2
+                order: -1
+                margin-left: auto
+                right: var(--grid-gutter)
+                margin-right: -($spacing-3)
+                .slider-progression
+                    @extend .sr-only
+                .slider-arrow
+                    padding: $spacing-1 $spacing-3
+                    &::before
+                        font-size: pxToRem(30)
+                        font-family: $heading-font-family
+                    &-previous::before
+                        content: '←'
+                    &-next
+                        border-left: 1px solid var(--color-text)
+                        &::before
+                            content: '→'

@@ -1,0 +1,63 @@
+.block-agenda
+    .event-content
+        > .event-title,
+        hgroup
+            order: -1
+        .event-subtitle
+            @include body-text
+        .event-description
+            @include meta
+        .event-categories
+            order: -1
+            margin-top: space()
+            margin-bottom: space(4)
+            a
+                @extend .button
+                @extend .button--small
+                line-height: 1
+                transition: all 0.2s ease
+            li:not(:last-child) a::after
+                content: none
+    .event-time
+        align-items: baseline
+        span:first-child
+            @include h3
+            + span::before
+                content: '→'
+                font-family: inherit
+    .media img
+        aspect-ratio: 3 / 2
+        object-fit: cover
+    &--list,
+    .events--list
+        @include in-page-with-or-without-sidebar
+            .event-content
+                display: flex
+                flex-direction: column
+            .media
+                width: columns(3)
+        @include in-page-without-sidebar
+            .event-content
+                width: columns(9)
+                hgroup,
+                > h1,
+                .event-description
+                    width: columns(5)
+        @include in-page-with-sidebar
+            .media
+                order: -1
+    @include media-breakpoint-down(desktop)
+        .event-content
+            display: flex
+            flex-direction: column
+            gap: $spacing-2
+
+.events--list
+    .event:where(:not(:last-child)), 
+    .exhibition:where(:not(:last-child))
+        border-bottom-style: dashed
+
+    @include in-page-with-sidebar
+        [class$="-schedule"],
+        [class$="-time"] span:first-child
+            @include body-text

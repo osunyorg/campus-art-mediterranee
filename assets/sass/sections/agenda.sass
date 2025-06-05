@@ -1,50 +1,23 @@
-.block-agenda
-    .event-content
-        > .event-title,
-        hgroup
-            order: -1
-        .event-subtitle
-            @include body-text
-        .event-description
-            @include meta
-        .event-categories
-            order: -1
-            margin-top: space()
-            margin-bottom: space(4)
-            a
-                @extend .button
-                @extend .button--small
-                transition: all 0.2s ease
-            li:not(:last-child) a::after
-                content: none
-    .event-time
-        align-items: baseline
-        span:first-child
+.events__page,
+.exhibitions__page
+    &:not(.full-width)
+        .block-summary .lead p
             @include h3
-            + span::before
-                content: '→'
-                font-family: inherit
-    .media img
-        aspect-ratio: 3 / 2
-        object-fit: cover
-    &--list,
-    .events--list
-        @include in-page-without-sidebar
-            .event-content
-                width: columns(9)
-                hgroup,
-                > h1,
-                .event-description
-                    width: columns(5)
-            .media
-                width: columns(3)
-    @include media-breakpoint-down(desktop)
-        .event-content
+    .hero
+        .hero-actions
             display: flex
             flex-direction: column
-            gap: $spacing-2
-
-
-.events--list .event:where(:not(:last-child)), 
-.events--list .exhibition:where(:not(:last-child))
-    border-bottom-style: dashed
+            @include media-breakpoint-up(desktop)
+                align-items: flex-end
+    .event-access
+        .event-practicals
+            a.btn
+                @extend .button--large
+                &::after
+                    content: '↗' / ""
+                    font-family: $heading-font-family
+    .event-slots
+        .event-time-slot
+            @include h3
+            .hours time:last-child
+                @include meta

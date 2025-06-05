@@ -10,7 +10,7 @@
                     max-width: columns(8)
         .hero-actions
             margin-top: $spacing-4 
-            .btn
+            a.btn
                 @include lead-hero
                 // TODO: remplacer par chevron
                 &::after
@@ -23,6 +23,23 @@
                     transform: translateX(25%)
                 @include media-breakpoint-up(desktop)
                     @include h3
+            .dropdown-share 
+                --btn-min-width: 0
+                display: table-row
+                width: unset
+                button
+                    @extend .button--large
+                    @extend .button-accent
+                    @include body-text
+                    margin-left: auto
+                    width: unset
+                    &[aria-expanded="true"]
+                        background-color: var(--btn-color)
+                    &::after
+                        content: '↗' / ""
+                        margin-left: space(2)
+                        font-family: $heading-font-family
+                .dropdown-menu
         @include media-breakpoint-down(desktop)
             .page__home &
                 .has-lead > p,
