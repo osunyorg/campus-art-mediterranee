@@ -8,3 +8,13 @@
                 padding-left: space()
             a:hover::after
                 opacity: 1
+
+.slider
+    .slider-arrow
+        &::before
+            font-family: $heading-font-family
+        &-previous::before
+            content: '←'
+        &-next::before
+                content: '→'
+                

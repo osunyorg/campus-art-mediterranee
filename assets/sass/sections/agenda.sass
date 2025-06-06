@@ -34,8 +34,70 @@
                 &::after
                     content: '↗' / ""
                     font-family: $heading-font-family
+            + .programme-btn
+                --btn-border: 0
+                --btn-hover-background: transparent
+                --btn-hover-border: 0
+                --btn-hover-color: var(--color-text)
+                text-decoration: underline
+                margin-top: $spacing-4
+                padding: 0
+                &::after
+                    content: '↓' / ""
+                    display: inline-block
+                    margin-left: space()
+                    font-family: $heading-font-family
             @include media-breakpoint-up(desktop)
                 width: offset(3)
+    // add margin to program because of sidebar informations
+    .document-content + .container
+        .event-content
+            @include meta
+        .event--parent
+            .media
+                width: columns(4)
+        .event--child
+            padding-left: columns(2)
+            .event-content
+                width: columns(4)
+                .event-description
+                    width: 100%
+            .media
+                width: offset(2)
+        @include media-breakpoint-up(desktop)
+            margin-left: offset(4)
+            margin-right: 0
+            padding-left: var(--grid-gutter)
+            padding-right: 0
+            width: offset(8)
+
+.events__section,
+.exhibitions__section
+    .taxonomies-list--dropdown 
+        .dropdown .taxonomy-categories ul li > a::after
+            content: '→'
+            margin-left: space()
+            font-family: $heading-font-family
+    .agenda-filters
+        &, .filter-taxonomies
+            button
+                &[aria-expanded="false"]::after
+                    content: '↓' / "" 
+                    font-family: $heading-font-family
+                &[aria-expanded="true"]::after
+                    content: '↑' / ""
+                    font-family: $heading-font-family
+    .agenda-filters
+        @include media-breakpoint-up(desktop)
+            position: absolute
+            margin-top: calc(#{$spacing-5} * -2)
+            transform: translateY(-100%)
+            z-index: 9
+
+    .events-archives-years
+        ol li::after
+            content: '→'
+            font-family: $heading-font-family
 
 .events--list,
 .events--agenda
@@ -49,18 +111,26 @@
 
 .events--agenda
     .event
+        .event-categories
+            margin-bottom: 0
         .event-content
             hgroup,
             > .event-title
                 margin-bottom: $spacing-1
+        .event-description
+            @include meta
+
         .event-hours
             time:first-child
                 @include h3
                 + time::before
                     content: '→'
                     font-family: inherit
+        + .event
+            border-top-style: dashed
         @include in-page-without-sidebar
-            padding-left: offset(2)
+            &:not(.event--child)
+                padding-left: offset(2)
     .events-date
         border-top: 1px solid var(--color-text)
         .events-date-title
@@ -72,19 +142,31 @@
             @include media-breakpoint-up(desktop)
                 &.is-down
                     max-width: columns(2)
+    @include media-breakpoint-up(desktop)
+        .event--parent ~ .event--child
+            margin-left: offset(2)
+            padding-left: columns(2)
+            .media
+                width: offset(2) !important
+        .event
+            &-description
+                width: columns(5)
 
 .block-agenda,
-.events--agenda
+.events--agenda,
+.document-content + .container .event
     .event-content
         display: flex
         flex-direction: column
         hgroup, 
         > .event-title
             order: -2
+            margin-bottom: $spacing-1
     .event-categories
         order: -1
         margin-top: space()
         margin-bottom: space(4)
+        row-gap: $spacing-1
         a
             @extend .button
             @extend .button--small
@@ -92,3 +174,7 @@
             transition: all 0.2s ease
         li:not(:last-child) a::after
             content: none
+    .more::after
+        content: '↗' / ""
+        margin-left: space(2)
+        font-family: $heading-font-family
