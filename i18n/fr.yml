@@ -3,8 +3,6 @@ commons:
     campus:
       text: "Campus Art Méditerranée est un établissement public de coopération culturelle agréé par le ministère de la Culture, et soutenu par la Ville de Marseille."
       ecosystem: "L’établissement compte trois entités :"
-  more: Découvrir
-  more_aria: Découvrir “{{ .Title }}“
 programs:
   children: En cursus
 # organizations:

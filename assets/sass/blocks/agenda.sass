@@ -38,11 +38,18 @@
                 width: columns(3)
         @include in-page-without-sidebar
             .event-content
-                width: columns(9)
+                width: columns(6)
                 hgroup,
                 > h1,
                 .event-description
                     width: columns(5)
+                .event-schedule
+                    position: absolute
+                    left: 0
+            .media
+                width: columns(4)
+                order: -1
+                margin-left: offset(2)
         @include in-page-with-sidebar
             .media
                 order: -1
