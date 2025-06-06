@@ -7,17 +7,6 @@
             @include body-text
         .event-description
             @include meta
-        .event-categories
-            order: -1
-            margin-top: space()
-            margin-bottom: space(4)
-            a
-                @extend .button
-                @extend .button--small
-                line-height: 1
-                transition: all 0.2s ease
-            li:not(:last-child) a::after
-                content: none
     .event-time
         align-items: baseline
         span:first-child
