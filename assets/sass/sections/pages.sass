@@ -65,7 +65,7 @@
                         .media
                             width: columns(6)
                             picture
-                                aspect-ratio: 16/9
+                                aspect-ratio: 3/2
                         @include media-breakpoint-down(desktop)
                             flex-direction: column
                             .media
@@ -77,3 +77,13 @@
             .block-pages--grid
                 .grid
                     @include grid(2)
+
+        .block-pages--grid
+            .page
+                &-title,
+                > p
+                    border-left: 1px solid var(--color-text)
+                    padding-left: $spacing-3
+                > p:first-of-type
+                    margin-top: 0
+                    padding-top: $spacing-3
