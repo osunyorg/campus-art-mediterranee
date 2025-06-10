@@ -20,16 +20,6 @@
 
 // project's categories page
 .projects_categories__term
-    .categories
-        &--grid
-            .category-item
-                .projects_category-title
-                    @include h3
-                    a::after
-                        content: '→' !important
-                        display: inline-block
-                        font-family: inherit !important
-                        padding-left: space()
-                        transition: transform 0.3s ease
-                &:hover .projects_category-title a::after
-                    transform: translateX($spacing-1)
+    .blocks + .container
+        .categories
+            display: none
