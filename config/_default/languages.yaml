@@ -22,8 +22,8 @@ fr:
             https://www.linkedin.com/company/campus-art-mediterranee
 
   permalinks:
-    events: /agenda/:year/:slug/
-    exhibitions: /expositions/:year-:month-:day-:slug/
+    events: /agenda/:year/:slug:federation_suffix/
+    exhibitions: /expositions/:year-:month-:day-:slug:federation_suffix/
     events_categories: /agenda/:slug/
     pages_categories: /:slug/
     projects: /projets/:year-:slug/
