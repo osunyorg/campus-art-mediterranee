@@ -38,7 +38,10 @@
                         content: '→' !important
                         display: inline-block
                         font-family: inherit !important
+                        opacity: 0
                         padding-left: space()
+                &:hover .page-title a::after
+                    opacity: 1
     &--large
         .page
             .page-content
