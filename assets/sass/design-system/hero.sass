@@ -12,12 +12,11 @@
             margin-top: $spacing-4 
             a.btn
                 @include lead-hero
-                // TODO: remplacer par chevron
                 &::after
-                    content: '→'
+                    @include icon-site('icon-chevron')
                     display: inline-block
-                    font-family: inherit
                     padding-left: space()
+                    font-size: 60%
                     transition: transform 0.2s ease
                 &:hover::after
                     transform: translateX(25%)

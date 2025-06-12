@@ -13,12 +13,11 @@
                 display: block !important
                 text-align: left
                 text-decoration: none
-                // TODO : remplacer par flèche incomplète (cf maquette)
                 &::after
-                    content: '→'
+                    @include icon-site('icon-chevron')
                     display: inline-block
-                    font-family: inherit
-                    padding-left: space()
+                    font-size: 75%
+                    padding-left: $spacing-1
                     transition: transform 0.2s ease
                 &:hover::after
                     transform: translateX(25%)

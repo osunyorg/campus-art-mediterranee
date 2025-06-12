@@ -4,15 +4,15 @@
 @include font-face("Acid Grotesk", AcidGrotesk-BoldItalic, $weight: bold, $style: italic)
 
 // Icons
-// @font-face
-//     font-display: block
-//     font-family: 'Icons-site'
-//     font-style: normal
-//     font-weight: 400
-//     src: url('/assets/fonts/icons-site/icomoon.woff') format("woff"), url('/assets/fonts/icons-site/icomoon.eot') format("eot"), url('/assets/fonts/icons-site/icomoon.tsvgtf') format("svg")
+@font-face
+    font-display: block
+    font-family: 'Icons-site'
+    font-style: normal
+    font-weight: 400
+    src: url('/assets/fonts/icons-site/icomoon.woff') format("woff"), url('/assets/fonts/icons-site/icomoon.eot') format("eot"), url('/assets/fonts/icons-site/icomoon.tsvgtf') format("svg")
 
-// @mixin icon-site($icon)
-//     @include icon
-//     content: map-get($icons-site, $icon)
-//     font-family: 'Icons-site'
-//     font-size: pxToRem(16)
+@mixin icon-site($icon)
+    @include icon
+    content: map-get($icons-site, $icon)
+    font-family: 'Icons-site'
+    font-size: pxToRem(16)

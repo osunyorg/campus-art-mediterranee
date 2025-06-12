@@ -19,6 +19,10 @@
                 &::after
                     content: '↗' / ""
                     font-family: $heading-font-family
+        .event-time-slot .hours
+            time + time::before
+                content: '→'
+                font-family: $heading-font-family
     .event-slots
         .event-time-slot
             @include h3
