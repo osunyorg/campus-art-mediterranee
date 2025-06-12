@@ -118,6 +118,8 @@
 
 .events--agenda
     .event
+        .event-content
+            align-items: flex-start
         .event-categories
             margin-bottom: 0
         .event-content
@@ -126,7 +128,15 @@
                 margin-bottom: $spacing-1
         .event-description
             @include meta
-
+        .event-federation
+            order: -3
+            border-bottom: 2px solid var(--color-text)
+            border-right: 2px solid var(--color-text)
+            padding-bottom: space()
+            padding-right: space(3)
+            margin-bottom: space(4)
+            &::before
+                content: '◊' / ""
         .event-hours
             time:first-child
                 @include h3
@@ -158,6 +168,11 @@
         .event
             &-description
                 width: columns(5)
+    @include media-breakpoint-down(desktop)
+        .events-date
+            padding-top: 0
+            .events-date-title + .event
+                margin-top: $spacing-3
 
 .block-agenda,
 .events--agenda,
