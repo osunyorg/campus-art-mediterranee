@@ -1,0 +1,18 @@
+.jobs--grid
+    .job
+        height: 100%
+        border: 5px solid var(--color-accent)
+        padding: space(6)
+        .job-title
+            @include h3
+            + *
+                margin-top: space(5)
+        &, a, time
+            transition: all 0.3s ease
+        &:hover
+            background: var(--color-accent)
+            &, a, time
+                color: var(--color-background)
+
+        @include media-breakpoint-up(desktop)
+            padding: space(8)
