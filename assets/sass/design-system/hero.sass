@@ -59,27 +59,30 @@
                     @extend .button
                     @extend .button--small
         &--with-image
-            .content
-                figure 
-                    picture:not(.is-svg) img
-                        aspect-ratio: 3/2
-                        object-fit: cover
-                @include media-breakpoint-up(desktop)
-                    .hero-text,
-                    figure
-                        width: columns(6)
-                    .hero-text
-                        display: flex
-                        flex-direction: column
-                        margin-top: 0
-                        .has-lead > p
-                            @include body-text
-                        .taxonomies-single
-                            order: -1
-                        hgroup, h1
-                            order: -2
-                    figure
+            .hero-text
+                h1
+                    order: -1
+                    width: 100%
+            figure
+                picture:not(.is-svg) img
+                    aspect-ratio: 3/2
+                    object-fit: cover
+            @include media-breakpoint-up(desktop)
+                .hero-text,
+                figure
+                    width: columns(6)
+                .hero-text
+                    display: flex
+                    flex-direction: column
+                    margin-top: 0
+                    .has-lead > p
+                        @include body-text
+                    .taxonomies-single
                         order: -1
+                    hgroup, h1
+                        order: -2
+                figure
+                    order: -1
     .page-without-hero-image &
         figure
             display: none

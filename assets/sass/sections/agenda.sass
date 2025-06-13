@@ -87,19 +87,30 @@
             font-family: $heading-font-family
     .agenda-filters
         &, .filter-taxonomies
-            button
+            button:not(.close)
                 &[aria-expanded="false"]::after
                     content: '↓' / "" 
                     font-family: $heading-font-family
                 &[aria-expanded="true"]::after
                     content: '↑' / ""
                     font-family: $heading-font-family
-    .agenda-filters
         @include media-breakpoint-up(desktop)
             position: absolute
             margin-top: calc(#{$spacing-5} * -2)
             transform: translateY(-100%)
             z-index: 9
+        @include media-breakpoint-down(desktop)
+            margin-bottom: $spacing-3
+            .container
+                justify-content: flex-start
+                gap: $spacing-2
+                > .dropdown,
+                .filter-taxonomies
+                    flex: unset
+                    width: auto
+                    button,
+                    span[role="button"]
+                        width: auto
 
     .events-archives-years
         ol li::after
