@@ -111,11 +111,20 @@
                     button,
                     span[role="button"]
                         width: auto
-
     .events-archives-years
         ol li::after
             content: '→'
             font-family: $heading-font-family
+    &-year
+        .hero .content
+            .hero-actions
+                .btn
+                    @include meta
+                    padding: 0
+                    &:hover
+                        --btn-hover-background: var(--color-background)
+                        --btn-hover-border: 0
+                        --btn-hover-color: var(--color-text)
 
 .events--list,
 .events--agenda
@@ -182,9 +191,21 @@
     @include media-breakpoint-down(desktop)
         .events-date
             padding-top: 0
-            .events-date-title + .event
-                margin-top: $spacing-3
-
+            .events-date-title
+                @include h3
+                + .event
+                    margin-top: $spacing-3
+        .event
+            &--parent
+                .media
+                    margin-left: 0
+                    margin-right: 0
+            &--child
+                flex-direction: column
+                padding-left: space(15)
+                .media
+                    order: -1
+                    width: 100%
 .block-agenda,
 .events--agenda,
 .document-content + .container .event
