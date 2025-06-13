@@ -25,30 +25,40 @@ footer#document-footer
             li:not(:last-child)::after
                 content: '↗'
                 margin-left: 2px
-            li:last-child
+            li:last-child::first-letter
                 text-transform: lowercase
             a
                 text-decoration: underline
                 &::after
                     content: none
     .footer-cta li
+        margin-top: $spacing-4
         text-align: left
         a
             text-decoration: underline
             text-decoration-thickness: 2px
-            &::after
+            &[target="_blank"]::after
                 content: '↗'
                 display: inline-block
                 margin-left: 2px
                 font-family: $heading-font-family
+        @include media-breakpoint-down(desktop)
+            @include meta
     .footer-site
         @include body-text
         text-align: left
         // check with school file
         address + .footer-cta
-            margin-top: $spacing-4
-        .footer-cta
-            @include meta
+            margin-top: $spacing-2
+            @include media-breakpoint-up(desktop)
+                margin-top: $spacing-4
+        address
+            [itemprop="extendedAddress"]
+                display: block
+            [itemprop="addressCountry"]
+                @extend .sr-only
+        .phone-numbers span
+            display: block
     .footer-social
         .linkedin::after
             @include icon-site('icon-linkedin')
