@@ -9,10 +9,10 @@
             --btn-large-padding: 0
             a,
             a:first-child
-                @include h3
                 display: block !important
                 text-align: left
                 text-decoration: none
+                @include h4
                 &::after
                     @include icon-site('icon-chevron')
                     display: inline-block
@@ -21,6 +21,8 @@
                     transition: transform 0.2s ease
                 &:hover::after
                     transform: translateX(25%)
+                @include media-breakpoint-up(desktop)
+                    @include h3
         @include in-page-without-sidebar
             &--with-image
                 > div
