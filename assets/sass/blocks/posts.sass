@@ -21,6 +21,8 @@
                     .post-content
                         display: flex
                         flex-direction: column
+                        * + .post-meta
+                            margin-top: space(8)
                     .media
                         margin-bottom: 0
                 @include in-page-without-sidebar
