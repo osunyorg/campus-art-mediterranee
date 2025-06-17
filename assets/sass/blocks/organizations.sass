@@ -12,3 +12,26 @@
                 mix-blend-mode: multiply
                 opacity: 80% !important
                 pointer-events: none
+    &--grid
+        .organization
+            @include small-arrow-right-hover(".organization-title a")
+            &-title
+                text-decoration: underline
+                text-underline-offset: 4px
+                a::after
+                    content: '→' !important
+                    font-family: $heading-font-family !important
+                    display: inline-block
+                    font-family: inherit
+                    margin-left: space()
+            &-content
+                display: flex
+                flex-direction: column
+                address
+                    margin-top: space()
+                    [itemprop="name"]
+                        display: none
+            &-summary
+                order: 2
+                + address
+                    margin-bottom: $spacing-1
