@@ -14,6 +14,17 @@
                 pointer-events: none
     &--grid
         .organization
+            &-content
+                display: flex
+                flex-direction: column
+                address
+                    margin-top: space()
+            &-summary
+                order: 2
+                + address
+                    margin-bottom: $spacing-1
+    &:not(.organizations--with-images, .block-organizations--map)
+        .organization
             @include small-arrow-right-hover(".organization-title a")
             &-title
                 text-decoration: underline
@@ -24,14 +35,3 @@
                     display: inline-block
                     font-family: inherit
                     margin-left: space()
-            &-content
-                display: flex
-                flex-direction: column
-                address
-                    margin-top: space()
-                    [itemprop="name"]
-                        display: none
-            &-summary
-                order: 2
-                + address
-                    margin-bottom: $spacing-1
