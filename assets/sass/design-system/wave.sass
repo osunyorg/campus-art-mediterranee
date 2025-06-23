@@ -18,6 +18,8 @@
             max-height: 90%
             mix-blend-mode: overlay
             transform: translate(-50%, -50%)
+            @include media-breakpoint-down(desktop)
+                max-width: 70%
             path
                 opacity: 0
                 backdrop-filter: brightness(3)
