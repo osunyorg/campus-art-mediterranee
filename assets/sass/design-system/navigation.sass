@@ -8,3 +8,7 @@
             span::after
                 content: '→'
                 font-family: $heading-font-family
+        @include media-breakpoint-down(desktop)
+            &::before,
+            &::after
+                content: none !important

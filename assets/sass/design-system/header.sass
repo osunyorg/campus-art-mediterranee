@@ -20,6 +20,10 @@ header#document-header
                         transition: transform 0.2s ease
                     a:hover::after
                         transform: translateX(25%)
+
+                a.active::after
+                    position: relative
+                    height: auto
     @include media-breakpoint-up(desktop)
         .upper-menu
             .container
@@ -54,7 +58,10 @@ header#document-header
                         margin-left: auto
         .primary-menu
             .logo
-                max-width: columns(8)
+                max-width: columns(7)
+                @include media-breakpoint-up(xl)
+                    .logo
+                        max-width: columns(7)
             > .container
                 row-gap: $spacing-4
             .nav-level-1
@@ -66,6 +73,7 @@ header#document-header
                     a, span, button
                         @include h4
     @include media-breakpoint-down(desktop)
+        border-bottom: 1px solid var(--color-accent)
         html.has-menu-opened &
             --color-border: var(--color-background)
             background-color: var(--color-accent)

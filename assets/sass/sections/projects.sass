@@ -17,3 +17,15 @@
     .block.block-title + .block
         .top .block-title a
             @include body-text
+
+// project's categories page
+.projects_categories__term
+    .blocks + .container
+        .categories
+            display: none
+
+.projects
+    .project-categories
+        a
+            @extend .button
+            @extend .button--small

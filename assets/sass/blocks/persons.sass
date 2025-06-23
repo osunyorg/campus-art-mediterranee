@@ -4,6 +4,9 @@
             border-radius: 0
         .description
             text-align: left
+        &.without-photo
+            .persons
+                @include grid(3, desktop)
     &.block-class-last-link-as-cta
         .description
             > p:last-of-type > a:last-of-type

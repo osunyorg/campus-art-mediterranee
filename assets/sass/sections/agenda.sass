@@ -1,3 +1,8 @@
+.event
+    .event-content
+        p.event-parent
+            order: -3
+    
 .events__page,
 .exhibitions__page
     &:not(.full-width)
@@ -9,6 +14,9 @@
             flex-direction: column
             @include media-breakpoint-up(desktop)
                 align-items: flex-end
+        .taxonomies-single a
+            @extend .button
+            @extend .button--small
     .event-access
         .event-practicals
             a.btn
@@ -16,6 +24,10 @@
                 &::after
                     content: '↗' / ""
                     font-family: $heading-font-family
+        .event-time-slot .hours
+            time + time::before
+                content: '→'
+                font-family: $heading-font-family
     .event-slots
         .event-time-slot
             @include h3
@@ -80,24 +92,44 @@
             font-family: $heading-font-family
     .agenda-filters
         &, .filter-taxonomies
-            button
+            button:not(.close)
                 &[aria-expanded="false"]::after
                     content: '↓' / "" 
                     font-family: $heading-font-family
                 &[aria-expanded="true"]::after
                     content: '↑' / ""
                     font-family: $heading-font-family
-    .agenda-filters
         @include media-breakpoint-up(desktop)
             position: absolute
             margin-top: calc(#{$spacing-5} * -2)
             transform: translateY(-100%)
             z-index: 9
-
+        @include media-breakpoint-down(desktop)
+            margin-bottom: $spacing-3
+            .container
+                justify-content: flex-start
+                gap: $spacing-2
+                > .dropdown,
+                .filter-taxonomies
+                    flex: unset
+                    width: auto
+                    button,
+                    span[role="button"]
+                        width: auto
     .events-archives-years
         ol li::after
             content: '→'
             font-family: $heading-font-family
+    &-year
+        .hero .content
+            .hero-actions
+                .btn
+                    @include meta
+                    padding: 0
+                    &:hover
+                        --btn-hover-background: var(--color-background)
+                        --btn-hover-border: 0
+                        --btn-hover-color: var(--color-text)
 
 .events--list,
 .events--agenda
@@ -111,6 +143,8 @@
 
 .events--agenda
     .event
+        .event-content
+            align-items: flex-start
         .event-categories
             margin-bottom: 0
         .event-content
@@ -119,7 +153,15 @@
                 margin-bottom: $spacing-1
         .event-description
             @include meta
-
+        .event-federation
+            order: -3
+            border-bottom: 2px solid var(--color-text)
+            border-right: 2px solid var(--color-text)
+            padding-bottom: space()
+            padding-right: space(3)
+            margin-bottom: space(4)
+            &::before
+                content: '◊' / ""
         .event-hours
             time:first-child
                 @include h3
@@ -151,7 +193,24 @@
         .event
             &-description
                 width: columns(5)
-
+    @include media-breakpoint-down(desktop)
+        .events-date
+            padding-top: 0
+            .events-date-title
+                @include h3
+                + .event
+                    margin-top: $spacing-3
+        .event
+            &--parent
+                .media
+                    margin-left: 0
+                    margin-right: 0
+            &--child
+                flex-direction: column
+                padding-left: space(15)
+                .media
+                    order: -1
+                    width: 100%
 .block-agenda,
 .events--agenda,
 .document-content + .container .event

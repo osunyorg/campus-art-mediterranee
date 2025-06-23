@@ -71,6 +71,7 @@ $lead-sidebar-line-height-desktop: 125%
 // COMPONENTS
 // header
 $header-background: var(--color-background)
+$header-logo-height: pxToRem(38)
 $header-logo-height-desktop: pxToRem(194)
 $header-border-bottom-width: 1px
 
@@ -80,6 +81,8 @@ $header-upper-menu-sticky-background: transparent
 $header-upper-menu-border-bottom-width: 0
 $header-nav-padding-y: pxToRem(20)
 $header-nav-padding-y-desktop: pxToRem(17)
+$header-upper-menu-active-decoration-color: transparent
+$header-upper-menu-active-decoration-height: 0
 
 // hero
 $hero-background-color: none
@@ -137,3 +140,11 @@ $block-links-svg-hover-filter: $block-links-png-hover-filter
 
 // SPACINGS
 $block-space-y-desktop: pxToRem(100)
+
+// ICONS
+$icons-site: ()
+$icons-site: map-merge($icons-site, ("icon-calendar": "\e900"))
+$icons-site: map-merge($icons-site, ("icon-download": "\e901"))
+$icons-site: map-merge($icons-site, ("icon-chevron": "\e902"))
+$icons-site: map-merge($icons-site, ("icon-linkedin": "\e903"))
+$icons-site: map-merge($icons-site, ("icon-instagram": "\e904"))

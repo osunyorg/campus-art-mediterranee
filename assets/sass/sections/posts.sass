@@ -1,0 +1,12 @@
+.block-posts
+    .post-categories
+        margin-top: space()
+        margin-bottom: space(4)
+        row-gap: $spacing-1
+        a
+            @extend .button
+            @extend .button--small
+            line-height: 1
+            transition: all 0.2s ease
+        li:not(:last-child) a::after
+            content: none
