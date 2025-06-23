@@ -1,50 +1,50 @@
-@keyframes waves-animation
-    0%
-        background-position: 0 0
-    100%
-        background-position: 100vw 30vh
+// @keyframes waves-animation
+//     0%
+//         background-position: 0 0
+//     100%
+//         background-position: 100vw 30vh
 
-@mixin hero-with-waves
-    position: relative
-    &::after
-        content: ''
-        position: absolute
-        inset: 0
-        background-image: url('/assets/images/wave-white.svg')
-        background-position: center center
-        background-repeat: no-repeat
-        mix-blend-mode: overlay
-        // opacity: 0.4
-        // mix-blend-mode: screen
-        // animation: waves-animation 100s linear infinite
-        // mask-image: url('/assets/images/wave.svg')
-        // backdrop-filter: brightness(1.5)
+// @mixin hero-with-waves
+//     position: relative
+//     &::after
+//         content: ''
+//         position: absolute
+//         inset: 0
+//         background-image: url('/assets/images/wave-white.svg')
+//         background-position: center center
+//         background-repeat: no-repeat
+//         mix-blend-mode: overlay
+//         // opacity: 0.4
+//         // mix-blend-mode: screen
+//         // animation: waves-animation 100s linear infinite
+//         // mask-image: url('/assets/images/wave.svg')
+//         // backdrop-filter: brightness(1.5)
 
 
-@mixin wave
-    stroke-dasharray: 1000
-    stroke-dashoffset: 1000
-    fill: transparent
-    animation: draw 10s ease-in-out infinite alternate
-    fill: none
-    stroke: white 
-    stroke-miterlimit: 0
-    stroke-width: 20
+// @mixin wave
+//     stroke-dasharray: 1000
+//     stroke-dashoffset: 1000
+//     fill: transparent
+//     animation: draw 10s ease-in-out infinite alternate
+//     fill: none
+//     stroke: white 
+//     stroke-miterlimit: 0
+//     stroke-width: 20
 
-@keyframes draw
-    to
-        stroke-dashoffset: 0
+// @keyframes draw
+//     to
+//         stroke-dashoffset: 0
 
 @keyframes wave-opacity 
-    from
+    0%
         opacity: 0
-    to
+    75%, 100%
         opacity: 1
 
 .page__home
     .hero
         position: relative
-        figure
+        // figure
             // @include hero-with-waves
         .content
             overflow: hidden
@@ -56,14 +56,9 @@
             max-width: 90%
             transform: translate(-50%, -50%)
             mix-blend-mode: overlay
-            // mask-image: url(#wave-shapes)
-            // clip-path: url(#svgTextPath)
-            // filter: blur(10px)
             path
-                // @include wave-opacity
-                // @include wave
                 opacity: 0
-                backdrop-filter: brightness(1.5) blur(5px)
+                backdrop-filter: brightness(3)
                 @for $i from 1 through 100
                     &:nth-child(#{$i})
-                        animation: wave-opacity 3s #{$i*0.3}s infinite linear alternate
+                        animation: wave-opacity 4s #{$i*0.3}s infinite linear alternate
