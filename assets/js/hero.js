@@ -6,7 +6,7 @@ class PagesHero {
         if (!this.page || isMobile()) {
             return;
         }
-        this.hero = this.page.querySelector('.hero--with-image ');
+        this.hero = this.page.querySelector('.hero--with-image');
         this.listen();
         this.resize();
     }
