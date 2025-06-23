@@ -1,0 +1,28 @@
+@keyframes wave-opacity
+    0%
+        opacity: 0
+    75%, 100%
+        opacity: 1
+
+.page__home
+    .hero
+        position: relative
+        .content
+            overflow: hidden
+            position: relative
+        svg
+            position: absolute
+            top: 50%
+            left: 50%
+            max-width: 90%
+            max-height: 90%
+            mix-blend-mode: overlay
+            transform: translate(-50%, -50%)
+            @include media-breakpoint-down(desktop)
+                max-width: 70%
+            path
+                opacity: 0
+                backdrop-filter: brightness(3)
+                @for $i from 1 through 100
+                    &:nth-child(#{$i})
+                        animation: wave-opacity 4s #{$i*0.3}s infinite linear alternate
