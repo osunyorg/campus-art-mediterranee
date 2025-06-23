@@ -27,8 +27,8 @@
     fill: transparent
     animation: draw 10s ease-in-out infinite alternate
     fill: none
-    stroke: white
-    stroke-miterlimit: 10
+    stroke: white 
+    stroke-miterlimit: 0
     stroke-width: 20
 
 @keyframes draw
@@ -43,30 +43,28 @@
 
 .page__home
     .hero
+        position: relative
         figure
             // @include hero-with-waves
         .content
             overflow: hidden
             position: relative
         svg
+            position: absolute
+            top: 25%
+            left: 50%
+            max-width: 90%
+            transform: translate(-50%, -50%)
+            mix-blend-mode: overlay
+            // mask-image: url(#wave-shapes)
+
+            // clip-path: url(#svgTextPath)
+            // filter: blur(10px)
             path
-                @include wave
-        // svg
-        //     position: absolute
-        //     top: 50%
-        //     left: 50%
-        //     max-width: 90%
-        //     max-height: 90%
-        //     transform: translate(-50%, -50%)
-        //     mix-blend-mode: overlay
-        //     // mask-image: url(#wave-shapes)
-        //     // clip-path: url(#svgTextPath)
-        //     // filter: blur(10px)
-        //     path
-        //         // @include wave-opacity
-        //         // @include wave
-        //         opacity: 0
-        //         backdrop-filter: brightness(1.5) blur(5px)
-        //         @for $i from 1 through 100
-        //             &:nth-child(#{$i})
-        //                 animation: wave-opacity 3s #{$i*0.3}s infinite linear alternate
+                // @include wave-opacity
+                // @include wave
+                opacity: 0
+                backdrop-filter: brightness(1.5) blur(5px)
+                @for $i from 1 through 100
+                    &:nth-child(#{$i})
+                        animation: wave-opacity 3s #{$i*0.3}s infinite linear alternate
