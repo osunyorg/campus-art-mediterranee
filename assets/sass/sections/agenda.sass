@@ -85,6 +85,12 @@
 
 .events__section,
 .exhibitions__section
+    .hero
+        padding-bottom: 0
+        margin-bottom: $spacing-4
+        @include media-breakpoint-down(desktop)
+            margin-bottom: space(8)
+            min-height: 0
     .taxonomies-list--dropdown 
         .dropdown .taxonomy-categories ul li > a::after
             content: '→'

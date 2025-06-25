@@ -1,7 +1,13 @@
 header#document-header
-    .nav-search
-        button::after
-            font-size: pxToRem(30)
+    .primary-menu
+        .nav-level-1 > li
+            > a[href="/agenda/"]::before
+                @include icon-site('icon-calendar')
+                font-size: pxToRem(22)
+                margin-right: space()
+        .nav-search
+            button::after
+                font-size: pxToRem(30)
     .upper-menu
         .nav-level-1
             li
@@ -20,7 +26,6 @@ header#document-header
                         transition: transform 0.2s ease
                     a:hover::after
                         transform: translateX(25%)
-
                 a.active::after
                     position: relative
                     height: auto
@@ -35,6 +40,7 @@ header#document-header
                 justify-content: flex-end
                 position: absolute
                 right: var(--grid-gutter)
+                margin-top: space(4)
                 width: auto
                 li:not(:last-child)
                     border-bottom: 1px solid var(--color-accent)
@@ -59,13 +65,12 @@ header#document-header
         .primary-menu
             .logo
                 max-width: columns(7)
-                @include media-breakpoint-up(xl)
-                    .logo
-                        max-width: columns(7)
+                @include media-breakpoint-up(xxl)
+                    max-width: columns(6)
             > .container
                 row-gap: $spacing-4
             .nav-level-1
-                column-gap: $spacing-3
+                column-gap: $spacing-1
                 flex-wrap: wrap
                 justify-content: space-between
                 width: columns(12)
