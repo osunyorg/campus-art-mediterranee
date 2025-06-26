@@ -77,6 +77,26 @@ header#document-header
                 li
                     a, span, button
                         @include h4
+        &.is-sticky
+            .upper-menu
+                display: none
+            .primary-menu
+                > .container
+                    flex-direction: row
+                .logo
+                    width: pxToRem(100)
+                    &::before
+                        content: ''
+                        display: block
+                        background: url(/assets/images/campus-wave.svg)
+                        background-size: contain
+                        background-repeat: no-repeat
+                        width: pxToRem(60)
+                        height: pxToRem(20)
+                    img
+                        display: none
+                .nav-level-1
+                    width: auto
     @include media-breakpoint-down(desktop)
         border-bottom: 1px solid var(--color-accent)
         .header-button 
