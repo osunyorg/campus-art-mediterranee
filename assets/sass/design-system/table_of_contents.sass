@@ -2,3 +2,8 @@
     .toc-container
         li a:not(.active)
             @include meta
+        @include media-breakpoint-up(desktop)
+            .toc ol li
+                margin-top: space(2)
+                &:first-child
+                    margin-top: space()

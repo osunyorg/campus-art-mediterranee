@@ -1,8 +1,10 @@
 .hero
     .content
         .hero-text
-            margin-top: pxToRem(50)
+            margin-top: 0
             width: 100%
+            @include media-breakpoint-up(desktop)
+                margin-top: pxToRem(50)
         @include media-breakpoint-up(desktop)
             h1
                 max-width: columns(9)
@@ -58,6 +60,7 @@
                 li a
                     @extend .button
                     @extend .button--small
+                    line-height: 1
         &--with-image
             figure
                 order: -1

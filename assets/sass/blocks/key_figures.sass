@@ -14,7 +14,7 @@
         &:not(.block-titled)
             .block-content
                 display: flex
-                gap: var(--grid-gutter)
+                gap: offset(1)
             .top
                 order: 2
                 width: offset(3)
@@ -24,3 +24,8 @@
             ul
                 flex: 1
                 margin-top: 0
+                max-width: columns(8)
+                span
+                    strong
+                        line-height: 0
+                        margin-top: $spacing-3

@@ -1,5 +1,6 @@
 <div class="container">
   <div class="footer-presentation">
+    {{ partial "footer/logo.html" }}
     <p>{{ i18n "commons.footer.campus.text" }}</p>
     <p>{{ i18n "commons.footer.campus.ecosystem" }}</p>
     {{ $ecosystem_list := partial "GetMenu" "ecosysteme-footer" }}

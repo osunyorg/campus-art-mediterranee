@@ -17,6 +17,12 @@ footer#document-footer
                 padding-top: space(8)
                 margin-top: 0
     .footer-presentation
+        .logo
+            + p
+                margin-top: space(10)
+            @include media-breakpoint-up(desktop)
+                img
+                    width: columns(3)
         p + p
             margin-top: $spacing-3
         .ecosystem-cta
@@ -47,9 +53,8 @@ footer#document-footer
     .footer-site
         @include body-text
         text-align: left
-        // check with school file
-        address + .footer-cta
-            margin-top: $spacing-2
+        .footer-cta li
+            margin-top: $spacing-3
             @include media-breakpoint-up(desktop)
                 margin-top: $spacing-4
         address
@@ -108,6 +113,7 @@ footer#document-footer
             img
                 width: 100%
     @include media-breakpoint-down(desktop)
+        padding-top: var(--grid-gutter)
         .footer-social
             display: flex
             gap: space(8)

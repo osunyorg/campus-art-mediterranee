@@ -79,6 +79,14 @@ header#document-header
                         @include h4
     @include media-breakpoint-down(desktop)
         border-bottom: 1px solid var(--color-accent)
+        .header-button 
+            span
+                &:first-child
+                    opacity: 0
+                    height: 0
+                    width: 0
+                &:last-child::before
+                    font-size: pxToRem(30)
         html.has-menu-opened &
             --color-border: var(--color-background)
             background-color: var(--color-accent)

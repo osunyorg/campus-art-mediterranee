@@ -7,7 +7,7 @@ params:
     active: true
   logo:
     header: '/assets/images/logo.svg'
-    footer: ''
+    footer: '/assets/images/logo-white.svg'
   blocks:
     ignored:
       - block-class-in-hero
