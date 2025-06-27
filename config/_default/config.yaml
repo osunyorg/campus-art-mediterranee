@@ -26,6 +26,13 @@ params:
   persons:
     single:
       backlinks: true
+  projects:
+    single:
+      taxonomies:
+        position: hero
+        show_name: false
+    share_links:
+      enabled: false
   image_sizes:
     sections:
       home:

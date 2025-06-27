@@ -1,4 +1,21 @@
 .projects__page
+    &:not(.full-width)
+        .project-sidebar,
+            &, &:has(aside) 
+                aside
+                    display: none
+                .toc-container
+                    border-top: 0
+                    padding-top: 0
+    .hero
+        margin-bottom: 0
+        .taxonomies-single 
+            margin-top: $spacing-2
+            a
+                @extend .button
+                @extend .button--small
+        .hero-text
+            padding-bottom: 0
     // call to action with image
     .block-call_to_action--no_background 
         .call_to_action--with-image
