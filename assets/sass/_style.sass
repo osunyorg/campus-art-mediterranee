@@ -1,3 +1,8 @@
+// system
+html
+    @include media-breakpoint-up(md)
+        font-size: Min(Max(0.9vw, 13px), 15px)
+
 .button--large
     --btn-large-padding: #{pxToRem(6)} #{pxToRem(26)}
     @include h3
@@ -12,6 +17,17 @@
     text-decoration: none
     padding: space(2) space(4)
 
-html
-    @include media-breakpoint-up(md)
-        font-size: Min(Max(0.9vw, 13px), 15px)
+// animation
+@mixin blur-on-hover
+    &:hover
+        animation: blured-text 1.2s linear
+
+@keyframes blured-text
+    0%
+        filter: blur(0)
+    75%
+        filter: blur(4px)
+    90%
+        filter: blur(2px)
+    100%
+        filter: blur(0)

@@ -16,6 +16,7 @@ footer#document-footer
                 border-top: 1px solid $color-border-alt
                 padding-top: space(8)
                 margin-top: 0
+    
     .footer-presentation
         .logo
             + p
@@ -31,6 +32,7 @@ footer#document-footer
             li:not(:last-child)::after
                 content: '↗'
                 margin-left: 2px
+                display: inline
             li:last-child::first-letter
                 text-transform: lowercase
             a
@@ -77,7 +79,7 @@ footer#document-footer
         .container
             padding-bottom: 0
             &:first-child
-                gap:: var(--column-width)
+                gap:: var(--grid-gutter)
                 > * 
                     padding-bottom: space(10)
             + .container
@@ -95,6 +97,8 @@ footer#document-footer
             .footer-site,
             .footer-nav
                 width: offset(2)
+            .footer-presentation
+                margin-right: $spacing-3
             @include media-breakpoint-up(xl)
                 > .nav-level-1
                     border-left: 1px solid $color-border-alt
@@ -114,6 +118,8 @@ footer#document-footer
                 width: 100%
     @include media-breakpoint-down(desktop)
         padding-top: var(--grid-gutter)
+        .footer-presentation
+            @include meta
         .footer-social
             display: flex
             gap: space(8)
@@ -122,8 +128,6 @@ footer#document-footer
                     margin-top: 0
                 &::after
                     margin-right: 0
-        .footer-presentation
-            @include meta
         .footer-site,
         .footer-nav
             margin-top: $spacing-3
