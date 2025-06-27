@@ -59,8 +59,8 @@ pages_categories:
   - "pratique/video"
   - "pratique/creation-numerique"
   - "pratique/musique"
-  - "public/enfants"
   - "format/stage"
+  - "format/stage/stage-enfants"
 taxonomies:
   - name: >-
       Pratique
@@ -93,22 +93,16 @@ taxonomies:
           Musique
 
   - name: >-
-      Public
-    slug: "public"
-    path: "/pages_categories/public"
-    categories:
-      - permalink: "/public/enfants/"
-        path: "/pages_categories/public/enfants"
-        slug: "public/enfants"
-        file: "content/fr/pages_categories/public/enfants/_index.html"
-        name: >-
-          Enfants
-
-  - name: >-
       Format
     slug: "format"
     path: "/pages_categories/format"
     categories:
+      - permalink: "/format/stage/stage-enfants/"
+        path: "/pages_categories/format/stage/stage-enfants"
+        slug: "format/stage/stage-enfants"
+        file: "content/fr/pages_categories/format/stage/stage-enfants/_index.html"
+        name: >-
+          Stage enfants
       - permalink: "/format/stage/"
         path: "/pages_categories/format/stage"
         slug: "format/stage"
@@ -487,12 +481,6 @@ contents:
           file: "content/fr/pages/pratiquer-en-amateur/cours-et-stages-adultes/techniques-maitres/_index.html"
           name: >-
             À partir des techniques de maîtres
-        - permalink: "/pratiquer-en-amateur/preparations-aux-concours-dentree-aux-ecoles-superieures/preparation-aux-concours-d-entree-des-ecoles-d-art/"
-          path: "/pages/pratiquer-en-amateur/preparations-aux-concours-dentree-aux-ecoles-superieures/preparation-aux-concours-d-entree-des-ecoles-d-art"
-          slug: "preparation-aux-concours-d-entree-des-ecoles-d-art"
-          file: "content/fr/pages/pratiquer-en-amateur/preparations-aux-concours-dentree-aux-ecoles-superieures/preparation-aux-concours-d-entree-des-ecoles-d-art/_index.html"
-          name: >-
-            Préparation aux concours d'entrée des écoles d'art
         - permalink: "/pratiquer-en-amateur/cours-et-stages-adultes/formes-contemporaines/"
           path: "/pages/pratiquer-en-amateur/cours-et-stages-adultes/formes-contemporaines"
           slug: "formes-contemporaines"
@@ -619,12 +607,6 @@ contents:
           file: "content/fr/pages/pratiquer-en-amateur/cours-et-stages-adultes/matieres-vivantes/_index.html"
           name: >-
             Matières vivantes
-        - permalink: "/pratiquer-en-amateur/cours-et-stages-adultes/land-art/"
-          path: "/pages/pratiquer-en-amateur/cours-et-stages-adultes/land-art"
-          slug: "land-art"
-          file: "content/fr/pages/pratiquer-en-amateur/cours-et-stages-adultes/land-art/_index.html"
-          name: >-
-            Land Art
         - permalink: "/pratiquer-en-amateur/cours-et-stages-adultes/quand-le-dessin-est-roi/"
           path: "/pages/pratiquer-en-amateur/cours-et-stages-adultes/quand-le-dessin-est-roi"
           slug: "quand-le-dessin-est-roi"
@@ -632,7 +614,7 @@ contents:
           name: >-
             Quand le dessin est roi
 
-      quantity: 26
+      quantity: 24
 
 
   - kind: block
