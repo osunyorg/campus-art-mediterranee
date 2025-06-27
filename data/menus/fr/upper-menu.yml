@@ -9,9 +9,9 @@ items:
   path: "/pages/mecenat"
   file: content/fr/pages/mecenat/_index.html
 - title: Ateliers publics
-  target: "#"
+  target: https://atelierspublics.campusartmediterranee.fr
   kind: url
-  new_tab: false
+  new_tab: true
   children: []
 - title: Vous êtes
   target: "/vous-etes/"
