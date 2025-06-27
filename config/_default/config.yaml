@@ -20,6 +20,9 @@ params:
     single:
       taxonomies:
         position: hero
+    index:
+      options:
+        categories: true
   persons:
     single:
       backlinks: true

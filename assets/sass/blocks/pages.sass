@@ -1,4 +1,15 @@
 .block-pages
+    .page-categories
+        row-gap: $spacing-1
+        order: -1
+        li a
+            @extend .button
+            @extend .button--small
+            line-height: 1
+    .page-title
+        order: -2
+    .media
+        order: -3 !important
     &--cards
         .card
             border: 5px solid var(--color-accent)
@@ -36,12 +47,13 @@
                 .page-title
                     a::after
                         content: '→' !important
-                        display: inline-block
+                        display: inline !important
                         font-family: inherit !important
                         opacity: 0
                         padding-left: space()
                 &:hover .page-title a::after
                     opacity: 1
+                    padding-left: space(2)
     &--large
         .page
             .page-content

@@ -75,12 +75,19 @@
                 .grid
                     @include grid(2)
 
-        .block-pages--grid
-            .page
-                &-title,
-                > p
-                    border-left: 1px solid var(--color-text)
+    .block-pages--grid
+        .page
+            &-title,
+            > p,
+            &-categories
+                border-left: 1px solid var(--color-text)
+                padding-left: $spacing-2
+                @include media-breakpoint-up(desktop)
                     padding-left: $spacing-3
-                > p:first-of-type
-                    margin-top: 0
-                    padding-top: $spacing-3
+            > p:first-of-type
+                margin-top: 0
+                @include media-breakpoint-up(desktop)
+                    padding-top: space(9)
+            &-categories
+                margin-top: 0
+                padding-top: $spacing-3
