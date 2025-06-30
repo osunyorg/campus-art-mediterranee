@@ -8,6 +8,9 @@ params:
   logo:
     header: '/assets/images/logo.svg'
     footer: '/assets/images/logo-white.svg'
+  home:
+    head:
+      title: site
   blocks:
     ignored:
       - block-class-in-hero
