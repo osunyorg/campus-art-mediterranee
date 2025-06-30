@@ -87,8 +87,9 @@ header#document-header
             .primary-menu
                 > .container
                     flex-direction: row
+                    gap: $spacing-4
                 .logo
-                    width: pxToRem(100)
+                    width: pxToRem(60)
                     &::before
                         content: ''
                         display: block
@@ -99,6 +100,8 @@ header#document-header
                         height: pxToRem(20)
                     img
                         display: none
+                .menu
+                    flex: 1
                 .nav-level-1
                     width: auto
     @include media-breakpoint-down(desktop)
