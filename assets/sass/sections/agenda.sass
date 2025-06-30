@@ -105,11 +105,6 @@
                 &[aria-expanded="true"]::after
                     content: '↑' / ""
                     font-family: $heading-font-family
-        @include media-breakpoint-up(desktop)
-            position: absolute
-            margin-top: calc(#{$spacing-5} * -2)
-            transform: translateY(-100%)
-            z-index: 9
         @include media-breakpoint-down(desktop)
             margin-bottom: $spacing-3
             .container
