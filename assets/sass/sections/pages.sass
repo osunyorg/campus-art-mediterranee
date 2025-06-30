@@ -1,4 +1,17 @@
-
+.pages--grid
+    .page
+        .page-content
+            display: flex
+            flex-direction: column
+        .page-title
+            order: -2
+        .page-categories
+            order: -1
+            row-gap: $spacing-1
+            li a
+                @extend .button
+                @extend .button--small
+                line-height: 1
 // specific course/practice pages blocks
 .ancestor-courses_and_practices
     &, &.full-width
