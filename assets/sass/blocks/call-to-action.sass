@@ -7,24 +7,33 @@
                 margin-top: $spacing-5
         .actions
             --btn-large-padding: 0
+            --btn-border-radius: 0
+            --btn-padding: var(--btn-small-padding)
+            align-items: flex-start
+            display: flex
+            flex-direction: column
+            a:first-child
             a,
             a:first-child
+                @include h4
+                --btn-min-width: 0
                 display: block !important
                 text-align: left
                 text-decoration: none
-                @include h4
                 &::after
-                    @include icon-site('icon-chevron')
                     display: inline-block
                     font-size: 75%
                     padding-left: $spacing-1
                     transition: transform 0.2s ease
                 &:hover::after
                     transform: translateX(25%)
-                @include media-breakpoint-up(desktop)
-                    @include h3
-                    + a
-                        margin-top: $spacing-2
+            a:first-child::after
+                content: '↗'
+                font-family: $heading-font-family
+            a:not(:first-child + a)
+                margin-top: $spacing-2
+                &::after
+                    @include icon-site('icon-chevron')
         @include in-page-without-sidebar
             &--with-image
                 > div
@@ -34,6 +43,7 @@
                     margin-left: var(--grid-gutter-negative)
                     img
                         aspect-ratio: 16/9
+                        object-fit: cover
     &--accent_background
         @include in-page-without-sidebar
             background-color: transparent
