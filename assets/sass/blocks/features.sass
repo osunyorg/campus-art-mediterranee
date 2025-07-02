@@ -1,46 +1,80 @@
 .block-features
-    body.full-width &
-        .name
-            @include h1
-        @include media-breakpoint-down(desktop)
+    .document-content &
+        body.full-width &
+            .name
+                @include h1
+            @include media-breakpoint-down(desktop)
+                ul
+                    li 
+                        display: flex
+                        flex-direction: column
+                        > div
+                            border-top: 1px solid var(--color-accent)
+                            padding-top: $spacing-2
+                        figure
+                            order: 2
+                            margin-bottom: 0
+                            margin-top: space(5)
+                        + li
+                            margin-top: space(8)
+            @include media-breakpoint-up(desktop)
+                ul
+                    display: block !important
+                    li
+                        flex-direction: row
+                        gap: var(--grid-gutter)
+                        > div
+                            border-top: 1px solid var(--color-accent)
+                            flex: 1
+                        .name
+                            margin-top: $spacing-1
+                        figure
+                            margin-bottom: 0
+                            order: 2
+                            width: columns(3)
+                        + li
+                            margin-top: pxToRem(5)
+        body:not(.full-width) & 
             ul
-                li 
-                    display: flex
-                    flex-direction: column
-                    > div
-                        border-top: 1px solid var(--color-accent)
-                        padding-top: $spacing-2
-                    figure
-                        order: 2
-                        margin-bottom: 0
-                        margin-top: space(5)
-                    + li
-                        margin-top: space(8)
-        @include media-breakpoint-up(desktop)
-            ul
-                display: block !important
                 li
-                    flex-direction: row
-                    gap: var(--grid-gutter)
-                    > div
-                        border-top: 1px solid var(--color-accent)
-                        flex: 1
-                    .name
-                        margin-top: $spacing-1
                     figure
-                        margin-bottom: 0
-                        order: 2
-                        width: columns(3)
-                    + li
-                        margin-top: pxToRem(5)
-    body:not(.full-width) & 
-        ul
+                        picture.is-svg
+                            img
+                                aspect-ratio: 16/9
+                                height: 100%
+                                max-height: 100%
+                                object-fit: cover
+                                width: auto !important
+    .hero &
+        body.full-width &
+            ul
+                @include grid(1)
             li
+                flex-direction: row
+                align-items: flex-start
+                gap: var(--grid-gutter)
+                > div
+                    flex: 1
+                .name
+                    @include h4
+                p
+                    @include small
                 figure
-                    picture.is-svg
-                        img
-                            aspect-ratio: 16/9
-                            height: 100%
-                            max-height: 100%
-                            object-fit: cover
-                            width: auto !important
+                    aspect-ratio: 1
+                    background-color: var(--color-background-alt)
+                    min-width: $spacing-5
+                    overflow: hidden
+                    @include media-breakpoint-up(desktop)
+                        width: columns(2)
+                    picture, img    
+                        inset: 0 0 0 0
+                        height: 100%
+                        width: 100%
+                        position: absolute
+                    img
+                        aspect-ratio: 1
+                        object-fit: cover
+            @include media-breakpoint-down(desktop)
+                figure
+                    order: 2
+                    width: columns(3)

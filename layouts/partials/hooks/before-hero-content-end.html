@@ -3,7 +3,7 @@
     <div class="blocks">
       {{ range $index, $content := . }}
         {{ if in site.Params.blocks.ignored .html_class }}
-          {{ if or (eq .template "persons") (eq .template "call_to_action") }}
+          {{ if or (eq .template "persons") (or (eq .template "call_to_action") (eq .template "features") ) }}
             {{ $template := printf "blocks/templates/%s.html" .template }}
       
             {{ if templates.Exists ( printf "partials/%s" $template ) }}
