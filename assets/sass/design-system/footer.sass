@@ -27,6 +27,7 @@ footer#document-footer
         p + p
             margin-top: $spacing-3
         .ecosystem-cta
+            text-transform: lowercase
             li + li
                 margin-top: 0
             li:not(:last-child)::after
@@ -34,7 +35,6 @@ footer#document-footer
                 margin-left: 2px
                 display: inline
             li:last-child::first-letter
-                text-transform: lowercase
             a
                 text-decoration: underline
                 &::after
@@ -44,7 +44,6 @@ footer#document-footer
         text-align: left
         a
             text-decoration: underline
-            text-decoration-thickness: 2px
             &[target="_blank"]::after
                 content: '↗'
                 display: inline-block
