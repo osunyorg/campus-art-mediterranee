@@ -1,7 +1,10 @@
 .block-pages
     .page-categories
-        row-gap: $spacing-1
+        margin-top: $spacing-1
         order: -1
+        row-gap: $spacing-1
+        @include media-breakpoint-up(desktop)
+            margin-top: space(5)
         li a
             @extend .button
             @extend .button--small
@@ -12,9 +15,9 @@
         order: -3 !important
     &--cards
         .card
+            align-items: flex-start
             border: 5px solid var(--color-accent)
             padding: space(8) space(8) space(6)
-            align-items: flex-start
             .media
                 margin-top: 0
                 picture
@@ -25,16 +28,16 @@
                         &.is-svg
                             width: columns(1.5)
             .more
-                flex: 1
                 align-items: flex-end
+                flex: 1
                 margin-top: auto
                 position: relative
                 &::after
                     content: '→'
                     opacity: 1
-                    right: -(space())
                     font-family: inherit
                     font-size: inherit
+                    right: -(space())
                     transform: translate(100%, -25%)
             &:hover 
                 .more::after
@@ -51,6 +54,9 @@
                         font-family: inherit !important
                         opacity: 0
                         padding-left: space()
+                    @include media-breakpoint-up(desktop)
+                        + p
+                            margin-top: space(8)
                 &:hover .page-title a::after
                     opacity: 1
                     padding-left: space(2)
