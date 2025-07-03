@@ -6,6 +6,19 @@
         [itemprop="articleBody"]
             .contacts-details
                 display: none
+        .backlinks
+            .block-pages
+                // remove "Lieux de pratique" from list
+                .page:first-child
+                    display: none
+        // add title before backlinks
+        .blocks + .backlinks
+            &, .block-pages
+                margin-top: 0
+            .block-pages
+                .top
+                    display: none
+
     .organization-presentation
         @include h3
     &.full-width
