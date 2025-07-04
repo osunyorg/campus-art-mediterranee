@@ -8,6 +8,7 @@ header#document-header
         .nav-search
             button::after
                 font-size: pxToRem(30)
+
     .upper-menu
         .nav-level-1
             li
@@ -76,11 +77,21 @@ header#document-header
                 width: columns(12)
                 > li > a
                     @include blur-on-hover
+                    &.active
+                        position: relative
+                        &::after
+                            content: url('/assets/images/campus-wave.svg')
+                            display: block
+                            position: absolute
+                            bottom: space(-4)
+                            left: 50%
+                            transform: translateX(-50%)
                 li
                     &:first-child a
                         padding-left: 0
                     a, span, button
                         @include h4
+                
         &.is-sticky
             .upper-menu
                 display: none
@@ -147,3 +158,12 @@ header#document-header
                             padding-bottom: $spacing-2
                         &:last-child
                             margin-top: space(10)
+        .primary-menu 
+            .nav-level-1 > li
+                a.active
+                    display: flex
+                    &::after
+                        content: url('/assets/images/campus-wave-white.svg')
+                        position: relative
+                        display: inline-block
+                        margin-left: auto
