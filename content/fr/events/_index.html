@@ -86,11 +86,11 @@ next_months:
         events: 0
       - day: 2025-07-09
         cwday: 3
-        current: true
+        current: false
         events: 0
       - day: 2025-07-10
         cwday: 4
-        current: false
+        current: true
         events: 0
       - day: 2025-07-11
         cwday: 5
@@ -99,7 +99,7 @@ next_months:
       - day: 2025-07-12
         cwday: 6
         current: false
-        events: 0
+        events: 1
       - day: 2025-07-13
         cwday: 7
         current: false
@@ -415,7 +415,7 @@ next_months:
       - day: 2025-09-26
         cwday: 5
         current: false
-        events: 0
+        events: 1
       - day: 2025-09-27
         cwday: 6
         current: false
@@ -462,23 +462,70 @@ header_cta:
   external: false
 section_taxonomies:
   - name: >-
-      Événementiel
-    slug: "evenementiel"
-    path: "/events_categories/evenementiel"
+      Catégorie
+    slug: "categorie"
+    path: "/events_categories/categorie"
     categories:
       - permalink: "/agenda/evenementiel/concert/"
-        path: "/events_categories/evenementiel/concert"
-        slug: "evenementiel/concert"
-        file: "content/fr/events_categories/evenementiel/concert/_index.html"
+        path: "/events_categories/categorie/concert"
+        slug: "categorie/concert"
+        file: "content/fr/events_categories/categorie/concert/_index.html"
         name: >-
           Concert
-        count: 1
+        count: 2
       - permalink: "/agenda/evenementiel/plein-air/"
-        path: "/events_categories/evenementiel/plein-air"
-        slug: "evenementiel/plein-air"
-        file: "content/fr/events_categories/evenementiel/plein-air/_index.html"
+        path: "/events_categories/categorie/plein-air"
+        slug: "categorie/plein-air"
+        file: "content/fr/events_categories/categorie/plein-air/_index.html"
         name: >-
           Plein air
+        count: 1
+      - permalink: "/agenda/evenementiel/jazz-1/"
+        path: "/events_categories/categorie/jazz-1"
+        slug: "categorie/jazz-1"
+        file: "content/fr/events_categories/categorie/jazz-1/_index.html"
+        name: >-
+          Jazz
+        count: 1
+      - permalink: "/agenda/evenement/masterclasse/"
+        path: "/events_categories/categorie/masterclasse"
+        slug: "categorie/masterclasse"
+        file: "content/fr/events_categories/categorie/masterclasse/_index.html"
+        name: >-
+          Masterclasse
+        count: 1
+      - permalink: "/agenda/evenement/parade/"
+        path: "/events_categories/categorie/parade"
+        slug: "categorie/parade"
+        file: "content/fr/events_categories/categorie/parade/_index.html"
+        name: >-
+          Parade
+        count: 1
+      - permalink: "/agenda/evenement/restitution/"
+        path: "/events_categories/categorie/restitution"
+        slug: "categorie/restitution"
+        file: "content/fr/events_categories/categorie/restitution/_index.html"
+        name: >-
+          Restitution
+        count: 1
+  - name: >-
+      Lieux
+    slug: "lieux"
+    path: "/events_categories/lieux"
+    categories:
+      - permalink: "/agenda/lieux/campus-art-mediterranee/"
+        path: "/events_categories/lieux/campus-art-mediterranee"
+        slug: "lieux/campus-art-mediterranee"
+        file: "content/fr/events_categories/lieux/campus-art-mediterranee/_index.html"
+        name: >-
+          Campus art Méditerranée
+        count: 2
+      - permalink: "/agenda/lieux/conservatoire-pierre-barbizet-de-marseille/"
+        path: "/events_categories/lieux/conservatoire-pierre-barbizet-de-marseille"
+        slug: "lieux/conservatoire-pierre-barbizet-de-marseille"
+        file: "content/fr/events_categories/lieux/conservatoire-pierre-barbizet-de-marseille/_index.html"
+        name: >-
+          Conservatoire Pierre Barbizet de Marseille
         count: 1
 
 contents_reading_time:
