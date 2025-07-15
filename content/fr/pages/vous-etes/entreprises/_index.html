@@ -4,11 +4,11 @@ breadcrumb_title: >-
 title: >-
   Entreprises
 bodyclass: >-
-  page-without-hero-image 
+  page-without-hero-image ancestor-page-children-as-cards 
 url: "/vous-etes/entreprises/"
 slug: "entreprises"
 date: 2025-04-24T16:42:50+02:00
-lastmod: 2025-05-28T11:29:40+02:00
+lastmod: 2025-07-15T09:51:12+02:00
 meta:
   hugo:
     permalink: "/vous-etes/entreprises/"
@@ -17,7 +17,7 @@ meta:
     slug: "entreprises"
   dates:
     created_at: 2025-04-24T16:42:50+02:00
-    updated_at: 2025-05-28T11:29:40+02:00
+    updated_at: 2025-07-15T09:51:12+02:00
     published_at: 2025-04-24T16:42:50+02:00
 search:
   id: "cd4280d6-806c-4b5b-a3ff-62a0d62e6d81"
@@ -28,9 +28,9 @@ search:
   title: >-
     Entreprises
   summary: >-
-    <p>Vestibulum id ligula porta felis euismod semper. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
-  body: >-
     
+  body: >-
+    <p>La (co)Production  <br> Les établissements de Campus  </p>
 
 breadcrumbs:
   - title: >-
@@ -45,7 +45,7 @@ breadcrumbs:
 design:
   full_width: false
   toc:
-    present: false
+    present: true
     offcanvas: false
 
 
@@ -65,7 +65,7 @@ meta_description: >-
   
 
 summary: >-
-  <p>Vestibulum id ligula porta felis euismod semper. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+  
 
 header_text: >-
   
@@ -77,9 +77,227 @@ header_cta:
   external: false
 
 contents_reading_time:
-  seconds: 0
+  seconds: 2
   text: >-
     moins d'une minute
 contents:
+  - kind: block
+    template: pages
+    title: >-
+      
+    slug: >-
+      
+    ranks:
+      base: 2
+      children: 2
+    top:
+      active: false
+    data:
+      options:
+        image: true
+        categories: false
+        main_summary: true
+        summary: true
+
+      layout: grid
+      pages:
+        - permalink: "/mecenat/"
+          path: "/pages/mecenat"
+          slug: "mecenat"
+          file: "content/fr/pages/mecenat/_index.html"
+          name: >-
+            Mécénat et parrainage
+        - permalink: "/letablissement/partenaires/"
+          path: "/pages/letablissement/partenaires"
+          slug: "partenaires"
+          file: "content/fr/pages/letablissement/partenaires/_index.html"
+          name: >-
+            Partenaires
+        - permalink: "/letablissement/equipes/"
+          path: "/pages/letablissement/equipes"
+          slug: "equipes"
+          file: "content/fr/pages/letablissement/equipes/_index.html"
+          name: >-
+            Équipes
+
+      quantity: 3
+
+
+  - kind: block
+    template: title
+    title: >-
+      La (co)Production
+    slug: >-
+      la-co-production
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          La (co)Production
+        heading: 2
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: projects
+    title: >-
+      
+    slug: >-
+      
+    ranks:
+      base: 3
+      children: 3
+    top:
+      active: false
+    data:
+      mode: category
+      category: "coproductions"
+      layout: grid
+      options:
+        categories: true
+        image: true
+        subtitle: true
+        summary: true
+        year: true
+
+      projects:
+        - permalink: "/projets/2022-systema/"
+          path: "/projects/2022-systema"
+          slug: "systema"
+          file: "content/fr/projects/2022-systema.html"
+          name: >-
+            Systema
+
+      quantity: 1
+
+  - kind: block
+    template: title
+    title: >-
+      Les établissements de Campus
+    slug: >-
+      les-etablissements-de-campus
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Les établissements de Campus
+        heading: 2
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: organizations
+    title: >-
+      
+    slug: >-
+      
+    ranks:
+      base: 3
+      children: 3
+    top:
+      active: false
+    data:
+      layout: map
+      description: >-
+        
+
+      options:
+        link: true
+        logo: true
+        summary: true
+        address: true
+
+      organizations:
+        - permalink: "/organisations/beaux-arts-de-marseille/"
+          path: "/organizations/beaux-arts-de-marseille"
+          slug: "beaux-arts-de-marseille"
+          file: "content/fr/organizations/beaux-arts-de-marseille.html"
+          role: >-
+            
+
+        - permalink: "/organisations/campus-art-mediterranee/"
+          path: "/organizations/campus-art-mediterranee"
+          slug: "campus-art-mediterranee"
+          file: "content/fr/organizations/campus-art-mediterranee.html"
+          role: >-
+            
+
+        - permalink: "/organisations/conservatoire-pierre-barbizet-de-marseille/"
+          path: "/organizations/conservatoire-pierre-barbizet-de-marseille"
+          slug: "conservatoire-pierre-barbizet-de-marseille"
+          file: "content/fr/organizations/conservatoire-pierre-barbizet-de-marseille.html"
+          role: >-
+            
+
+        - permalink: "/organisations/institut-de-formation-artistique-marseille-mediterranee/"
+          path: "/organizations/institut-de-formation-artistique-marseille-mediterranee"
+          slug: "institut-de-formation-artistique-marseille-mediterranee"
+          file: "content/fr/organizations/institut-de-formation-artistique-marseille-mediterranee.html"
+          role: >-
+            
+
+      quantity: 4
+
+  - kind: block
+    template: organizations
+    title: >-
+      
+    slug: >-
+      
+    ranks:
+      base: 3
+      children: 3
+    top:
+      active: false
+    data:
+      layout: grid
+      description: >-
+        
+
+      options:
+        link: true
+        logo: true
+        summary: true
+        address: true
+
+      organizations:
+        - permalink: "/organisations/beaux-arts-de-marseille/"
+          path: "/organizations/beaux-arts-de-marseille"
+          slug: "beaux-arts-de-marseille"
+          file: "content/fr/organizations/beaux-arts-de-marseille.html"
+          role: >-
+            
+
+        - permalink: "/organisations/campus-art-mediterranee/"
+          path: "/organizations/campus-art-mediterranee"
+          slug: "campus-art-mediterranee"
+          file: "content/fr/organizations/campus-art-mediterranee.html"
+          role: >-
+            
+
+        - permalink: "/organisations/conservatoire-pierre-barbizet-de-marseille/"
+          path: "/organizations/conservatoire-pierre-barbizet-de-marseille"
+          slug: "conservatoire-pierre-barbizet-de-marseille"
+          file: "content/fr/organizations/conservatoire-pierre-barbizet-de-marseille.html"
+          role: >-
+            
+
+        - permalink: "/organisations/institut-de-formation-artistique-marseille-mediterranee/"
+          path: "/organizations/institut-de-formation-artistique-marseille-mediterranee"
+          slug: "institut-de-formation-artistique-marseille-mediterranee"
+          file: "content/fr/organizations/institut-de-formation-artistique-marseille-mediterranee.html"
+          role: >-
+            
+
+      quantity: 4
+
 
 ---
