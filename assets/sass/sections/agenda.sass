@@ -1,7 +1,10 @@
-.event
-    .event-content
+.event,
+.exhibition
+    [class$="-content"]
         p.event-parent
             order: -3
+        [class$="-subtitle"]
+            @include body-text
     
 .events__page,
 .exhibitions__page
