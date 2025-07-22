@@ -2,18 +2,18 @@
 title: Écosystème (footer)
 items:
 - title: Les Beaux Arts de Marseille
-  target: "#"
+  target: https://www.beauxartsdemarseille.fr/
   kind: url
   new_tab: true
   children: []
 - title: Le Conservatoire de Marseille Pierre Barbizet
-  target: "#"
+  target: https://www.conservatoiredemarseille.fr/
   kind: url
   new_tab: true
   children: []
 - title: Et l’Institut de formation artistique Marseille Méditerranée (IFAMM).
-  target: ''
-  kind: blank
+  target: "/letablissement/lifamm/"
+  kind: url
   new_tab: false
   children: []
 
