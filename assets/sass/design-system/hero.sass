@@ -98,7 +98,25 @@
                     figure
                         margin-bottom: 0
                         margin-top: $spacing-3
-    .page-without-hero-image &
+    figure
+        .is-svg
+            @include media-breakpoint-up(desktop)
+                width: columns(2)
+            @include media-breakpoint-up(xl)
+                width: columns(1)
+            @include media-breakpoint-down(desktop)
+                display: none
+        &:has(.is-svg)
+            @include media-breakpoint-down(desktop)
+                display: none
+            @include media-breakpoint-up(desktop)
+                padding-top: 0
+                position: absolute
+                right: 0
+                top: 0
+                width: columns(2)
+            @include media-breakpoint-up(xl)
+                width: columns(1)
+    .ancestor-page-children-as-cards & 
         figure
             display: none
-
