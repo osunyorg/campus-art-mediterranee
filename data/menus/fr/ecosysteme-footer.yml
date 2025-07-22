@@ -11,7 +11,7 @@ items:
   kind: url
   new_tab: true
   children: []
-- title: Et l’Institut de formation artistique Marseille Méditerranée (IFAMM).
+- title: L’Institut de formation artistique Marseille Méditerranée (IFAMM).
   target: "/letablissement/lifamm/"
   kind: url
   new_tab: false
