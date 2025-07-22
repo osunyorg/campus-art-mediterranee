@@ -24,9 +24,14 @@
                     margin-bottom: space(10)
                     &:not(.is-svg)
                         margin-top: -(space(8))
-                    @include media-breakpoint-up(desktop)
-                        &.is-svg
-                            width: columns(1.5)
+                    &.is-svg
+                        margin-left: $spacing-3
+                        margin-right: $spacing-3
+                        img
+                            aspect-ratio: unset
+                            object-fit: unset
+                        @include media-breakpoint-up(desktop)
+                            width: columns(1)
             .more
                 align-items: flex-end
                 flex: 1
