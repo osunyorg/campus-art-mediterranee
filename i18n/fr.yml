@@ -8,6 +8,3 @@ events:
     federated: "Événement <span>{{ . }}</span>"
 programs:
   children: En cursus
-# organizations:
-#   backlinks:
-#     pages: Cours et stages à 
