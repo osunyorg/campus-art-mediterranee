@@ -17,6 +17,12 @@ params:
     ignored:
       - block-class-in-hero
       - block-class-footer-gallery
+  events:
+    index:
+      highlight_exhibitions:
+        future:
+          options:
+            image: true
   organizations:
     prefer_image_over_logo: true
     single:
