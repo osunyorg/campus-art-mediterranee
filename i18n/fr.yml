@@ -6,5 +6,7 @@ commons:
 events:
   item:
     federated: "Événement <span>{{ . }}</span>"
+  archives:
+    latest: Événements passés
 programs:
   children: En cursus

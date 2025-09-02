@@ -1,0 +1,19 @@
+.exhibition
+    .exhibition-federation
+        margin-top: 0 !important
+
+.block-exhibitions
+    .top
+        a
+            @include icon(arrow-right-line, after, true)
+            @include hover-translate-icon
+    &--list
+        .exhibition
+            .exhibition-schedule
+                @include h4
+            @include media-breakpoint-up(desktop)
+                .exhibition-dates
+                    @include h3
+        .exhibitions--list
+            > li:first-child
+                padding-top: 0
