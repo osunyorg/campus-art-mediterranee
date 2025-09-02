@@ -11,7 +11,12 @@
         .exhibition
             .exhibition-schedule
                 @include h4
-            @include media-breakpoint-up(desktop)
+            @include in-page-with-or-without-sidebar
+                .exhibition-title
+                    @include h3
+                .exhibition-subtitle
+                    @include body-text
+            @include in-page-without-sidebar
                 .exhibition-dates
                     @include h3
         .exhibitions--list
