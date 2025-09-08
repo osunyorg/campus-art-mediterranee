@@ -16,8 +16,8 @@ items:
   path: "/pages/pratiquer-en-amateur"
   file: content/fr/pages/pratiquer-en-amateur/_index.html
 - title: "(co)Productions"
-  target: "/projets/coproductions/"
-  kind: url
+  target: "/coproductions/"
+  kind: page
   new_tab: false
   children: []
   path: "/pages/coproductions"
