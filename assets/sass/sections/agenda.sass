@@ -84,6 +84,8 @@
                     font-family: $heading-font-family
             @include media-breakpoint-up(desktop)
                 width: offset(3)
+                ~ .toc-container
+                    margin-top: $spacing-4
     // add margin to program because of sidebar informations
     .document-content + .container
         .event-content
