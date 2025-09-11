@@ -37,9 +37,15 @@
             flex-direction: column
             @include media-breakpoint-up(desktop)
                 align-items: flex-end
-        .taxonomies-single a
-            @extend .button
-            @extend .button--small
+        .taxonomies-single 
+            display: flex
+            flex-wrap: wrap
+            gap: $spacing-2
+            li
+                padding-right: 0
+            a
+                @extend .button
+                @extend .button--small
     .event-access
         .event-practicals
             a.btn
