@@ -10,12 +10,12 @@
     {{ if or .Params.text .Params.notes .Params.header_cta.display }}
       {{ partial "commons/agenda/practicals.html" . }}
     {{ end }}
+    {{ if $events }}
+      <a href="#programme" class="btn programme-btn">{{ i18n "events.see_programme" }}</a>
+    {{ end }}
     {{ partial "toc/container.html" (dict
         "toc" "toc/default.html"
         "context" .
       )}}
-    {{ if $events }}
-      <a href="#programme" class="btn programme-btn">{{ i18n "events.see_programme" }}</a>
-    {{ end }}
   </div>
 </div>

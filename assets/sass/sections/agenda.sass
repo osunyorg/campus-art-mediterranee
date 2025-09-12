@@ -64,18 +64,22 @@
                 @include meta
     // sidebar with informations
     .section-sidebar
+        > div > * + *
+            margin-top: $spacing-3
         [class$="-practicals"]
             h2
                 @include meta
             * + .btn
-                margin-top: $spacing-4
+                margin-top: $spacing-3
             .btn
                 @extend .button--large
                 @extend .button--accent
                 &::after
                     content: '↗' / ""
                     font-family: $heading-font-family
-            + .programme-btn
+                    margin-left: $spacing-1
+                    display: inline-block
+            .programme-btn
                 --btn-border: 0
                 --btn-hover-background: transparent
                 --btn-hover-border: 0
@@ -88,10 +92,13 @@
                     display: inline-block
                     margin-left: space()
                     font-family: $heading-font-family
-            @include media-breakpoint-up(desktop)
+        @include media-breakpoint-up(desktop)
+            [class$="-practicals"]
                 width: offset(3)
-                ~ .toc-container
+                * + .btn
                     margin-top: $spacing-4
+            > div > * + *
+                margin-top: $spacing-4
     // add margin to program because of sidebar informations
     .document-content + .container
         .event-content
