@@ -12,8 +12,34 @@
                 @extend .button
                 @extend .button--small
                 line-height: 1
+
 // specific course/practice pages blocks
 .ancestor-courses_and_practices
+    .block-pages--grid
+        .page
+            &-title,
+            > p,
+            &-categories
+                border-left: 1px solid var(--color-text)
+                padding-left: $spacing-2
+                @include media-breakpoint-up(desktop)
+                    padding-left: $spacing-3
+            > p:first-of-type
+                margin-top: 0
+                @include media-breakpoint-up(desktop)
+                    padding-top: space(9)
+            &-categories
+                margin-top: 0
+                padding-top: $spacing-3
+
+    @include media-breakpoint-up(desktop)
+        &.full-width
+            .block-pages--grid
+                .grid
+                    @include grid(2)
+
+// hero with blocks for pages section
+.pages__section
     &, &.full-width
         .hero
             .blocks > .block
@@ -57,28 +83,6 @@
                                 margin-top: 0
                         .avatar
                             width: columns(2)
-    @include media-breakpoint-up(desktop)
-        &.full-width
-            .block-pages--grid
-                .grid
-                    @include grid(2)
-
-    .block-pages--grid
-        .page
-            &-title,
-            > p,
-            &-categories
-                border-left: 1px solid var(--color-text)
-                padding-left: $spacing-2
-                @include media-breakpoint-up(desktop)
-                    padding-left: $spacing-3
-            > p:first-of-type
-                margin-top: 0
-                @include media-breakpoint-up(desktop)
-                    padding-top: space(9)
-            &-categories
-                margin-top: 0
-                padding-top: $spacing-3
 
 // "vous êtes" page
 .block-page-page-page-children-as-cards
@@ -87,3 +91,4 @@
         @extend .cards
         .page
             @extend .card
+            

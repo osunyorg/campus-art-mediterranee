@@ -1,4 +1,4 @@
-{{ if in .Params.bodyclass "ancestor-courses_and_practices" }}
+{{ if and (eq .Kind "section") (eq .Type "pages") }}
   {{ with .Params.contents }}
     <div class="blocks">
       {{ range $index, $content := . }}
