@@ -3,8 +3,9 @@ header#document-header
         .nav-level-1 > li
             > a[href="/agenda/"]::before
                 @include icon-site('icon-calendar')
+                display: inline-block
                 font-size: pxToRem(22)
-                margin-right: space()
+                margin-right: space(2)
         .nav-search
             button::after
                 font-size: pxToRem(30)
