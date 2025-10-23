@@ -142,17 +142,20 @@ header#document-header
                 > .nav-level-1 > li
                     border: none
                     > a
-                        @include h3
+                        font-size: $h4-size-desktop
+                        line-height: 1
                         padding: space(4) 0
             .upper-menu
-                top: unset
+                margin-top: $spacing-5
                 position: relative
+                top: unset
                 .nav-level-1 
                     height: auto
                     display: block
                     > li
                         &:not(:last-child) > a
-                            @include h3
+                            font-size: $h4-size-desktop
+                            line-height: 1
                         &:first-child
                             border-bottom: 1px solid var(--color-border)
                             margin-bottom: $spacing-3
