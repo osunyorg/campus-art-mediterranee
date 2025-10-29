@@ -9,12 +9,12 @@ items:
   path: "/pages/se-former"
   file: content/fr/pages/se-former/_index.html
 - title: Pratiquer en amateur
-  target: "/pratiquer-en-amateur/"
+  target: "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/"
   kind: page
   new_tab: false
   children: []
-  path: "/pages/pratiquer-en-amateur"
-  file: content/fr/pages/pratiquer-en-amateur/_index.html
+  path: "/pages/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille"
+  file: content/fr/pages/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/_index.html
 - title: "(co)Productions"
   target: "/coproductions/"
   kind: page
