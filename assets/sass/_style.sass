@@ -17,6 +17,15 @@ html
     text-decoration: none
     padding: space(2) space(4)
 
+.block
+    article
+        [class$="-categories"]
+            row-gap: $spacing-1 !important
+            a
+                text-decoration: none !important
+                &:hover
+                    color: var(--btn-hover-color) !important
+
 // animation
 @mixin blur-on-hover
     &:hover
