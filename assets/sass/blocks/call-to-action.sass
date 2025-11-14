@@ -48,6 +48,10 @@
             a:not(:first-child + a)
                 margin-top: $spacing-2
     &--accent_background
+        .actions
+            a:first-child
+                --btn-min-width: unset
+                --btn-padding: 0
         @include in-page-without-sidebar
             background-color: transparent
             .top
@@ -67,6 +71,3 @@
                 grid-row: 1 !important
                 align-items: flex-end !important
                 grid-column: 9/13 !important
-                a:first-child
-                    --btn-min-width: unset
-                    --btn-padding: 0
