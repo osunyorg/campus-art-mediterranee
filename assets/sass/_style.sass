@@ -3,6 +3,15 @@ html
     @include media-breakpoint-up(md)
         font-size: Min(Max(0.9vw, 14px), 15px)
 
+main
+    .blocks .block:first-child
+        margin-top: $spacing-5
+    .page__home & 
+        .blocks .block:first-child
+            margin-top: 0
+    .document-content > div:not(.blocks, .toc-container, .breadcrumb-container, .agenda-exhibitions)
+        margin-top: 0
+
 .button--large
     --btn-large-padding: #{pxToRem(6)} #{pxToRem(26)}
     @include h3
@@ -16,6 +25,15 @@ html
     --btn-hover-color: var(--color-background)
     text-decoration: none
     padding: space(2) space(4)
+
+.block
+    article
+        [class$="-categories"]
+            row-gap: $spacing-1 !important
+            a
+                text-decoration: none !important
+                &:hover
+                    color: var(--btn-hover-color) !important
 
 // animation
 @mixin blur-on-hover

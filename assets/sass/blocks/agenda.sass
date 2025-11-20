@@ -65,8 +65,7 @@
 .events--list
 .exhibition--list
     @include media-breakpoint-up(desktop)
-        .event:where(:not(:last-child)), 
-        .exhibition:where(:not(:last-child))
+        > li:where(:not(:last-child))
             border-bottom-style: dashed
 
     @include in-page-with-sidebar

@@ -86,9 +86,15 @@
 
 // "vous êtes" page
 .block-page-page-page-children-as-cards
-    @extend .block-pages--cards
-    .grid
-        @extend .cards
-        .page
-            @extend .card
-            
+    .pages
+        @include layout-cards
+        align-items: stretch
+        min-height: 320px
+        article
+            align-items: flex-start
+            border: 5px solid var(--color-accent)
+            padding: space(8) space(8) space(6)
+            height: 100%
+            background: none
+            .media
+                margin-top: 0

@@ -13,44 +13,9 @@
         order: -2
     .media
         order: -3 !important
-    &--cards
-        .card
-            align-items: flex-start
-            border: 5px solid var(--color-accent)
-            padding: space(8) space(8) space(6)
-            .media
-                margin-top: 0
-                picture
-                    margin-bottom: space(10)
-                    &:not(.is-svg)
-                        margin-top: -(space(8))
-                    &.is-svg
-                        margin-left: $spacing-3
-                        margin-right: $spacing-3
-                        img
-                            aspect-ratio: unset
-                            object-fit: unset
-                        @include media-breakpoint-up(desktop)
-                            width: columns(1)
-            .more
-                align-items: flex-end
-                flex: 1
-                margin-top: auto
-                position: relative
-                &::after
-                    content: '→'
-                    opacity: 1
-                    font-family: inherit
-                    font-size: inherit
-                    right: -(space())
-                    transform: translate(100%, -25%)
-            &:hover 
-                .more::after
-                    transform: translate(120%, -25%)
-                picture.is-svg
-                    filter: brightness(200)
+    
     &--grid
-        .grid
+        .pages
             article
                 .page-title
                     a::after
@@ -65,8 +30,9 @@
                 &:hover .page-title a::after
                     opacity: 1
                     padding-left: space(2)
+    
     &--large
-        .page
+        .pages .page
             .page-content
                 .page-title 
                     @include h3
@@ -89,8 +55,9 @@
                     aspect-ratio: 16/9
                 @include media-breakpoint-up(desktop)
                     picture.is-svg img
-                        object-fit: none
+                        object-fit: none !important
                         object-position: top left
+            
             @include in-page-without-sidebar
                 align-items: stretch
                 .page-content
@@ -99,6 +66,52 @@
                     width: columns(6)
                 .media
                     margin-bottom: 0
+            
             @include media-breakpoint-up(desktop)
                 .more
                     @include body-text
+
+// cards
+.block-pages--cards,
+.block-page-page-page-children-as-cards
+    .pages
+        article
+            align-items: flex-start
+            border: 5px solid var(--color-accent)
+            padding: space(8) space(8) space(6)
+            .media
+                margin-top: 0
+                picture
+                    margin-bottom: space(10)
+                    &.is-svg
+                        margin-top: 0
+                    &:not(.is-svg)
+                        margin-top: -(space(8))
+                    &.is-svg
+                        margin-left: $spacing-3
+                        margin-right: $spacing-3
+                        img
+                            aspect-ratio: unset
+                            object-fit: unset
+                        @include media-breakpoint-up(desktop)
+                            width: columns(1)
+            .page-content
+                justify-content: flex-start
+            .more
+                justify-content: flex-start
+                margin-top: auto
+                &::after
+                    content: '→'
+                    opacity: 1
+                    position: relative
+                    font-family: inherit
+                    font-size: inherit
+                    overflow: hidden
+                    right: unset
+                    transform: none
+                    margin-left: space()
+            &:hover 
+                .more::after
+                    transform: translateX(space())
+                picture.is-svg
+                    filter: brightness(200)

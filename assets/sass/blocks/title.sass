@@ -12,6 +12,13 @@
         .block-content
             padding-top: 0
 
+    &--collapsed
+        align-items: flex-start
+        &::before
+            border-top: 1px solid var(--color-accent)
+            padding-top: space(4)
+            
+
 // arrow in block's titles
 .block:not(.block-title)
     .top
