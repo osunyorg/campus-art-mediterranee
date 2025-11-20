@@ -5,7 +5,10 @@ html
 
 main
     .blocks .block:first-child
-        margin-top: 0
+        margin-top: $spacing-5
+    .page__home & 
+        .blocks .block:first-child
+            margin-top: 0
     .document-content > div:not(.blocks, .toc-container, .breadcrumb-container, .agenda-exhibitions)
         margin-top: 0
 
