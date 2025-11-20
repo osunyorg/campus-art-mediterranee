@@ -203,11 +203,10 @@
                 + time::before
                     content: '→'
                     font-family: inherit
-        + .event
-            border-top-style: dashed
         @include in-page-without-sidebar
             &:not(.event--child)
                 padding-left: offset(2)
+    
     .events-date
         border-top: 1px solid var(--color-text)
         .events-date-title
@@ -219,6 +218,11 @@
             @include media-breakpoint-up(desktop)
                 &.is-down
                     max-width: columns(2)
+        
+        .events-scheduled
+            > li + li
+                border-top-style: dashed
+    
     @include media-breakpoint-up(desktop)
         .event--parent ~ .event--child
             margin-left: offset(2)
@@ -228,6 +232,7 @@
         .event
             &-description
                 width: columns(5)
+    
     @include media-breakpoint-down(desktop)
         .events-date
             padding-top: 0
