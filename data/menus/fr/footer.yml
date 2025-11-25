@@ -8,6 +8,13 @@ items:
   children: []
   path: "/posts"
   file: content/fr/posts/_index.html
+- title: Agenda
+  target: "/agenda/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/events"
+  file: content/fr/events/_index.html
 - title: Recrutement
   target: "/recrutement/"
   kind: page
@@ -22,4 +29,9 @@ items:
   children: []
   path: "/pages/letablissement/ressources"
   file: content/fr/pages/letablissement/ressources/_index.html
+- title: Délibérations des C.A.
+  target: https://inseamm-actes.digitechcloud.fr/webdelibplus/jsp/seances.jsp?role=usager
+  kind: url
+  new_tab: true
+  children: []
 
