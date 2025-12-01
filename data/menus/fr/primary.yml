@@ -22,11 +22,13 @@ items:
   children: []
   path: "/pages/coproductions"
   file: content/fr/pages/coproductions/_index.html
-- title: Action culturelle
-  target: "/projets/action-culturelle/"
-  kind: url
+- title: L'action culturelle
+  target: "/laction-culturelle/"
+  kind: page
   new_tab: false
   children: []
+  path: "/pages/laction-culturelle"
+  file: content/fr/pages/laction-culturelle/_index.html
 - title: L'établissement
   target: "/letablissement/"
   kind: page

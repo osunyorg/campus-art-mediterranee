@@ -8,7 +8,7 @@ bodyclass: >-
 url: "/"
 slug: ""
 date: 2025-03-05T15:24:32+01:00
-lastmod: 2025-10-29T17:15:22+01:00
+lastmod: 2025-11-25T14:31:46+01:00
 meta:
   hugo:
     permalink: "/"
@@ -17,7 +17,7 @@ meta:
     slug: ""
   dates:
     created_at: 2025-03-05T15:24:32+01:00
-    updated_at: 2025-10-29T17:15:22+01:00
+    updated_at: 2025-11-25T14:31:46+01:00
     published_at: 2025-03-05T15:24:32+01:00
 search:
   id: "f66d99e0-d214-4166-8c30-55955e197a76"
@@ -30,7 +30,7 @@ search:
   summary: >-
     <p>Réparti sur 10 lieux, du nord au sud de Marseille, dont le Palais Carli et l’École d’art et d’architecture de Luminy, nos établissements rayonnent à l’échelle locale et internationale. Ils s’inscrivent dans une ville-monde où les disciplines se croisent, où la diversité culturelle nourrit la création, où les nouvelles pratiques artistiques dessinent l’avenir.</p>
   body: >-
-    <p>Inscriptions ! </p>  <p> Évènements </p>  <p>Aucun événement.</p>  <p> Vous êtes  </p>  <p> Les Ateliers publics  <br>   <br>Les ateliers offrant à chacun et chacune l'opportunité d'approfondir sa pratique ou d'en découvrir de nouvelles dans un cadre dédié à l'exploration, l'expression personnelle et la création.  Ouverts à toutes et tous, ces ateliers s'adressent aux enfants comme aux adultes, débutant·es ou confirmé·es.  </p>  <p>Anthéa Adouane-Vasseur <br>Pratiquer en amateur <br>/pratiquer-en-amateur/</p>  <p>Les ateliers et stages enfants <br>/pratiquer-en-amateur/cours-et-stages-enfants/</p>  <p>Les ateliers et stages adolsecent·es <br>/pratiquer-en-amateur/cours-et-stages-adolsecentes/</p>  <p>Les ateliers et stages adultes <br>/pratiquer-en-amateur/cours-et-stages-adultes/</p>  <p> Images du footer  <br>⚠️ ATTENTION ⚠️ Ce bloc sert à afficher les images en paysage sous le footer, ne pas supprimer.</p>
+    <p>Ouvertures des inscriptions pour la session de février  <br>Stages préparation aux concours d'entrée des écoles d'art</p>  <p>Postuler <br>https://www.campusartmediterranee.fr/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/preparations-aux-concours-dentree-aux-ecoles-superieures/preparation-aux-concours-d-entree-des-ecoles-d-art/</p>  <p> Actualités </p>  <p> Évènements </p>  <p>Aucun événement.</p>  <p> Vous êtes  </p>  <p> Les Ateliers publics  <br>   <br>Les ateliers offrant à chacun et chacune l'opportunité d'approfondir sa pratique ou d'en découvrir de nouvelles dans un cadre dédié à l'exploration, l'expression personnelle et la création.  Ouverts à toutes et tous, ces ateliers s'adressent aux enfants comme aux adultes, débutant·es ou confirmé·es.  </p>  <p>Anthéa Adouane-Vasseur <br>Pratiquer en amateur <br>/pratiquer-en-amateur/</p>  <p>Les ateliers et stages enfants <br>/pratiquer-en-amateur/cours-et-stages-enfants/</p>  <p>Les ateliers et stages adolsecent·es <br>/pratiquer-en-amateur/cours-et-stages-adolsecentes/</p>  <p>Les ateliers et stages adultes <br>/pratiquer-en-amateur/cours-et-stages-adultes/</p>  <p> Images du footer  <br>⚠️ ATTENTION ⚠️ Ce bloc sert à afficher les images en paysage sous le footer, ne pas supprimer.</p>
 
 breadcrumbs:
   - title: >-
@@ -60,6 +60,7 @@ children:
   - "pages/se-former/_index.html"
   - "pages/pratiquer-en-amateur/_index.html"
   - "pages/coproductions/_index.html"
+  - "pages/laction-culturelle/_index.html"
   - "pages/letablissement/_index.html"
   - "events/_index.html"
   - "posts/_index.html"
@@ -91,16 +92,55 @@ header_cta:
 
 
 contents_reading_time:
-  seconds: 28
+  seconds: 36
   text: >-
-    moins d'une minute
+    1 minute
 contents:
   - kind: block
-    template: pages
+    template: call_to_action
     title: >-
-      Inscriptions !
+      Ouvertures des inscriptions pour la session de février
     slug: >-
-      inscriptions
+      ouvertures-des-inscriptions-pour-la-session-de-fevrier
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Ouvertures des inscriptions pour la session de février
+        heading: 2
+      description: >-
+        <p>Stages préparation aux concours d'entrée des écoles d'art</p>
+    data:
+      layout: accent_background
+      text: >-
+        <p>Stages préparation aux concours d'entrée des écoles d'art</p>
+
+
+      alt: >-
+        
+
+      credit: >-
+        
+
+      buttons:
+        - title: >-
+            Postuler
+
+          url: >-
+            https://www.campusartmediterranee.fr/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/preparations-aux-concours-dentree-aux-ecoles-superieures/preparation-aux-concours-d-entree-des-ecoles-d-art/
+
+          target_blank: true
+
+
+  - kind: block
+    template: posts
+    title: >-
+      Actualités
+    slug: >-
+      actualites
     ranks:
       base: 2
       self: 2
@@ -109,23 +149,29 @@ contents:
       active: true
       title: 
         value: >-
-          Inscriptions !
+          Actualités
         heading: 2
+        link: "/actualites/"
     data:
+      mode: all
+      all: true
+      layout: large
       options:
-        image: true
+        author: false
         categories: true
-        main_summary: true
+        date: true
+        image: true
+        reading_time: false
+        subtitle: true
         summary: true
 
-      layout: large
-      pages:
-        - permalink: "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/preparations-aux-concours-dentree-aux-ecoles-superieures/preparation-aux-concours-d-entree-des-ecoles-d-art/"
-          path: "/pages/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/preparations-aux-concours-dentree-aux-ecoles-superieures/preparation-aux-concours-d-entree-des-ecoles-d-art"
-          slug: "preparation-aux-concours-d-entree-des-ecoles-d-art"
-          file: "content/fr/pages/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/preparations-aux-concours-dentree-aux-ecoles-superieures/preparation-aux-concours-d-entree-des-ecoles-d-art/_index.html"
+      posts:
+        - permalink: "/actualites/2025-11-20-france-2030-competences-et-metiers-davenir/"
+          path: "/posts/2025/2025-11-20-france-2030-competences-et-metiers-davenir"
+          slug: "france-2030-competences-et-metiers-davenir"
+          file: "content/fr/posts/2025/2025-11-20-france-2030-competences-et-metiers-davenir.html"
           name: >-
-            Stages préparation aux concours d'entrée des écoles d'art
+            France 2030 “Compétences et métiers d’avenir”
 
       quantity: 1
 
@@ -150,9 +196,9 @@ contents:
     data:
       mode: all
       kinds:
-        parent: true
-        child: false
-        recurring: false
+        parent: false
+        child: true
+        recurring: true
       options:
         categories: true
         dates: true
@@ -170,26 +216,20 @@ contents:
 
       title_link: "/agenda/"
       events:
-        - permalink: "/agenda/2025/loreille-concrete-saison-3--www-conservatoiredemarseille-fr/"
-          path: "/events/2025/10/03-loreille-concrete-saison-3"
-          slug: "loreille-concrete-saison-3"
-          file: "content/fr/events/2025/10/03-loreille-concrete-saison-3.html"
+        - permalink: "/agenda/2025/saint-derek-2-les-couleurs-dune-nature-moderne--www-beauxartsdemarseille-fr/"
+          path: "/events/2025/12/16-19-30-saint-derek-2-les-couleurs-dune-nature-moderne"
+          slug: "saint-derek-2-les-couleurs-dune-nature-moderne"
+          file: "content/fr/events/2025/12/16-19-30-saint-derek-2-les-couleurs-dune-nature-moderne.html"
           name: >-
-            L'Oreille concrète | Saison 3
-        - permalink: "/agenda/2025/carlissimo-1--www-conservatoiredemarseille-fr/"
-          path: "/events/2025/10/13-carlissimo-1"
-          slug: "carlissimo-1"
-          file: "content/fr/events/2025/10/13-carlissimo-1.html"
+            Saint Derek #2, les couleurs d'une nature moderne
+        - permalink: "/agenda/2026/journee-portes-ouvertes-de-lecole-des-beaux-arts-de-marseille--www-beauxartsdemarseille-fr/"
+          path: "/events/2026/02/14-journee-portes-ouvertes-de-lecole-des-beaux-arts-de-marseille"
+          slug: "journee-portes-ouvertes-de-lecole-des-beaux-arts-de-marseille"
+          file: "content/fr/events/2026/02/14-journee-portes-ouvertes-de-lecole-des-beaux-arts-de-marseille.html"
           name: >-
-            Carlissimo
-        - permalink: "/agenda/2025/festival-piano-en-fleurs/"
-          path: "/events/2025/11/21-festival-piano-en-fleurs"
-          slug: "festival-piano-en-fleurs"
-          file: "content/fr/events/2025/11/21-festival-piano-en-fleurs.html"
-          name: >-
-            Festival Piano en fleurs
+            Journée portes ouvertes de l'école des Beaux-Arts de Marseille
 
-      quantity: 3
+      quantity: 2
 
   - kind: block
     template: pages
