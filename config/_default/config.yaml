@@ -3,6 +3,9 @@ theme:
  - osuny
 _merge: deep
 params:
+  debug:
+    active: true
+    productionUrl: "https://www.campusartmediterranee.fr"
   summary:
     position: hero
   search:
@@ -59,8 +62,13 @@ params:
       organizations:
         item:
           desktop:  864
-    blocks:
       events:
-        list:
-          mobile: 300
-          desktop: 555
+        layouts:
+          agenda:
+            tablet:   539
+            desktop:  539
+          parent:
+            tablet:   539
+            desktop:  539
+          list:
+            desktop: 539

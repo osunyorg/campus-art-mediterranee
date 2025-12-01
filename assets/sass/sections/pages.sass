@@ -35,7 +35,7 @@
     @include media-breakpoint-up(desktop)
         &.full-width
             .block-pages--grid
-                .grid
+                .pages
                     @include grid(2)
 
 // hero with blocks for pages section
@@ -52,16 +52,14 @@
                         h2
                             @include h2
             @include media-breakpoint-up(desktop)
-                padding-bottom: 0
                 margin-bottom: space(8)
                 .blocks
-                    margin-top: $block-space-y-desktop
                     display: flex
                     gap: var(--grid-gutter)
                     position: relative
                     .block
                         margin-bottom: 0
-                        margin-top: 0
+                        margin-top: $block-space-y-desktop
                         &, .container, .top
                             width: columns(6)
                         .block-content
@@ -86,9 +84,15 @@
 
 // "vous êtes" page
 .block-page-page-page-children-as-cards
-    @extend .block-pages--cards
-    .grid
-        @extend .cards
-        .page
-            @extend .card
-            
+    .pages
+        @include layout-cards
+        align-items: stretch
+        min-height: 320px
+        article
+            align-items: flex-start
+            border: 5px solid var(--color-accent)
+            padding: space(8) space(8) space(6)
+            height: 100%
+            background: none
+            .media
+                margin-top: 0

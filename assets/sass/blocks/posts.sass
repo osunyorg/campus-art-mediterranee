@@ -1,9 +1,20 @@
 .block-posts
     &--large
-        .large
+        .posts
             .post
-                .media img
-                    aspect-ratio: 16/9
+                .post-content
+                    display: flex
+                    flex-direction: column
+                    .post-categories
+                        margin-top: $spacing-2
+                        order: -1
+                    > .post-title,
+                    hgroup
+                        order: -2
+                    .post-meta
+                        margin-top: auto !important
+                        padding-top: space(8)
+                
                 .more
                     text-decoration: underline
                     text-underline-offset: 2px
@@ -13,12 +24,19 @@
                         font-family: inherit
                         padding-left: space()
                         transition: transform 0.2s ease
+                    
+                    .media img
+                        aspect-ratio: 16/9
                 &:hover .more::after
                     transform: translate(space(), -(space()))
+                
                 @include media-breakpoint-up(desktop)
                     .post-content
                         display: flex
                         flex-direction: column
+                        .post-categories
+                            margin-bottom: 0
+                            margin-top: $spacing-3
                         * + .post-meta
                             margin-top: space(8)
                         .more
@@ -26,11 +44,13 @@
                             margin-top: auto
                     .media
                         margin-bottom: 0
+                
                 @include in-page-without-sidebar
                     .post-subtitle
                         @include body-text
                     .post-content
                         width: columns(6)
+                
                 @include in-page-with-or-without-sidebar
                     .post-title
                         @include h3
