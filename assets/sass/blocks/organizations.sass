@@ -28,6 +28,8 @@
             &, &.with-summaries, &:not(.with-summaries)
                 @include media-breakpoint-up(desktop)
                     @include grid(1)
+                    .media
+                        width: columns(6)
                 .organization
                     gap: var(--grid-gutter)
                     width: 100%
@@ -39,15 +41,14 @@
                             @include body-text
                             margin-top: space(5)
                     .media
-                        width: columns(6)
                         picture
                             aspect-ratio: 3/2
                     @include media-breakpoint-down(desktop)
                         flex-direction: column
                         .media
                             margin-bottom: 0
-                            padding: 0
-                            width: 100%
+                            padding: var(--grid-gutter)
+
     &:not(.organizations--with-images, .block-organizations--map)
         .organization
             @include small-arrow-right-hover(".organization-title a")
