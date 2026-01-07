@@ -22,7 +22,7 @@ items:
   children: []
   path: "/pages/coproductions"
   file: content/fr/pages/coproductions/_index.html
-- title: L'action culturelle
+- title: Action culturelle
   target: "/laction-culturelle/"
   kind: page
   new_tab: false
