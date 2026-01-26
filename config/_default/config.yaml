@@ -26,6 +26,8 @@ params:
         future:
           options:
             image: true
+    list:
+      with_more: true
   organizations:
     prefer_image_over_logo: true
     single:
@@ -77,4 +79,6 @@ params:
             tablet:   539
             desktop:  539
           list:
+            mobile: 327
+            tablet: 539
             desktop: 539

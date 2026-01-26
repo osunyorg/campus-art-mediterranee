@@ -1,0 +1,23 @@
+.posts--large,
+.events
+    .post,
+    .event 
+        .more
+            text-decoration: underline
+            text-underline-offset: 2px
+            &::after
+                content: '↗'
+                display: inline-block
+                font-family: inherit
+                margin-left: space()
+                transition: transform 0.2s ease
+        &:hover .more::after
+            transform: translate(space(), -(space()))
+
+.posts--large,
+.events--list
+    @include media-breakpoint-up(desktop)
+        .post,
+        .event
+            .more
+                @include body-text

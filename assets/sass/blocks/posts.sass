@@ -13,23 +13,8 @@
                         order: -2
                     .post-meta
                         order: -2
-                        // margin-top: auto !important
-                        // padding-top: space(8)
-                
-                .more
-                    text-decoration: underline
-                    text-underline-offset: 2px
-                    &::after
-                        content: '↗'
-                        display: inline-block
-                        font-family: inherit
-                        padding-left: space()
-                        transition: transform 0.2s ease
-                    
                     .media img
                         aspect-ratio: 16/9
-                &:hover .more::after
-                    transform: translate(space(), -(space()))
                 
                 @include media-breakpoint-up(desktop)
                     .post-content
@@ -41,7 +26,6 @@
                         * + .post-meta
                             margin-top: space(8)
                         .more
-                            @include body-text
                             margin-top: auto
                     .media
                         margin-bottom: 0
