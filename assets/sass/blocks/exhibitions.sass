@@ -2,11 +2,16 @@
     .exhibition-federation
         margin-top: 0 !important
 
-.block-exhibitions
-    .top
-        a
-            @include icon(arrow-right-line, after, true)
-            @include hover-translate-icon
+.exhibitions
+    article:not(:has(.more))
+        .exhibition-title
+            a::after
+                content: '→'
+                font-family: inherit
+                padding-left: space()
+        &:hover .exhibition-title a::after::after
+            transform: translate(space(), -(space()))
+    
     &--list
         .exhibition
             .exhibition-schedule
@@ -19,6 +24,13 @@
             @include in-page-without-sidebar
                 .exhibition-dates
                     @include h3
+        
         .exhibitions--list
             > li:first-child
                 padding-top: 0
+
+.block-exhibitions
+    .top
+        a
+            @include icon(arrow-right-line, after, true)
+            @include hover-translate-icon

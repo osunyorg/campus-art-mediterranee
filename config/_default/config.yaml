@@ -4,7 +4,7 @@ theme:
 _merge: deep
 params:
   debug:
-    active: true
+    active: false
     productionUrl: "https://www.campusartmediterranee.fr"
   summary:
     position: hero

@@ -224,14 +224,32 @@
                 border-top-style: dashed
     
     @include media-breakpoint-up(desktop)
+        .event
+            &-content
+                flex: unset
+                width: columns(5)
+            &-timeslot
+                max-width: columns(2)
+            .more
+                position: absolute
+                margin-top: 0
+                right: 0
+        
+        .events-date--sticky:first-child
+            .events-date-title span
+                padding-top: $spacing-1
+        
         .event--parent ~ .event--child
             margin-left: offset(2)
             padding-left: offset(2)
             .media
                 width: columns(2) !important
-        .event
-            &-description
-                width: columns(5)
+
+        .event--parent ~ .event-children > li
+            margin-left: offset(2)
+            .event--child
+                padding-left: offset(2)
+
     
     @include media-breakpoint-down(desktop)
         .events-date
@@ -251,6 +269,7 @@
                 .media
                     order: -1
                     width: 100%
+
 .block-agenda,
 .events--agenda,
 .document-content + .container .event
