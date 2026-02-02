@@ -1,20 +1,13 @@
 ---
 title: Footer (externe)
 items:
-- title: Mécénat
+- title: 'Mécénat et parrainage '
   target: "/mecenat/"
   kind: page
   new_tab: false
   children: []
   path: "/pages/mecenat"
   file: content/fr/pages/mecenat/_index.html
-- title: Mécénat et parrainage entreprise
-  target: "/mecenat/mecenat-et-parrainage-entreprise/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/pages/mecenat/mecenat-et-parrainage-entreprise"
-  file: content/fr/pages/mecenat/mecenat-et-parrainage-entreprise/_index.html
 - title: Privatisation
   target: "/mecenat/privatisation/"
   kind: page
