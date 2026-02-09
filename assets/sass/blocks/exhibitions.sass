@@ -1,6 +1,7 @@
 .exhibition
     .exhibition-federation
         margin-top: 0 !important
+        margin-bottom: $spacing-2
 
 .exhibitions
     article:not(:has(.more))
@@ -11,8 +12,9 @@
                 padding-left: space()
         &:hover .exhibition-title a::after::after
             transform: translate(space(), -(space()))
-    
+
     &--list
+        @extend .exhibitions--agenda
         .exhibition
             .exhibition-schedule
                 @include h4
@@ -24,10 +26,6 @@
             @include in-page-without-sidebar
                 .exhibition-dates
                     @include h3
-        
-        .exhibitions--list
-            > li:first-child
-                padding-top: 0
 
 .block-exhibitions
     .top

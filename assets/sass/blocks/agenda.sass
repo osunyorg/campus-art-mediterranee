@@ -1,5 +1,4 @@
-.block-agenda,
-.block-exhibitions
+.block-agenda
     [class$="-content"]
         > [class$="-title"],
         hgroup
@@ -20,10 +19,8 @@
         object-fit: cover
     
     &--list,
-    .events--list,
-    .exhibitions--list
+    .events--list
         .event,
-        .exhibition
             @include in-page-with-or-without-sidebar
                 [class$="-content"]
                     display: flex
@@ -58,21 +55,18 @@
                     margin-top: 0
         
         @include media-breakpoint-down(desktop)
-            .event,
-            .exhibition
+            .event
                 row-gap: $spacing-3
                 .media
                     width: 100%
                     max-width: unset
                     margin-bottom: 0
-            
             [class$="-content"]
                 display: flex
                 flex-direction: column
                 gap: $spacing-2
 
 .events--list
-.exhibition--list
     @include media-breakpoint-up(desktop)
         > li:where(:not(:last-child))
             border-bottom-style: dashed
