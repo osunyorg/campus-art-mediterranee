@@ -2,8 +2,10 @@
 title: CTA footer
 items:
 - title: S'inscrire à la newsletter
+  slug: s-inscrire-a-la-newsletter
   target: https://996ebeb4.sibforms.com/serve/MUIFAI5nVwkxjPjLvOi9oCG5SK7NqVdj9qShtD45gQP_QgrT60Kv5z9hhj9JKCr4h8X5MKhKLZ0fauYgogvv8_PXHN2WoRv7GJryDwvs2DmSje-q3O6fvY-FScGbmuInaL8CTaEt2viqI1oUVNvnTJ7TtuhcRhreNPfKHRcz8cJ2gPm2Z_1lROAc3Fa4MY6GbVsjrUX68_1lvwKx
   kind: url
   new_tab: true
   children: []
+  descendants_targets: []
 

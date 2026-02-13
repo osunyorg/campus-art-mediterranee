@@ -2,45 +2,57 @@
 title: Menu principal
 items:
 - title: Se former
+  slug: se-former
   target: "/se-former/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/se-former"
   file: content/fr/pages/se-former/_index.html
 - title: Pratiquer en amateur
+  slug: pratiquer-en-amateur
   target: "/pratiquer-en-amateur/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/pratiquer-en-amateur"
   file: content/fr/pages/pratiquer-en-amateur/_index.html
 - title: "(co)Productions"
+  slug: co-productions
   target: "/coproductions/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/coproductions"
   file: content/fr/pages/coproductions/_index.html
 - title: Action culturelle
+  slug: action-culturelle
   target: "/laction-culturelle/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/laction-culturelle"
   file: content/fr/pages/laction-culturelle/_index.html
 - title: L'établissement
+  slug: l-etablissement
   target: "/letablissement/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/letablissement"
   file: content/fr/pages/letablissement/_index.html
 - title: Agenda
+  slug: agenda
   target: "/agenda/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/events"
   file: content/fr/events/_index.html
 
