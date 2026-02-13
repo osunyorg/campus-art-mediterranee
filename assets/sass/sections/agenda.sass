@@ -267,10 +267,13 @@
                     margin-right: 0
             &--child
                 flex-direction: column
-                padding-left: space(15)
                 .media
                     order: -1
                     width: 100%
+        .event--parent ~ .event-children
+            .event--child
+                padding-left: space(15)
+
 
 .block-agenda,
 .events--agenda,
