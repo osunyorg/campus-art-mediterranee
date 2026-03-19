@@ -60,7 +60,7 @@
     .event-slots
         .event-time-slot
             @include h3
-            .hours time:last-child
+            .hours time + time
                 @include meta
     // sidebar with informations
     .section-sidebar
@@ -99,27 +99,6 @@
                     margin-top: $spacing-4
             > div > * + *
                 margin-top: $spacing-4
-    // // add margin to program because of sidebar informations
-    // .document-content + .container
-    //     .event-content
-    //         @include meta
-    //     .event--parent
-    //         .media
-    //             width: columns(4)
-    //     .event--child
-    //         padding-left: columns(2)
-    //         .event-content
-    //             width: columns(4)
-    //             .event-description
-    //                 width: 100%
-    //         .media
-    //             width: offset(2)
-    //     @include media-breakpoint-up(desktop)
-    //         margin-left: offset(4)
-    //         margin-right: 0
-    //         padding-left: var(--grid-gutter)
-    //         padding-right: 0
-    //         width: offset(8)
 
 .events__section,
 .exhibitions__section
@@ -279,6 +258,7 @@
 .events--agenda,
 .document-content + .container .event
     .event-content
+        align-items: stretch
         display: flex
         flex-direction: column
         hgroup, 
