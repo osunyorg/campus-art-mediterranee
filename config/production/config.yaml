@@ -7,6 +7,10 @@ osuny:
   website:
     id: 25e0637a-7b38-425f-9b80-8c17d41f2145
 
+## PARAMS
+params:
+  _merge: deep
+  plausible: "campusartmediterranee.fr"
 
 ## LANGUAGE
 defaultContentLanguage: fr
