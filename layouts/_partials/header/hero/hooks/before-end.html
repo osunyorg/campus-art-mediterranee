@@ -1,0 +1,23 @@
+
+{{ if and (eq .context.Kind "section") (eq .context.Type "pages") }}
+  {{ with .context.Params.contents }}
+    <div class="container">
+      <div class="blocks">
+        {{ range $index, $content := . }}
+          {{ if in site.Params.blocks.ignored .html_class }}
+            {{ if or (eq .template "persons") (or (eq .template "call_to_action") (eq .template "features") ) }}
+              {{ $template := printf "blocks/templates/%s.html" .template }}
+        
+              {{ if templates.Exists ( printf "_partials/%s" $template ) }}
+                {{ partial $template (dict
+                    "block" $content
+                    "index" $index
+                  )}}
+              {{ end }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  {{ end }}
+{{ end }}
