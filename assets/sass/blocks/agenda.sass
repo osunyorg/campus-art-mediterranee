@@ -20,7 +20,9 @@
     
     &--list,
     .events--list
-        .event,
+        .event
+            [class$="-content"]
+                align-items: flex-start
             @include in-page-with-or-without-sidebar
                 [class$="-content"]
                     display: flex
