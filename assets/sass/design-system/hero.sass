@@ -3,6 +3,9 @@
         .hero-text
             margin-top: 0
             width: 100%
+            h1
+                span
+                    @include h2
             @include media-breakpoint-up(desktop)
                 margin-top: pxToRem(50)
         @include media-breakpoint-up(desktop)
@@ -11,7 +14,7 @@
                 @include media-breakpoint-up(xxl)
                     max-width: columns(8)
         .hero-actions
-            margin-top: $spacing-4 
+            margin-top: $spacing-4
             a.btn
                 @include lead-hero
                 &::after
@@ -131,3 +134,5 @@
     .page-without-hero-image &
         figure
             display: none
+
+    
