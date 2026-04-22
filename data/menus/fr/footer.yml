@@ -19,15 +19,24 @@ items:
   descendants_targets: []
   path: "/events"
   file: content/fr/events/_index.html
-- title: Recrutement
-  slug: recrutement
-  target: "/recrutement/"
+- title: Appels à candidatures et participations
+  slug: appels-a-candidatures-et-participations
+  target: "/recrutement/appel-a-candidatures-et-participations/"
   kind: page
   new_tab: false
   children: []
   descendants_targets: []
-  path: "/jobs"
-  file: content/fr/jobs/_index.html
+  path: "/pages/recrutement/appel-a-candidatures-et-participations"
+  file: content/fr/pages/recrutement/appel-a-candidatures-et-participations/_index.html
+- title: Offres d'emplois
+  slug: offres-d-emplois
+  target: "/recrutement/offres-demplois/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/pages/recrutement/offres-demplois"
+  file: content/fr/pages/recrutement/offres-demplois/_index.html
 - title: Ressources
   slug: ressources
   target: "/letablissement/ressources/"
