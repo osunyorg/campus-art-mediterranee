@@ -1,80 +1,106 @@
 .block-features
-    .document-content &
-        body.full-width &
-            .name
-                @include h1
-            @include media-breakpoint-down(desktop)
-                ul
-                    li 
-                        display: flex
-                        flex-direction: column
-                        > div
-                            border-top: 1px solid var(--color-accent)
-                            padding-top: $spacing-2
-                        figure
-                            order: 2
-                            margin-bottom: 0
-                            margin-top: space(5)
-                        + li
-                            margin-top: space(8)
-            @include media-breakpoint-up(desktop)
-                ul
-                    display: block !important
-                    li
-                        flex-direction: row
-                        gap: var(--grid-gutter)
-                        > div
-                            border-top: 1px solid var(--color-accent)
-                            flex: 1
-                        .name
-                            margin-top: $spacing-1
-                        figure
-                            margin-bottom: 0
-                            order: 2
-                            width: columns(3)
-                        + li
-                            margin-top: pxToRem(5)
-        body:not(.full-width) & 
-            ul
-                li
+    &--list
+        .features
+            .feature
+                border-bottom: none
+                padding-bottom: 0
+                &:first-child
+                    padding-top: 0
+                &-content
+                    border-top: 1px solid var(--color-accent)
+                    display: block
+                + .feature
+                    padding-top: space(7)
+            
+            @include in-page-with-or-without-sidebar
+                .feature
+                    .feature-content
+                        display: block
+                        .feature-description
+                            margin-left: 0
                     figure
-                        picture.is-svg
-                            img
-                                aspect-ratio: 16/9
-                                height: 100%
-                                max-height: 100%
-                                object-fit: cover
-                                width: auto !important
-    .hero &
-        body.full-width &
-            ul
-                @include grid(1)
-            li
-                flex-direction: row
-                align-items: flex-start
-                gap: var(--grid-gutter)
-                > div
-                    flex: 1
-                .name
-                    @include h4
-                p
-                    @include small
-                figure
-                    aspect-ratio: 1
-                    background-color: var(--color-background-alt)
-                    min-width: $spacing-5
-                    overflow: hidden
-                    @include media-breakpoint-up(desktop)
-                        width: columns(2)
-                    picture, img    
-                        inset: 0 0 0 0
-                        height: 100%
-                        width: 100%
-                        position: absolute
-                    img
-                        aspect-ratio: 1
-                        object-fit: cover
+                        order: 2
+                        picture img
+                            width: 100%
+                    + .feature
+                        padding-top: pxToRem(5)
+        
+            .document-content &
+                .feature
+                    .name
+                        @include h1
+            
+                @include in-page-without-sidebar
+                    .feature
+                        .feature-content
+                            .name,
+                            .feature-description
+                                width: columns(9)
+                        figure.media
+                            width: columns(3)
+            
+            @include in-page-without-sidebar
+                .feature
+                    flex-direction: row
+                    gap: var(--grid-gutter)
+                    .feature-content
+                        .feature-description
+                            margin-left: 0
+                            margin-top: space()
+            
             @include media-breakpoint-down(desktop)
-                figure
-                    order: 2
+                .feature
+                    gap: space(5)
+                    .feature-description
+                        @include meta
+                    .media
+                        width: 100%
+                        order: 2
+                    .feature-content
+                        padding-top: space(7)
+
+            @include media-breakpoint-up(desktop)
+                .feature
+                    .name
+                        @include h3
+                        margin-top: $spacing-1
+
+        .hero &
+            .features
+                .feature-content
+                    div
+                        @include small
+        
+                @include media-breakpoint-up(desktop)
+                    .feature
+                        .feature-content
+                            display: block
+                            &, > *
+                                width: columns(4) !important
+                            .name
+                                @include h4
+                        figure
+                            background-color: var(--color-background-alt)
+                            padding-top: 0
+                            width: columns(2)
+                            &.media--image
+                                img
+                                    aspect-ratio: 1
+                                    object-fit: cover
+
+    &.block-features--grid
+        .feature
+            border-top: 1px solid var(--color-text)
+            padding-top: $spacing-1
+            .media
+                padding-top: space(7)
+                order: 2
+                margin-top: auto
+                margin-bottom: 0
+        
+        .hero &
+            .features
+                @include grid(2, desktop)
+                grid-gap: space(7) var(--grid-gutter) !important
+                .media
                     width: columns(3)
