@@ -9,49 +9,61 @@
                 &-content
                     border-top: 1px solid var(--color-accent)
                     display: block
-                    .name
-                        margin-top: $spacing-1
-                figure
-                    order: 2
-                    picture img
-                        width: 100%
                 + .feature
                     padding-top: space(7)
             
             @include in-page-with-or-without-sidebar
-                .feature + .feature
-                    padding-top: pxToRem(5)
-
-            @include media-breakpoint-down(desktop)
                 .feature
-                    &-content
-                        > div
+                    .feature-content
+                        display: block
+                        .feature-description
                             margin-left: 0
+                    figure
+                        order: 2
+                        picture img
+                            width: 100%
+                    + .feature
+                        padding-top: pxToRem(5)
         
-        .document-content &
-            .feature
-                .name
-                    @include h1
+            .document-content &
+                .feature
+                    .name
+                        @include h1
             
-            @include in-page-without-sidebar
-                .features
+                @include in-page-without-sidebar
                     .feature
-                        flex-direction: row
-                        gap: var(--grid-gutter)
-                        &-content
-                            .name
+                        .feature-content
+                            .name,
+                            .feature-description
                                 width: columns(9)
-                            > div
-                                margin-left: 0
-                                margin-top: space()
-                        figure
+                        figure.media
                             width: columns(3)
             
+            @include in-page-without-sidebar
+                .feature
+                    flex-direction: row
+                    gap: var(--grid-gutter)
+                    .feature-content
+                        .feature-description
+                            margin-left: 0
+                            margin-top: space()
+            
+            @include media-breakpoint-down(desktop)
+                .feature
+                    gap: space(5)
+                    .feature-description
+                        @include meta
+                    .media
+                        width: 100%
+                        order: 2
+                    .feature-content
+                        padding-top: space(7)
+
             @include media-breakpoint-up(desktop)
-                .features
-                    .feature
-                        .name
-                            @include h3
+                .feature
+                    .name
+                        @include h3
+                        margin-top: $spacing-1
 
         .hero &
             .features
@@ -63,14 +75,14 @@
                     .feature
                         .feature-content
                             display: block
-                            > *
-                                width: columns(4)
+                            &, > *
+                                width: columns(4) !important
                             .name
                                 @include h4
                         figure
                             padding-top: 0
                             background-color: var(--color-background-alt)
-                            picture:not(.is-png, .is-svg) 
+                            &.media--image
                                 img
                                     aspect-ratio: 1
                                     object-fit: cover
