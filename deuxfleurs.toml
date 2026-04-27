@@ -13,3 +13,1016 @@ Cache-Control = "max-age=31536000, no-transform, public"
 for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 [headers.values]
 Cache-Control = "max-age=31536000, no-transform, public"
+
+[[redirects]]
+from = "/agenda/evenementiel/masterclasse/index.html"
+to = "/agenda/par-type-d-evenement/masterclasse/"
+
+[[redirects]]
+from = "/offres-d-emploi/type-de-poste/cdd/index.html"
+to = "/recrutement/type-de-poste/cdd/"
+
+[[redirects]]
+from = "/expositions/2024-08-31-campus-panic-lexposition-des-diplomees-2024--beaux-arts-de-marseille-inseamm-osuny-site/index.html"
+to = "/expositions/2024-08-31-campus-panic-lexposition-des-diplomees-2024--www-beauxartsdemarseille-fr/"
+
+[[redirects]]
+from = "/agenda/categorie/restitution/index.html"
+to = "/agenda/par-type-d-evenement/restitution/"
+
+[[redirects]]
+from = "/agenda/categorie/piano/index.html"
+to = "/agenda/par-type-d-evenement/piano/"
+
+[[redirects]]
+from = "/pratiquer-en-amateur/cours-et-stages-adultes/en-volume-ou-a-plat/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/en-volume-ou-a-plat/"
+
+[[redirects]]
+from = "/agenda/categorie/parade/index.html"
+to = "/agenda/par-type-d-evenement/parade/"
+
+[[redirects]]
+from = "/pratiquer-en-amateur/cours-et-stages-adultes/cabinet-des-curiosites/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/cabinet-des-curiosites/"
+
+[[redirects]]
+from = "/projets/offre-de-formation/option-design-cycle-2-master/index.html"
+to = "/projets/offre-de-formation/option-design/option-design-cycle-2-master/"
+
+[[redirects]]
+from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-enfants/latelier/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-enfants/latelier/"
+
+[[redirects]]
+from = "/equipe/categories/agentes-administratifs-sgdg/secretariat-general/pole-ingenierie-technique/index.html"
+to = "/equipe/categories/agentes-administratifs-sgdg/secretariat-general/pole-gestion-patrimoniale-et-exploitation/"
+
+[[redirects]]
+from = "/agenda/categorie/index.html"
+to = "/agenda/par-type-d-evenement/"
+
+[[redirects]]
+from = "/lifamm/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/matieres-vivantes/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/matieres-vivantes/"
+
+[[redirects]]
+from = "/pratiquer-en-amateur/cours-et-stages-adultes/formes-contemporaines/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/formes-contemporaines/"
+
+[[redirects]]
+from = "/projets/action-culturelle/hors-temps-scolaire/index.html"
+to = "/projets/publics/hors-temps-scolaire/"
+
+[[redirects]]
+from = "/agenda/evenement/restitution/index.html"
+to = "/agenda/par-type-d-evenement/restitution/"
+
+[[redirects]]
+from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/formes-contemporaines/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/formes-contemporaines/"
+
+[[redirects]]
+from = "/laction-culturelle/a-destination-des-etablissements-scolaire/index.html"
+to = "/laction-culturelle/a-destination-des-etablissements-scolaires/"
+
+[[redirects]]
+from = "/agenda/plein-air/index.html"
+to = "/agenda/par-type-d-evenement/plein-air/"
+
+[[redirects]]
+from = "/agenda/soiree-dansante/index.html"
+to = "/agenda/par-type-d-evenement/soiree-dansante/"
+
+[[redirects]]
+from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/dessin-nomade/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/dessin-nomade/"
+
+[[redirects]]
+from = "/agenda/categorie/orchestre/index.html"
+to = "/agenda/par-type-d-evenement/orchestre/"
+
+[[redirects]]
+from = "/recrutement/2026/musicien-nes/index.html"
+to = "/recrutement/2026/fanfare/"
+
+[[redirects]]
+from = "/equipe/categories/agentes-ifamm/professeures-ifamm/index.html"
+to = "/equipe/categories/professeures-ifamm/"
+
+[[redirects]]
+from = "/equipe/categories/agentes-administratifs-sgdg/secretariat-general/pole-ingenierie-juridique-marches-et-achats/responsable-pole-ingenierie-technique/index.html"
+to = "/equipe/categories/agentes-administratifs-sgdg/secretariat-general/responsable-pole-ingenierie-technique/"
+
+[[redirects]]
+from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/regards-multiples/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/regards-multiples/"
+
+[[redirects]]
+from = "/ateliers-publics-des-beaux-arts-de-marseille/lieux-de-pratiques/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/lieux-de-pratiques/"
+
+[[redirects]]
+from = "/agenda/2025/radio-hito-zoe-heselton-ines-r--beaux-arts-de-marseille-inseamm-osuny-site/index.html"
+to = "/agenda/2025/radio-hito-zoe-heselton-ines-r--www-beauxartsdemarseille-fr/"
+
+[[redirects]]
+from = "/agenda/categorie/masterclasse/index.html"
+to = "/agenda/par-type-d-evenement/masterclasse/"
+
+[[redirects]]
+from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/en-volume-ou-a-plat/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/en-volume-ou-a-plat/"
+
+[[redirects]]
+from = "/pratiquer-en-amateur/cours-et-stages-adultes/ecriture-images-et-mots/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/ecriture-images-et-mots/"
+
+[[redirects]]
+from = "/agenda/categorie/concert/index.html"
+to = "/agenda/par-type-d-evenement/concert/"
+
+[[redirects]]
+from = "/pratiquer-en-amateur/cours-et-stages-adultes/land-art/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/land-art/"
+
+[[redirects]]
+from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/dans-la-pinede/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/dans-la-pinede/"
+
+[[redirects]]
+from = "/pratiquer-en-amateur/cours-et-stages-adultes/paysage-autement/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/paysage-autement/"
+
+[[redirects]]
+from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/paysage-autement/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/paysage-autement/"
+
+[[redirects]]
+from = "/l-action-culturelle/modalites/cycle-3/index.html"
+to = "/l-action-culturelle/cycle-3/"
+
+[[redirects]]
+from = "/pratiquer-en-amateur/preparations-aux-concours-dentree-aux-ecoles-superieures/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/preparations-aux-concours-dentree-aux-ecoles-superieures/"
+
+[[redirects]]
+from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adolescentes/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adolescentes/"
+
+[[redirects]]
+from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/"
+
+[[redirects]]
+from = "/agenda/dan/index.html"
+to = "/agenda/par-type-d-evenement/danse-1/"
+
+[[redirects]]
+from = "/laction-culturelle/residence-de-territoire/sujet-dobservation-et-imagination-2-3-1/index.html"
+to = "/laction-culturelle/residence-de-territoire/residences-de-territoire-a-luminy/"
+
+[[redirects]]
+from = "/jazz-1/index.html"
+to = "/co-production/jazz-1/"
+
+[[redirects]]
+from = "/agenda/evenementiel/soiree-dansante/index.html"
+to = "/agenda/par-type-d-evenement/soiree-dansante/"
+
+[[redirects]]
+from = "/equipe/categories/agentes-administratif-cpmb/service-scolarite/index.html"
+to = "/equipe/categories/agentes-administratif-cpmb/pole-direction-des-etudes-1/service-scolarite/"
+
+[[redirects]]
+from = "/latelier/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-enfants/latelier/"
+
+[[redirects]]
+from = "/pratiquer-en-amateur/preparations-aux-concours-dentree-aux-ecoles-superieures/preparation-aux-concours-d-entree-des-ecoles-d-art/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/preparations-aux-concours-dentree-aux-ecoles-superieures/preparation-aux-concours-d-entree-des-ecoles-d-art/"
+
+[[redirects]]
+from = "/pratiquer-en-amateur/cours-et-stages-adolescentes/remuer-ciel-et-terre/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adolescentes/remuer-ciel-et-terre/"
+
+[[redirects]]
+from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adolescentes/graphiter-encrer/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adolescentes/graphiter-encrer/"
+
+[[redirects]]
+from = "/cinema/index.html"
+to = "/co-production/cinema/"
+
+[[redirects]]
+from = "/agenda/evenement/masterclasse/index.html"
+to = "/agenda/par-type-d-evenement/masterclasse/"
+
+[[redirects]]
+from = "/pratiquer-en-amateur/cours-et-stages-adultes/lumiere-et-contraste/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/lumiere-et-contraste/"
+
+[[redirects]]
+from = "/pratiquer-en-amateur/cours-et-stages-enfants/experience-imaginaire/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-enfants/experience-imaginaire/"
+
+[[redirects]]
+from = "/offres-d-emploi/lieu/index.html"
+to = "/recrutement/lieu/"
+
+[[redirects]]
+from = "/se-former/summer-camp/luminy-summer-camp-2/index.html"
+to = "/se-former/summer-camp/luminy-summer-camp-4/"
+
+[[redirects]]
+from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-enfants/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-enfants/"
+
+[[redirects]]
+from = "/agenda/evenement/index.html"
+to = "/agenda/par-type-d-evenement/"
+
+[[redirects]]
+from = "/public/6-11-ans/index.html"
+to = "/public/enfants/"
+
+[[redirects]]
+from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/apercevoir-les-terres/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/apercevoir-les-terres/"
+
+[[redirects]]
+from = "/pratiquer-en-amateur/cours-et-stages-enfants/modele-vivant/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/modele-vivant/"
+
+[[redirects]]
+from = "/laction-culturelle/sujet-dobservation-et-imagination-2-4/index.html"
+to = "/laction-culturelle/a-destination-des-etablissements-scolaires/atelier-de-composition-pour-l-image/"
+
+[[redirects]]
+from = "/laction-culturelle/a-destination-des-etablissements-scolaires/sujet-dobservation-et-imagination-2-4/index.html"
+to = "/laction-culturelle/a-destination-des-etablissements-scolaires/atelier-de-composition-pour-l-image/"
+
+[[redirects]]
+from = "/projets/residences-de-territoire/index.html"
+to = "/projets/action-culturelle/residences-de-territoire/"
+
+[[redirects]]
+from = "/lifamm/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/dans-la-pinede/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/dans-la-pinede/"
+
+[[redirects]]
+from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-enfants/aire-de-jeux/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-enfants/aire-de-jeux/"
+
+[[redirects]]
+from = "/pratiquer-en-amateur/preparation-aux-concours-d-entree-des-ecoles-d-art/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/preparations-aux-concours-dentree-aux-ecoles-superieures/preparation-aux-concours-d-entree-des-ecoles-d-art/"
+
+[[redirects]]
+from = "/agenda/lieux/lorem-ipsum/index.html"
+to = "/agenda/lieux/campus-art-mediterranee/"
+
+[[redirects]]
+from = "/agenda/offre-de-formation/option-design-cycle-1-licence/index.html"
+to = "/agenda/offre-de-formation/option-design/option-design-cycle-1-licence/"
+
+[[redirects]]
+from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/nature-et-recette/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/nature-et-recette/"
+
+[[redirects]]
+from = "/equipe/categories/demos/proffeseures-demos/index.html"
+to = "/equipe/categories/demos/professeures-demos/"
+
+[[redirects]]
+from = "/l-action-culturelle/modalites/cycle-2/index.html"
+to = "/l-action-culturelle/cycle-2/"
+
+[[redirects]]
+from = "/agenda/categorie/plein-air/index.html"
+to = "/agenda/par-type-d-evenement/plein-air/"
+
+[[redirects]]
+from = "/projets/2024-residence-de-territoire/index.html"
+to = "/projets/2023-residence-de-territoire/"
+
+[[redirects]]
+from = "/pratiquer-en-amateur/cours-et-stages-adolescentes/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adolescentes/"
+
+[[redirects]]
+from = "/offre-de-formation/option-design-cycle-2-master/index.html"
+to = "/offre-de-formation/option-design/option-design-cycle-2-master/"
+
+[[redirects]]
+from = "/expositions/2025-08-29-exposition-des-diplomees-2025--beaux-arts-de-marseille-inseamm-osuny-site/index.html"
+to = "/expositions/2025-08-29-exposition-des-diplomees-2025--www-beauxartsdemarseille-fr/"
+
+[[redirects]]
+from = "/lifamm/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/"
+
+[[redirects]]
+from = "/equipe/categories/agentes-administratif-cpmb/responsable-communication/index.html"
+to = "/equipe/categories/agentes-administratif-cpmb/service-communication-1/responsable-communication/"
+
+[[redirects]]
+from = "/pratiquer-en-amateur/cours-et-stages-enfants/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-enfants/"
+
+[[redirects]]
+from = "/formations/option-design-cycle-2-master/index.html"
+to = "/formations/option-design/option-design-cycle-2-master/"
+
+[[redirects]]
+from = "/offres-d-emploi/type-de-poste/cdi/index.html"
+to = "/recrutement/type-de-poste/cdi/"
+
+[[redirects]]
+from = "/equipe/communication-campus-art-mediterranee/index.html"
+to = "/equipe/iris-betrancourt/"
+
+[[redirects]]
+from = "/projets/2024-carliminot/index.html"
+to = "/projets/2023-carliminot/"
+
+[[redirects]]
+from = "/laction-culturelle/a-destination-des-etablissements-scolaire/parcours-creation-orchestre-et-chorale/index.html"
+to = "/laction-culturelle/a-destination-des-etablissements-scolaires/parcours-creation-orchestre-et-chorale/"
+
+[[redirects]]
+from = "/lifamm/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/apercevoir-les-terres/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/apercevoir-les-terres/"
+
+[[redirects]]
+from = "/lifamm/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/lumiere-et-contraste/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/lumiere-et-contraste/"
+
+[[redirects]]
+from = "/pratiquer-en-amateur/lieux-de-pratiques/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/lieux-de-pratiques/"
+
+[[redirects]]
+from = "/projets/action-culturelle/cycle-2/index.html"
+to = "/projets/publics/cycle-2/"
+
+[[redirects]]
+from = "/formations/choeur-lyrique-adulte/index.html"
+to = "/formations/chant-lyrique/choeur-lyrique-adulte/"
+
+[[redirects]]
+from = "/offres-d-emploi/type-de-poste/apprentissage/index.html"
+to = "/recrutement/type-de-poste/apprentissage/"
+
+[[redirects]]
+from = "/laction-culturelle/a-destination-des-etablissements-scolaire/sujet-dobservation-et-imagination-2-1/index.html"
+to = "/laction-culturelle/a-destination-des-etablissements-scolaires/carliminots/"
+
+[[redirects]]
+from = "/laction-culturelle/a-destination-des-etablissements-scolaire/sujet-dobservation-et-imagination-2-2/index.html"
+to = "/laction-culturelle/a-destination-des-etablissements-scolaires/carli-decouvertes/"
+
+[[redirects]]
+from = "/equipe/categories/agentes-administratifs-sgdg/secretariat-general/responsable-du-pole-finances/index.html"
+to = "/equipe/categories/agentes-administratifs-sgdg/secretariat-general/pole-finances/responsable-du-pole-finances/"
+
+[[redirects]]
+from = "/agenda/orchestre/index.html"
+to = "/agenda/par-type-d-evenement/orchestre/"
+
+[[redirects]]
+from = "/recrutement/2026/developper-diversifier-et-accompagner-les-publics-1/index.html"
+to = "/recrutement/2026/participer-a-la-mise-en-place-de-projets-culturels-a-destination-de-tous-les-publics/"
+
+[[redirects]]
+from = "/agenda/evenementiel/exposition/index.html"
+to = "/agenda/par-type-d-evenement/exposition/"
+
+[[redirects]]
+from = "/pratiquer-en-amateur/preparation-aux-concours-d-entree-des-ecoles-d-art/preparations-aux-concours-dentree-aux-ecoles-superieures/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/preparations-aux-concours-dentree-aux-ecoles-superieures/"
+
+[[redirects]]
+from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/cabinet-des-curiosites/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/cabinet-des-curiosites/"
+
+[[redirects]]
+from = "/pratiquer-en-amateur/cours-et-stages-adultes/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/"
+
+[[redirects]]
+from = "/type/peinture/index.html"
+to = "/pratique/peinture/"
+
+[[redirects]]
+from = "/pratiquer-en-amateur/cours-et-stages-adultes/nature-et-recette/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/nature-et-recette/"
+
+[[redirects]]
+from = "/equipe/categories/agentes-administratifs-sgdg/secretariat-general/pole-ingenierie-technique/service-informatique-1/index.html"
+to = "/equipe/categories/agentes-administratifs-sgdg/secretariat-general/service-informatique-1/"
+
+[[redirects]]
+from = "/format/stage/stage-enfant/index.html"
+to = "/format/stage/stage-enfants/"
+
+[[redirects]]
+from = "/pratiquer-en-amateur/cours-et-stages-adultes/quand-le-dessin-est-roi/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/quand-le-dessin-est-roi/"
+
+[[redirects]]
+from = "/agenda/categorie/theatre-1/index.html"
+to = "/agenda/par-type-d-evenement/theatre-1/"
+
+[[redirects]]
+from = "/agenda/categorie/exposition/index.html"
+to = "/agenda/par-type-d-evenement/exposition/"
+
+[[redirects]]
+from = "/pratiquer-en-amateur/cours-et-stages-enfants/aire-de-jeux/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-enfants/aire-de-jeux/"
+
+[[redirects]]
+from = "/offres-d-emploi/lieu/campus-art-mediterranee-luminy/index.html"
+to = "/recrutement/lieu/campus-art-mediterranee-luminy/"
+
+[[redirects]]
+from = "/pratiquer-en-amateur/modele-vivant/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/modele-vivant/"
+
+[[redirects]]
+from = "/pratiquer-en-amateur/cours-et-stages-adultes/de-la-pintura/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/de-la-pintura/"
+
+[[redirects]]
+from = "/l-action-culturelle/modalites/hors-temps-soclaire/index.html"
+to = "/l-action-culturelle/hors-temps-soclaire/"
+
+[[redirects]]
+from = "/agenda/evenementiel/orchestre/index.html"
+to = "/agenda/par-type-d-evenement/orchestre/"
+
+[[redirects]]
+from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/de-la-pintura/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/de-la-pintura/"
+
+[[redirects]]
+from = "/agenda/types/co-production/systema/index.html"
+to = "/agenda/co-production/systema/"
+
+[[redirects]]
+from = "/agenda/2025/prix-francois-bret-2025--beaux-arts-de-marseille-inseamm-osuny-site/index.html"
+to = "/agenda/2025/prix-francois-bret-2025--www-beauxartsdemarseille-fr/"
+
+[[redirects]]
+from = "/type/index.html"
+to = "/pratique/"
+
+[[redirects]]
+from = "/agenda/2026/saison-mediterranee-2026/bal-canto/index.html"
+to = "/agenda/2026/saison-mediterranee-2026/symphonie-portuaire/"
+
+[[redirects]]
+from = "/pratiquer-en-amateur/cours-et-stages-adultes/regards-multiples/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/regards-multiples/"
+
+[[redirects]]
+from = "/agenda/categorie/soiree-dansante/index.html"
+to = "/agenda/par-type-d-evenement/soiree-dansante/"
+
+[[redirects]]
+from = "/pratiquer-en-amateur/cours-et-stages-adultes/modele-vivant/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/modele-vivant/"
+
+[[redirects]]
+from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adolescentes/aventure-c-est-aventure/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adolescentes/aventure-c-est-aventure/"
+
+[[redirects]]
+from = "/l-action-culturelle/modalites/projet-pass-culture/index.html"
+to = "/l-action-culturelle/projet-pass-culture/"
+
+[[redirects]]
+from = "/laction-culturelle/sujet-dobservation-et-imagination-2-1/index.html"
+to = "/laction-culturelle/a-destination-des-etablissements-scolaires/carliminots/"
+
+[[redirects]]
+from = "/pratiquer-en-amateur/cours-et-stages-adultes/au-dela-de-la-brosse/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/au-dela-de-la-brosse/"
+
+[[redirects]]
+from = "/pratiquer-en-amateur/le-conservateur-pierre-barbizet/index.html"
+to = "/pratiquer-en-amateur/le-conservatoire-pierre-barbizet/"
+
+[[redirects]]
+from = "/actualites/2025-09-02-retour-sur-un-ete-foisonnant-avec-campus-art-mediterranee/index.html"
+to = "/actualites/2025-09-02-retour-ete-2025-campus-art-mediterranee/"
+
+[[redirects]]
+from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/techniques-et-esthetiques/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/techniques-et-esthetiques/"
+
+[[redirects]]
+from = "/projets/en-milieu-hospitalier/index.html"
+to = "/projets/action-culturelle/en-milieu-hospitalier/"
+
+[[redirects]]
+from = "/pratiquer-en-amateur/equipe-enseignante/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/equipe-enseignante/"
+
+[[redirects]]
+from = "/equipe/categories/agentes-administratifs-sgdg/secretariat-general/responsable-du-pole-ressources-humaines/index.html"
+to = "/equipe/categories/agentes-administratifs-sgdg/secretariat-general/ressources-humaines/responsable-du-pole-ressources-humaines/"
+
+[[redirects]]
+from = "/equipe/categories/agentes-administratifs-sgdg/directeur-general/index.html"
+to = "/equipe/categories/agentes-administratifs-sgdg/direction-generale/directeur-general/"
+
+[[redirects]]
+from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-enfants/experience-imaginaire/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-enfants/experience-imaginaire/"
+
+[[redirects]]
+from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/quand-le-dessin-est-roi/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/quand-le-dessin-est-roi/"
+
+[[redirects]]
+from = "/agenda/2024/alma-lecture-musicale/index.html"
+to = "/agenda/2025/alma-lecture-musicale/"
+
+[[redirects]]
+from = "/equipe/categories/agentes-administratifs-sgdg/secretariat-general/pole-ingenierie-technique/chef-dequipe/index.html"
+to = "/equipe/categories/agentes-administratifs-sgdg/secretariat-general/pole-gestion-patrimoniale-et-exploitation/chef-dequipe/"
+
+[[redirects]]
+from = "/stage-adolescentes/index.html"
+to = "/format/stage/stage-adolescentes/"
+
+[[redirects]]
+from = "/lifamm/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/en-volume-ou-a-plat/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/en-volume-ou-a-plat/"
+
+[[redirects]]
+from = "/offres-d-emploi/type-de-poste/index.html"
+to = "/recrutement/type-de-poste/"
+
+[[redirects]]
+from = "/offres-d-emploi/lieu/beaux-arts-de-marseille-luminy/index.html"
+to = "/recrutement/lieu/beaux-arts-de-marseille-luminy/"
+
+[[redirects]]
+from = "/offre-de-formation/option-design-cycle-1-licence/index.html"
+to = "/offre-de-formation/option-design/option-design-cycle-1-licence/"
+
+[[redirects]]
+from = "/agenda/evenementiel/jazz-1/index.html"
+to = "/agenda/par-type-d-evenement/jazz-1/"
+
+[[redirects]]
+from = "/agenda/evenementiel/plein-air/index.html"
+to = "/agenda/par-type-d-evenement/plein-air/"
+
+[[redirects]]
+from = "/cfpi/index.html"
+to = "/se-former/formations-continus/cfpi/"
+
+[[redirects]]
+from = "/offres-d-emploi/lieu/conservatoire-pierre-barbizet/index.html"
+to = "/recrutement/lieu/conservatoire-pierre-barbizet/"
+
+[[redirects]]
+from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/photographie-post-photographie/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/photographie-post-photographie/"
+
+[[redirects]]
+from = "/agenda/categorie/litterature/index.html"
+to = "/agenda/par-type-d-evenement/litterature/"
+
+[[redirects]]
+from = "/pratiquer-en-amateur/cours-et-stages-adultes/apercevoir-les-terres/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/apercevoir-les-terres/"
+
+[[redirects]]
+from = "/agenda/categorie/musique/index.html"
+to = "/agenda/par-type-d-evenement/musique/"
+
+[[redirects]]
+from = "/offres-d-emploi/index.html"
+to = "/recrutement/"
+
+[[redirects]]
+from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adolescentes/hyper-clrs/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adolescentes/hyper-clrs/"
+
+[[redirects]]
+from = "/laction-culturelle/sujet-dobservation-et-imagination-2-2/index.html"
+to = "/laction-culturelle/a-destination-des-etablissements-scolaires/carli-decouvertes/"
+
+[[redirects]]
+from = "/pratiquer-en-amateur/cours-et-stages-adultes/la-fabrique-de-l-image/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/la-fabrique-de-l-image/"
+
+[[redirects]]
+from = "/pratiquer-en-amateur/cours-et-stages-adultes/l-art-au-prisme-de-la-couleur/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/l-art-au-prisme-de-la-couleur/"
+
+[[redirects]]
+from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-enfants/la-fabrication-de-la-peinture-1/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-enfants/la-fabrication-de-la-peinture-1/"
+
+[[redirects]]
+from = "/projets/2024-residences-de-territoire/index.html"
+to = "/projets/2023-residence-de-territoire/"
+
+[[redirects]]
+from = "/equipe/categories/agentes-administratifs-sgdg/secretariat-general/pole-gestion-patrimoniale-et-exploitation/service-informatique-1/index.html"
+to = "/equipe/categories/agentes-administratifs-sgdg/secretariat-general/service-informatique-1/"
+
+[[redirects]]
+from = "/agenda/musique/index.html"
+to = "/agenda/par-type-d-evenement/musique/"
+
+[[redirects]]
+from = "/pratiquer-en-amateur/cours-et-stages-adolescentes/peinture-bidouiller/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adolescentes/peinture-bidouiller/"
+
+[[redirects]]
+from = "/coproductions/sujet-dobservation-et-imagination-2-5/index.html"
+to = "/coproductions/"
+
+[[redirects]]
+from = "/agenda/theatre-1/index.html"
+to = "/agenda/par-type-d-evenement/theatre-1/"
+
+[[redirects]]
+from = "/l-action-culturelle/modalites/cycle-1/index.html"
+to = "/l-action-culturelle/cycle-1/"
+
+[[redirects]]
+from = "/agenda/litterature/index.html"
+to = "/agenda/par-type-d-evenement/litterature/"
+
+[[redirects]]
+from = "/agenda/2025/le-grand-boucan--conservatoire-pierre-barbizet-inseamm-osuny-site/index.html"
+to = "/agenda/2025/le-grand-boucan--www-conservatoiredemarseille-fr/"
+
+[[redirects]]
+from = "/pratiquer-en-amateur/cours-et-stages-adultes/dessin-nomade/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/dessin-nomade/"
+
+[[redirects]]
+from = "/actualites/offre-de-formation/option-design-cycle-2-master/index.html"
+to = "/actualites/offre-de-formation/option-design/option-design-cycle-2-master/"
+
+[[redirects]]
+from = "/lifamm/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/photographie-post-photographie-1/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/photographie-post-photographie-1/"
+
+[[redirects]]
+from = "/agenda/exposition/index.html"
+to = "/agenda/par-type-d-evenement/exposition/"
+
+[[redirects]]
+from = "/mecenat/mecenat-et-parrainage-particulierere/index.html"
+to = "/mecenat/don-individuel/"
+
+[[redirects]]
+from = "/lifamm/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/regards-multiples/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/regards-multiples/"
+
+[[redirects]]
+from = "/creation/index.html"
+to = "/co-production/creation/"
+
+[[redirects]]
+from = "/type/dessin/index.html"
+to = "/pratique/dessin/"
+
+[[redirects]]
+from = "/initiation-a-la-ceramique/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/initiation-a-la-ceramique/"
+
+[[redirects]]
+from = "/projets/action-culturelle/cycle-1/index.html"
+to = "/projets/publics/cycle-1/"
+
+[[redirects]]
+from = "/agenda/evenementiel/index.html"
+to = "/agenda/par-type-d-evenement/"
+
+[[redirects]]
+from = "/laction-culturelle/a-destination-des-etablissements-scolaires/sujet-dobservation-et-imagination-2-1/index.html"
+to = "/laction-culturelle/a-destination-des-etablissements-scolaires/carliminots/"
+
+[[redirects]]
+from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/ecriture-images-et-mots/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/ecriture-images-et-mots/"
+
+[[redirects]]
+from = "/agenda/categorie/festival/index.html"
+to = "/agenda/par-type-d-evenement/festival/"
+
+[[redirects]]
+from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/modele-vivant/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/modele-vivant/"
+
+[[redirects]]
+from = "/projets/action-culturelle/temps-scolaire/index.html"
+to = "/projets/publics/temps-scolaire/"
+
+[[redirects]]
+from = "/agenda/categorie/cinema/index.html"
+to = "/agenda/par-type-d-evenement/cinema/"
+
+[[redirects]]
+from = "/pratiquer-en-amateur/cours-et-stages-adultes/la-fabrication-de-la-peinture/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/la-fabrication-de-la-peinture/"
+
+[[redirects]]
+from = "/lifamm/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/paysage-autement/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/paysage-autement/"
+
+[[redirects]]
+from = "/agenda/categorie/jazz-1/index.html"
+to = "/agenda/par-type-d-evenement/jazz-1/"
+
+[[redirects]]
+from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/lumiere-et-contraste/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/lumiere-et-contraste/"
+
+[[redirects]]
+from = "/equipe/categories/agentes-ifamm/formateurtrices-cfpi/index.html"
+to = "/equipe/categories/formateurtrices-cfpi/"
+
+[[redirects]]
+from = "/equipe/categories/agentes-administratifs-sgdg/directeur-adjoint/index.html"
+to = "/equipe/categories/agentes-administratifs-sgdg/direction-generale/directeur-adjoint/"
+
+[[redirects]]
+from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/l-art-au-prisme-de-la-couleur/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/l-art-au-prisme-de-la-couleur/"
+
+[[redirects]]
+from = "/pratiquer-en-amateur/cours-et-stages-enfants/la-fabrication-de-la-peinture-1/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-enfants/la-fabrication-de-la-peinture-1/"
+
+[[redirects]]
+from = "/pratiquer-en-amateur/cours-et-stages-adultes/photographie-post-photographie-1/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/photographie-post-photographie-1/"
+
+[[redirects]]
+from = "/laction-culturelle/a-destination-des-etablissements-scolaire/rencontre-artistique-au-lycee/index.html"
+to = "/laction-culturelle/a-destination-des-etablissements-scolaires/rencontre-artistique-au-lycee/"
+
+[[redirects]]
+from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/photographie-post-photographie-1/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/photographie-post-photographie-1/"
+
+[[redirects]]
+from = "/pratiquer-en-amateur/cours-et-stages-adolescentes/hyper-clrs/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adolescentes/hyper-clrs/"
+
+[[redirects]]
+from = "/pratiquer-en-amateur/cours-et-stages-enfants/latelier/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-enfants/latelier/"
+
+[[redirects]]
+from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/explorations-et-empreintes/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/explorations-et-empreintes/"
+
+[[redirects]]
+from = "/offres-demplois/index.html"
+to = "/recrutement/offres-demplois/"
+
+[[redirects]]
+from = "/ateliers-publics-des-beaux-arts-de-marseille/preparations-aux-concours-dentree-aux-ecoles-superieures/preparation-aux-concours-d-entree-des-ecoles-d-art/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/preparations-aux-concours-dentree-aux-ecoles-superieures/preparation-aux-concours-d-entree-des-ecoles-d-art/"
+
+[[redirects]]
+from = "/ateliers-publics-des-beaux-arts-de-marseille/inscriptions-et-tarifs/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/inscriptions-et-tarifs/"
+
+[[redirects]]
+from = "/pratiquer-en-amateur/cours-et-stages-adolescentes/graphiter-encrer/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adolescentes/graphiter-encrer/"
+
+[[redirects]]
+from = "/projets/avec-les-structures-sociales-et-medico-sociales/index.html"
+to = "/projets/action-culturelle/avec-les-structures-sociales-et-medico-sociales/"
+
+[[redirects]]
+from = "/projets/offre-de-formation/option-design-cycle-1-licence/index.html"
+to = "/projets/offre-de-formation/option-design/option-design-cycle-1-licence/"
+
+[[redirects]]
+from = "/pratiquer-en-amateur/cours-et-stages-adultes/techniques-maitres/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/techniques-maitres/"
+
+[[redirects]]
+from = "/agenda/evenementiel/concert/index.html"
+to = "/agenda/par-type-d-evenement/concert/"
+
+[[redirects]]
+from = "/agenda/lorem-ipsum/index.html"
+to = "/agenda/lieux/campus-art-mediterranee/"
+
+[[redirects]]
+from = "/organisations/festival-marseille-jazz-des-cinq-continents/index.html"
+to = "/organisations/marseille-jazz-des-cinq-continents-1/"
+
+[[redirects]]
+from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/la-fabrique-de-l-image/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/la-fabrique-de-l-image/"
+
+[[redirects]]
+from = "/coproductions/ho-les-beaux-jours/index.html"
+to = "/coproductions/oh-les-beaux-jours-1/"
+
+[[redirects]]
+from = "/formations/option-design-cycle-1-licence/index.html"
+to = "/formations/option-design/option-design-cycle-1-licence/"
+
+[[redirects]]
+from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/au-dela-de-la-brosse/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/au-dela-de-la-brosse/"
+
+[[redirects]]
+from = "/laction-culturelle/musique-de-chambre-a-l-hopital/index.html"
+to = "/laction-culturelle/en-milieu-hospitalier/musique-de-chambre-a-l-hopital/"
+
+[[redirects]]
+from = "/agenda/saison-mediterranee-2026/index.html"
+to = "/agenda/co-production/saison-mediterranee-2026/"
+
+[[redirects]]
+from = "/equipe/categories/agentes-administratifs-sgdg/secretariat-general/responsable-du-pole-demarche-qualite-de-vie-et-conditions-de-travail-et-gestion-de-risques/index.html"
+to = "/equipe/categories/agentes-administratifs-sgdg/secretariat-general/pole-demarche-qualite-de-vie-conditions-de-travail-qvct-gestion-des-risques/responsable-du-pole-demarche-qualite-de-vie-et-conditions-de-travail-et-gestion-de-risques/"
+
+[[redirects]]
+from = "/actualites/offre-de-formation/option-design-cycle-1-licence/index.html"
+to = "/actualites/offre-de-formation/option-design/option-design-cycle-1-licence/"
+
+[[redirects]]
+from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/la-fabrication-de-la-peinture/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/la-fabrication-de-la-peinture/"
+
+[[redirects]]
+from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/matieres-vivantes/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/matieres-vivantes/"
+
+[[redirects]]
+from = "/equipe/categories/agentes-administratifs-sgdg/secretariat-general/pole-finances/responsable-pole-ingenierie-technique/index.html"
+to = "/equipe/categories/agentes-administratifs-sgdg/secretariat-general/responsable-pole-ingenierie-technique/"
+
+[[redirects]]
+from = "/projets/action-culturelle/cycle-3/index.html"
+to = "/projets/publics/cycle-3/"
+
+[[redirects]]
+from = "/agenda/evenement/parade/index.html"
+to = "/agenda/par-type-d-evenement/parade/"
+
+[[redirects]]
+from = "/composition-a-l-image/index.html"
+to = "/co-production/composition-a-l-image/"
+
+[[redirects]]
+from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/techniques-maitres/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/techniques-maitres/"
+
+[[redirects]]
+from = "/type/atelier/index.html"
+to = "/pratique/gravure/"
+
+[[redirects]]
+from = "/projets/action-culturelle/projet-pass-culture/index.html"
+to = "/projets/publics/projet-pass-culture/"
+
+[[redirects]]
+from = "/pratiquer-en-amateur/lieux-pratiques/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/lieux-de-pratiques/"
+
+[[redirects]]
+from = "/pratiquer-en-amateur/cours-et-stages-adultes/matieres-vivantes/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/matieres-vivantes/"
+
+[[redirects]]
+from = "/agenda/evenementiel/theatre-1/index.html"
+to = "/agenda/par-type-d-evenement/theatre-1/"
+
+[[redirects]]
+from = "/pratiquer-en-amateur/cours-et-stages-adultes/photographie-post-photographie/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/photographie-post-photographie/"
+
+[[redirects]]
+from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adolescentes/remuer-ciel-et-terre/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adolescentes/remuer-ciel-et-terre/"
+
+[[redirects]]
+from = "/ecrire-le-ciel-nuit-et-jour/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/ecrire-le-ciel-nuit-et-jour/"
+
+[[redirects]]
+from = "/projets/2023-visites-decouvertes/index.html"
+to = "/projets/2023-carli-decouvertes/"
+
+[[redirects]]
+from = "/laction-culturelle/residence-de-territoire/sujet-dobservation-et-imagination-2-3/index.html"
+to = "/laction-culturelle/residence-de-territoire/residence-de-territoire-dans-le-quartier-de-saint-andre/"
+
+[[redirects]]
+from = "/performance/index.html"
+to = "/co-production/performance/"
+
+[[redirects]]
+from = "/pratiquer-en-amateur/cours-et-stages-adultes/explorations-et-empreintes/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/explorations-et-empreintes/"
+
+[[redirects]]
+from = "/pratiquer-en-amateur/cours-et-stages-adultes/techniques-et-esthetiques/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/techniques-et-esthetiques/"
+
+[[redirects]]
+from = "/agenda/types/co-production/index.html"
+to = "/agenda/co-production/"
+
+[[redirects]]
+from = "/laction-culturelle/a-destination-des-etablissements-scolaire/sujet-dobservation-et-imagination-2-4/index.html"
+to = "/laction-culturelle/a-destination-des-etablissements-scolaires/atelier-de-composition-pour-l-image/"
+
+[[redirects]]
+from = "/laction-culturelle/pratiques-artistiques-en-milieu-scolaire/index.html"
+to = "/laction-culturelle/a-destination-des-etablissements-scolaires/pratiques-artistiques-en-milieu-scolaire/"
+
+[[redirects]]
+from = "/lifamm/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/au-dela-de-la-brosse/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/au-dela-de-la-brosse/"
+
+[[redirects]]
+from = "/ateliers-publics-des-beaux-arts-de-marseille/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/"
+
+[[redirects]]
+from = "/lifamm/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/photographie-post-photographie/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/photographie-post-photographie/"
+
+[[redirects]]
+from = "/lifamm/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/explorations-et-empreintes/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/explorations-et-empreintes/"
+
+[[redirects]]
+from = "/sujet-dobservation-et-imagination/index.html"
+to = "/pratiquer-en-amateur/cours-et-stages-enfants/sujet-dobservation-et-imagination/"
+
+[[redirects]]
+from = "/campus-art-mediterranee/index.html"
+to = "/ecoles/campus-art-mediterranee/"
+
+[[redirects]]
+from = "/l-action-culturelle/modalites/temps-scolaire/index.html"
+to = "/l-action-culturelle/temps-scolaire/"
+
+[[redirects]]
+from = "/projets/cycle-3/index.html"
+to = "/projets/publics/cycle-3/"
+
+[[redirects]]
+from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/land-art/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/land-art/"
+
+[[redirects]]
+from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adolescentes/peinture-bidouiller/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adolescentes/peinture-bidouiller/"
+
+[[redirects]]
+from = "/pratiquer-en-amateur/cours-et-stages-adultes/dans-la-pinede/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/dans-la-pinede/"
+
+[[redirects]]
+from = "/agenda/types/co-production/music-cinema/index.html"
+to = "/agenda/co-production/music-cinema/"
+
+[[redirects]]
+from = "/agenda/offre-de-formation/option-design-cycle-2-master/index.html"
+to = "/agenda/offre-de-formation/option-design/option-design-cycle-2-master/"
+
+[[redirects]]
+from = "/pratiquer-en-amateur/inscriptions-et-tarifs/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/inscriptions-et-tarifs/"
+
+[[redirects]]
+from = "/laction-culturelle/a-destination-des-etablissements-scolaire/pratiques-artistiques-en-milieu-scolaire/index.html"
+to = "/laction-culturelle/a-destination-des-etablissements-scolaires/pratiques-artistiques-en-milieu-scolaire/"
+
+[[redirects]]
+from = "/pratiquer-en-amateur/cours-et-stages-adolescentes/aventure-c-est-aventure/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adolescentes/aventure-c-est-aventure/"
+
+[[redirects]]
+from = "/laction-culturelle/a-destination-des-etablissements-scolaires/sujet-dobservation-et-imagination-2-2/index.html"
+to = "/laction-culturelle/a-destination-des-etablissements-scolaires/carli-decouvertes/"
+
+[[redirects]]
+from = "/equipe/categories/agentes-administratifs-sgdg/secretariat-general/pole-ingenierie-technique/service-technique/index.html"
+to = "/equipe/categories/agentes-administratifs-sgdg/secretariat-general/pole-gestion-patrimoniale-et-exploitation/service-technique/"
+
