@@ -115,6 +115,10 @@ from = "/equipe/categories/agentes-administratifs-sgdg/secretariat-general/pole-
 to = "/equipe/categories/agentes-administratifs-sgdg/secretariat-general/responsable-pole-ingenierie-technique/"
 
 [[redirects]]
+from = "/actualites/2026-04-29-campus-art-mditerranee-et-les-beaux-arts-de-marseille-sassocient-au-communique-de-landea--www-beauxartsdemarseille-fr/index.html"
+to = "/actualites/2026-04-29-campus-art-mediterranee-et-les-beaux-arts-de-marseille-s-associent-au-communique-de-l-andea--www-beauxartsdemarseille-fr/"
+
+[[redirects]]
 from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/regards-multiples/index.html"
 to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/regards-multiples/"
 
