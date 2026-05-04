@@ -67,6 +67,11 @@
                 display: flex
                 flex-direction: column
                 gap: $spacing-2
+    .events--large
+        .event
+            @include in-page-without-sidebar
+                .event-dates
+                    @include body-text
 
 .events--list
     @include media-breakpoint-up(desktop)

@@ -23,3 +23,18 @@
         .event
             .more
                 @include body-text
+
+.posts--large,
+.events--large
+    .post,
+    .event
+        .media img
+            aspect-ratio: 16/9
+
+        @include in-page-without-sidebar
+            [class$="-subtitle"]
+                @include body-text
+        
+        @include in-page-with-or-without-sidebar
+            [class$="-title"]
+                @include h3

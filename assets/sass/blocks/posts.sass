@@ -13,8 +13,6 @@
                         order: -2
                     .post-meta
                         order: -2
-                    .media img
-                        aspect-ratio: 16/9
                 
                 @include media-breakpoint-up(desktop)
                     .post-content
@@ -31,11 +29,5 @@
                         margin-bottom: 0
                 
                 @include in-page-without-sidebar
-                    .post-subtitle
-                        @include body-text
                     .post-content
                         width: columns(6)
-                
-                @include in-page-with-or-without-sidebar
-                    .post-title
-                        @include h3

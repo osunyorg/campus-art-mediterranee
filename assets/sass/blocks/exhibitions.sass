@@ -18,14 +18,26 @@
         .exhibition
             .exhibition-schedule
                 @include h4
+
             @include in-page-with-or-without-sidebar
                 .exhibition-title
                     @include h3
                 .exhibition-subtitle
                     @include body-text
+
             @include in-page-without-sidebar
+                padding-left: offset(2)
                 .exhibition-dates
                     @include h3
+                .exhibition-meta
+                    width: columns(2)
+                .media
+                    width: columns(4)
+
+            @include media-breakpoint-down(desktop)
+                .media
+                    margin-bottom: 0
+                    width: 100%
 
 .block-exhibitions
     .top

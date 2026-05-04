@@ -12,9 +12,12 @@
             display: flex
             flex-direction: column
         .job-categories
-            flex-direction: column
-            li + li
-                margin-top: $spacing-1
+            a
+                @extend .button
+                @extend .button--small
+                &:hover
+                    color: var(--color-background) !important
+                    border-color: var(--color-background)
         .media:empty
             display: none
         .more
@@ -27,6 +30,8 @@
             &, a, time
                 color: var(--color-background)
                 text-decoration-color: var(--color-background)
+            .job-categories a
+                color: var(--color-text)
 
         @include media-breakpoint-up(desktop)
             padding: space(7)
