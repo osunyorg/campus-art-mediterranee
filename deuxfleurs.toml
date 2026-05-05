@@ -491,6 +491,10 @@ from = "/pratiquer-en-amateur/cours-et-stages-adultes/regards-multiples/index.ht
 to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/regards-multiples/"
 
 [[redirects]]
+from = "/projets/2021-demos-marseille-1-1/index.html"
+to = "/projets/2021-residence-art-et-soin-1/"
+
+[[redirects]]
 from = "/agenda/categorie/soiree-dansante/index.html"
 to = "/agenda/par-type-d-evenement/soiree-dansante/"
 
