@@ -1,6 +1,8 @@
 theme:
- - osuny-campus-art-mediterrannee-footer
- - osuny
+  - osuny-campus-art-mediterrannee-footer
+  - osuny
+  - osuny-plugin-pagedjs
+
 _merge: deep
 params:
   campus_art_mediterrannee_footer:
