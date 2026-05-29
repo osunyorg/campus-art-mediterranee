@@ -39,8 +39,10 @@ params:
       backlinks: true
   pages:
     single:
-      taxonomies:
+      meta:
         position: hero
+        options:
+          with_labels: false
     index:
       options:
         categories: true
@@ -49,9 +51,12 @@ params:
       backlinks: true
   projects:
     single:
-      taxonomies:
+      meta:
         position: hero
-        show_name: false
+        options:
+          reading_time: false
+          with_labels: false
+          year: false
     share_links:
       enabled: false
   image_sizes:
