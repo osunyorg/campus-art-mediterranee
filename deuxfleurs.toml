@@ -115,6 +115,10 @@ from = "/equipe/categories/agentes-ifamm/professeures-ifamm/index.html"
 to = "/equipe/categories/professeures-ifamm/"
 
 [[redirects]]
+from = "/l-action-culturelle/hors-temps-soclaire/index.html"
+to = "/l-action-culturelle/hors-temps-scolaire/"
+
+[[redirects]]
 from = "/equipe/categories/agentes-administratifs-sgdg/secretariat-general/pole-ingenierie-juridique-marches-et-achats/responsable-pole-ingenierie-technique/index.html"
 to = "/equipe/categories/agentes-administratifs-sgdg/secretariat-general/responsable-pole-ingenierie-technique/"
 
@@ -464,7 +468,7 @@ to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-e
 
 [[redirects]]
 from = "/l-action-culturelle/modalites/hors-temps-soclaire/index.html"
-to = "/l-action-culturelle/hors-temps-soclaire/"
+to = "/l-action-culturelle/hors-temps-scolaire/"
 
 [[redirects]]
 from = "/agenda/evenementiel/orchestre/index.html"
