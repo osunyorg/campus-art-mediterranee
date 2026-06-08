@@ -667,10 +667,6 @@ from = "/pratiquer-en-amateur/le-conservateur-pierre-barbizet/index.html"
 to = "/pratiquer-en-amateur/le-conservatoire-pierre-barbizet/"
 
 [[redirects]]
-from = "/actualites/2025-09-02-retour-sur-un-ete-foisonnant-avec-campus-art-mediterranee/index.html"
-to = "/actualites/2025-09-02-retour-ete-2025-campus-art-mediterranee/"
-
-[[redirects]]
 from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/techniques-et-esthetiques/index.html"
 to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/techniques-et-esthetiques/"
 
@@ -1011,10 +1007,6 @@ from = "/laction-culturelle/a-destination-des-etablissements-scolaire/rencontre-
 to = "/laction-culturelle/a-destination-des-etablissements-scolaires/rencontre-artistique-au-lycee/"
 
 [[redirects]]
-from = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adolescentes/index.html"
-to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adolescent-es/"
-
-[[redirects]]
 from = "/format/stage/index.html"
 to = "/pratique-amateur/format/stage/"
 
@@ -1067,10 +1059,6 @@ from = "/pratiquer-en-amateur/cours-et-stages-adolescentes/graphiter-encrer/inde
 to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adolescent-es/graphiter-encrer/"
 
 [[redirects]]
-from = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adolescentes/aventure-c-est-aventure/index.html"
-to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adolescent-es/aventure-c-est-aventure/"
-
-[[redirects]]
 from = "/projets/avec-les-structures-sociales-et-medico-sociales/index.html"
 to = "/projets/action-culturelle/avec-les-structures-sociales-et-medico-sociales/"
 
@@ -1097,10 +1085,6 @@ to = "/agenda/par-type-d-evenement/concert/"
 [[redirects]]
 from = "/agenda/lorem-ipsum/index.html"
 to = "/agenda/lieux/campus-art-mediterranee/"
-
-[[redirects]]
-from = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adolescentes/graphiter-encrer/index.html"
-to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adolescent-es/graphiter-encrer/"
 
 [[redirects]]
 from = "/organisations/festival-marseille-jazz-des-cinq-continents/index.html"
