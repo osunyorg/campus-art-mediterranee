@@ -19,6 +19,10 @@ from = "/agenda/evenementiel/masterclasse/index.html"
 to = "/agenda/par-type-d-evenement/masterclasse/"
 
 [[redirects]]
+from = "/pratique/index.html"
+to = "/pratique-amateur/pratique/"
+
+[[redirects]]
 from = "/offres-d-emploi/type-de-poste/cdd/index.html"
 to = "/recrutement/type-de-poste/cdd/"
 
@@ -480,7 +484,7 @@ to = "/agenda/2025/prix-francois-bret-2025--www-beauxartsdemarseille-fr/"
 
 [[redirects]]
 from = "/type/index.html"
-to = "/pratique/"
+to = "/pratique-amateur/pratique/"
 
 [[redirects]]
 from = "/agenda/2026/saison-mediterranee-2026/bal-canto/index.html"
@@ -683,6 +687,10 @@ from = "/actualites/offre-de-formation/option-design-cycle-2-master/index.html"
 to = "/actualites/offre-de-formation/option-design/option-design-cycle-2-master/"
 
 [[redirects]]
+from = "/format/index.html"
+to = "/pratique-amateur/format/"
+
+[[redirects]]
 from = "/lifamm/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/photographie-post-photographie-1/index.html"
 to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/photographie-post-photographie-1/"
 
@@ -717,6 +725,10 @@ to = "/projets/publics/cycle-1/"
 [[redirects]]
 from = "/agenda/evenementiel/index.html"
 to = "/agenda/par-type-d-evenement/"
+
+[[redirects]]
+from = "/public/index.html"
+to = "/pratique-amateur/public/"
 
 [[redirects]]
 from = "/laction-culturelle/a-destination-des-etablissements-scolaires/sujet-dobservation-et-imagination-2-1/index.html"
