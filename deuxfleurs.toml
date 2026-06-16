@@ -891,6 +891,10 @@ from = "/lifamm/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseill
 to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/regards-multiples/"
 
 [[redirects]]
+from = "/formation/adultes/index.html"
+to = "/formation/a-partir-de-18-ans/"
+
+[[redirects]]
 from = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/au-dela-de-la-brosse/index.html"
 to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/au-dela-de-la-brosse/"
 
