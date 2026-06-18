@@ -663,6 +663,10 @@ from = "/pratiquer-en-amateur/le-conservateur-pierre-barbizet/index.html"
 to = "/pratiquer-en-amateur/le-conservatoire-pierre-barbizet/"
 
 [[redirects]]
+from = "/vitrification/index.html"
+to = "/pratique-amateur/pratique/vitrification/"
+
+[[redirects]]
 from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/techniques-et-esthetiques/index.html"
 to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/techniques-et-esthetiques/"
 
