@@ -39,10 +39,6 @@ from = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours
 to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/nature-et-recette/"
 
 [[redirects]]
-from = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/photographie-post-photographie/index.html"
-to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/photographie-post-photographie/"
-
-[[redirects]]
 from = "/offres-d-emploi/type-de-poste/cdd/index.html"
 to = "/recrutement/type-de-poste/cdd/"
 
@@ -755,10 +751,6 @@ from = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours
 to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/l-art-au-prisme-de-la-couleur/"
 
 [[redirects]]
-from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/photographie-post-photographie/index.html"
-to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/photographie-post-photographie/"
-
-[[redirects]]
 from = "/agenda/categorie/litterature/index.html"
 to = "/agenda/par-type-d-evenement/litterature/"
 
@@ -1215,10 +1207,6 @@ from = "/pratique/histoire-de-lart/index.html"
 to = "/pratique-amateur/pratique/histoire-de-lart/"
 
 [[redirects]]
-from = "/pratiquer-en-amateur/cours-et-stages-adultes/photographie-post-photographie/index.html"
-to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/photographie-post-photographie/"
-
-[[redirects]]
 from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adolescentes/remuer-ciel-et-terre/index.html"
 to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adolescent-es/remuer-ciel-et-terre/"
 
@@ -1281,10 +1269,6 @@ to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/atelier
 [[redirects]]
 from = "/ateliers-publics-des-beaux-arts-de-marseille/index.html"
 to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/"
-
-[[redirects]]
-from = "/lifamm/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/photographie-post-photographie/index.html"
-to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/photographie-post-photographie/"
 
 [[redirects]]
 from = "/lifamm/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/explorations-et-empreintes/index.html"
