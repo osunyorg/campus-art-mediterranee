@@ -200,7 +200,7 @@ to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-e
 
 [[redirects]]
 from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/dans-la-pinede/index.html"
-to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/dans-la-pinede/"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adolescent-es/dans-la-pinede/"
 
 [[redirects]]
 from = "/pratique/art-visuel/index.html"
@@ -348,7 +348,7 @@ to = "/projets/action-culturelle/residences-de-territoire/"
 
 [[redirects]]
 from = "/lifamm/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/dans-la-pinede/index.html"
-to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/dans-la-pinede/"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adolescent-es/dans-la-pinede/"
 
 [[redirects]]
 from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-enfants/aire-de-jeux/index.html"
@@ -523,6 +523,10 @@ from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/ca
 to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/cabinet-des-curiosites/"
 
 [[redirects]]
+from = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/dans-la-pinede/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adolescent-es/dans-la-pinede/"
+
+[[redirects]]
 from = "/pratiquer-en-amateur/cours-et-stages-adultes/index.html"
 to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/"
 
@@ -588,7 +592,7 @@ to = "/l-action-culturelle/hors-temps-scolaire/"
 
 [[redirects]]
 from = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/photographie-post-photographie-1/index.html"
-to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/photographie-post-photographie-1/"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/journal-des-petits-riens/"
 
 [[redirects]]
 from = "/agenda/evenementiel/orchestre/index.html"
@@ -641,10 +645,6 @@ to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/atelier
 [[redirects]]
 from = "/public/adulte/a-partir-de-16-ans/index.html"
 to = "/pratique-amateur/public/adulte/a-partir-de-16-ans/"
-
-[[redirects]]
-from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adolescentes/aventure-c-est-aventure/index.html"
-to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adolescent-es/aventure-c-est-aventure/"
 
 [[redirects]]
 from = "/l-action-culturelle/modalites/projet-pass-culture/index.html"
@@ -872,7 +872,7 @@ to = "/pratique-amateur/format/"
 
 [[redirects]]
 from = "/lifamm/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/photographie-post-photographie-1/index.html"
-to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/photographie-post-photographie-1/"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/journal-des-petits-riens/"
 
 [[redirects]]
 from = "/agenda/exposition/index.html"
@@ -996,7 +996,7 @@ to = "/pratique-amateur/pratique/gravure/"
 
 [[redirects]]
 from = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/dans-la-pinede/index.html"
-to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/dans-la-pinede/"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adolescent-es/dans-la-pinede/"
 
 [[redirects]]
 from = "/pratiquer-en-amateur/cours-et-stages-enfants/la-fabrication-de-la-peinture-1/index.html"
@@ -1004,7 +1004,7 @@ to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-e
 
 [[redirects]]
 from = "/pratiquer-en-amateur/cours-et-stages-adultes/photographie-post-photographie-1/index.html"
-to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/photographie-post-photographie-1/"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/journal-des-petits-riens/"
 
 [[redirects]]
 from = "/laction-culturelle/a-destination-des-etablissements-scolaire/rencontre-artistique-au-lycee/index.html"
@@ -1020,7 +1020,7 @@ to = "/pratique-amateur/pratique/ceramique/"
 
 [[redirects]]
 from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/photographie-post-photographie-1/index.html"
-to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/photographie-post-photographie-1/"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/journal-des-petits-riens/"
 
 [[redirects]]
 from = "/pratiquer-en-amateur/cours-et-stages-adolescentes/hyper-clrs/index.html"
@@ -1312,11 +1312,15 @@ to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/atelier
 
 [[redirects]]
 from = "/pratiquer-en-amateur/cours-et-stages-adultes/dans-la-pinede/index.html"
-to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/dans-la-pinede/"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adolescent-es/dans-la-pinede/"
 
 [[redirects]]
 from = "/agenda/types/co-production/music-cinema/index.html"
 to = "/agenda/co-production/music-cinema/"
+
+[[redirects]]
+from = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/photographie-post-photographie-1/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/journal-des-petits-riens/"
 
 [[redirects]]
 from = "/pratique/collage/index.html"
@@ -1345,10 +1349,6 @@ to = "/laction-culturelle/a-destination-des-etablissements-scolaires/pratiques-a
 [[redirects]]
 from = "/format/stage/stage-adolescentes/index.html"
 to = "/pratique-amateur/format/stage/stage-adolescentes/"
-
-[[redirects]]
-from = "/pratiquer-en-amateur/cours-et-stages-adolescentes/aventure-c-est-aventure/index.html"
-to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adolescent-es/aventure-c-est-aventure/"
 
 [[redirects]]
 from = "/laction-culturelle/a-destination-des-etablissements-scolaires/sujet-dobservation-et-imagination-2-2/index.html"
