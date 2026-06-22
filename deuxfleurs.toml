@@ -36,7 +36,7 @@ to = "/pratique-amateur/public/enfants/8-12-ans/"
 
 [[redirects]]
 from = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/nature-et-recette/index.html"
-to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/nature-et-recette/"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/dessin-et-peinture-les-fondamentaux/"
 
 [[redirects]]
 from = "/offres-d-emploi/type-de-poste/cdd/index.html"
@@ -372,7 +372,7 @@ to = "/agenda/offre-de-formation/option-design/option-design-cycle-1-licence/"
 
 [[redirects]]
 from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/nature-et-recette/index.html"
-to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/nature-et-recette/"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/dessin-et-peinture-les-fondamentaux/"
 
 [[redirects]]
 from = "/equipe/categories/demos/proffeseures-demos/index.html"
@@ -444,7 +444,7 @@ to = "/equipe/iris-betrancourt/"
 
 [[redirects]]
 from = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/explorations-et-empreintes/index.html"
-to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/explorations-et-empreintes/"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/grave-bien/"
 
 [[redirects]]
 from = "/projets/2024-carliminot/index.html"
@@ -536,7 +536,7 @@ to = "/pratique-amateur/pratique/peinture/"
 
 [[redirects]]
 from = "/pratiquer-en-amateur/cours-et-stages-adultes/nature-et-recette/index.html"
-to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/nature-et-recette/"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/dessin-et-peinture-les-fondamentaux/"
 
 [[redirects]]
 from = "/pratique/edition/index.html"
@@ -560,7 +560,7 @@ to = "/pratique-amateur/format/stage/stage-enfants/"
 
 [[redirects]]
 from = "/pratiquer-en-amateur/cours-et-stages-adultes/quand-le-dessin-est-roi/index.html"
-to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/quand-le-dessin-est-roi/"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/dessiner-c-est-deriver/"
 
 [[redirects]]
 from = "/agenda/categorie/theatre-1/index.html"
@@ -584,7 +584,7 @@ to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/atelier
 
 [[redirects]]
 from = "/pratiquer-en-amateur/cours-et-stages-adultes/de-la-pintura/index.html"
-to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/de-la-pintura/"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/composition-libre/"
 
 [[redirects]]
 from = "/l-action-culturelle/modalites/hors-temps-soclaire/index.html"
@@ -600,7 +600,7 @@ to = "/agenda/par-type-d-evenement/orchestre/"
 
 [[redirects]]
 from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/de-la-pintura/index.html"
-to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/de-la-pintura/"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/composition-libre/"
 
 [[redirects]]
 from = "/agenda/types/co-production/systema/index.html"
@@ -656,7 +656,7 @@ to = "/laction-culturelle/a-destination-des-etablissements-scolaires/carliminots
 
 [[redirects]]
 from = "/pratiquer-en-amateur/cours-et-stages-adultes/au-dela-de-la-brosse/index.html"
-to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/au-dela-de-la-brosse/"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/hors-cadre/"
 
 [[redirects]]
 from = "/pratiquer-en-amateur/le-conservateur-pierre-barbizet/index.html"
@@ -696,7 +696,7 @@ to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/atelier
 
 [[redirects]]
 from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/quand-le-dessin-est-roi/index.html"
-to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/quand-le-dessin-est-roi/"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/dessiner-c-est-deriver/"
 
 [[redirects]]
 from = "/agenda/2024/alma-lecture-musicale/index.html"
@@ -819,12 +819,20 @@ from = "/equipe/categories/agentes-administratifs-sgdg/secretariat-general/pole-
 to = "/equipe/categories/agentes-administratifs-sgdg/secretariat-general/service-informatique-1/"
 
 [[redirects]]
+from = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/quand-le-dessin-est-roi/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/dessiner-c-est-deriver/"
+
+[[redirects]]
 from = "/pratique/nature/index.html"
 to = "/pratique-amateur/pratique/nature/"
 
 [[redirects]]
 from = "/agenda/musique/index.html"
 to = "/agenda/par-type-d-evenement/musique/"
+
+[[redirects]]
+from = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/explorations-et-empreintes/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/grave-bien/"
 
 [[redirects]]
 from = "/pratiquer-en-amateur/cours-et-stages-adolescentes/peinture-bidouiller/index.html"
@@ -896,7 +904,7 @@ to = "/formation/a-partir-de-18-ans/"
 
 [[redirects]]
 from = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/au-dela-de-la-brosse/index.html"
-to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/au-dela-de-la-brosse/"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/hors-cadre/"
 
 [[redirects]]
 from = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/matieres-vivantes/index.html"
@@ -933,6 +941,10 @@ to = "/pratique-amateur/public/"
 [[redirects]]
 from = "/laction-culturelle/a-destination-des-etablissements-scolaires/sujet-dobservation-et-imagination-2-1/index.html"
 to = "/laction-culturelle/a-destination-des-etablissements-scolaires/carliminots/"
+
+[[redirects]]
+from = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/de-la-pintura/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/composition-libre/"
 
 [[redirects]]
 from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/ecriture-images-et-mots/index.html"
@@ -979,6 +991,10 @@ from = "/equipe/categories/agentes-ifamm/formateurtrices-cfpi/index.html"
 to = "/equipe/categories/formateurtrices-cfpi/"
 
 [[redirects]]
+from = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/nature-et-recette/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/dessin-et-peinture-les-fondamentaux/"
+
+[[redirects]]
 from = "/equipe/categories/agentes-administratifs-sgdg/directeur-adjoint/index.html"
 to = "/equipe/categories/agentes-administratifs-sgdg/direction-generale/directeur-adjoint/"
 
@@ -997,6 +1013,10 @@ to = "/pratique-amateur/pratique/gravure/"
 [[redirects]]
 from = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/dans-la-pinede/index.html"
 to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adolescent-es/dans-la-pinede/"
+
+[[redirects]]
+from = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/au-dela-de-la-brosse/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/hors-cadre/"
 
 [[redirects]]
 from = "/pratiquer-en-amateur/cours-et-stages-enfants/la-fabrication-de-la-peinture-1/index.html"
@@ -1036,7 +1056,7 @@ to = "/pratique-amateur/pratique/pratiques-graphiques/"
 
 [[redirects]]
 from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/explorations-et-empreintes/index.html"
-to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/explorations-et-empreintes/"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/grave-bien/"
 
 [[redirects]]
 from = "/offres-demplois/index.html"
@@ -1108,7 +1128,7 @@ to = "/formations/option-design/option-design-cycle-1-licence/"
 
 [[redirects]]
 from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/au-dela-de-la-brosse/index.html"
-to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/au-dela-de-la-brosse/"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/hors-cadre/"
 
 [[redirects]]
 from = "/laction-culturelle/musique-de-chambre-a-l-hopital/index.html"
@@ -1252,7 +1272,7 @@ to = "/co-production/performance/"
 
 [[redirects]]
 from = "/pratiquer-en-amateur/cours-et-stages-adultes/explorations-et-empreintes/index.html"
-to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/explorations-et-empreintes/"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/grave-bien/"
 
 [[redirects]]
 from = "/pratiquer-en-amateur/cours-et-stages-adultes/techniques-et-esthetiques/index.html"
@@ -1260,7 +1280,7 @@ to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/atelier
 
 [[redirects]]
 from = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/de-la-pintura/index.html"
-to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/de-la-pintura/"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/composition-libre/"
 
 [[redirects]]
 from = "/agenda/types/co-production/index.html"
@@ -1276,7 +1296,7 @@ to = "/laction-culturelle/a-destination-des-etablissements-scolaires/pratiques-a
 
 [[redirects]]
 from = "/lifamm/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/au-dela-de-la-brosse/index.html"
-to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/au-dela-de-la-brosse/"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/hors-cadre/"
 
 [[redirects]]
 from = "/ateliers-publics-des-beaux-arts-de-marseille/index.html"
@@ -1284,7 +1304,7 @@ to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/"
 
 [[redirects]]
 from = "/lifamm/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/explorations-et-empreintes/index.html"
-to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/explorations-et-empreintes/"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/grave-bien/"
 
 [[redirects]]
 from = "/sujet-dobservation-et-imagination/index.html"
@@ -1356,7 +1376,7 @@ to = "/laction-culturelle/a-destination-des-etablissements-scolaires/carli-decou
 
 [[redirects]]
 from = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/quand-le-dessin-est-roi/index.html"
-to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/quand-le-dessin-est-roi/"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/dessiner-c-est-deriver/"
 
 [[redirects]]
 from = "/equipe/categories/agentes-administratifs-sgdg/secretariat-general/pole-ingenierie-technique/service-technique/index.html"
