@@ -88,7 +88,7 @@ to = "/projets/offre-de-formation/option-design/option-design-cycle-2-master/"
 
 [[redirects]]
 from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-enfants/latelier/index.html"
-to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-enfants/latelier/"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-enfants/mondes-imaginaires/"
 
 [[redirects]]
 from = "/equipe/categories/agentes-administratifs-sgdg/secretariat-general/pole-ingenierie-technique/index.html"
@@ -137,6 +137,10 @@ to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/atelier
 [[redirects]]
 from = "/agenda/categorie/orchestre/index.html"
 to = "/agenda/par-type-d-evenement/orchestre/"
+
+[[redirects]]
+from = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adolescent-es/peinture-bidouiller/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adolescent-es/en-vrai-vas-y/"
 
 [[redirects]]
 from = "/recrutement/2026/musicien-nes/index.html"
@@ -240,7 +244,7 @@ to = "/equipe/categories/agentes-administratif-cpmb/pole-direction-des-etudes-1/
 
 [[redirects]]
 from = "/latelier/index.html"
-to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-enfants/latelier/"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-enfants/mondes-imaginaires/"
 
 [[redirects]]
 from = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adolescentes/remuer-ciel-et-terre/index.html"
@@ -288,7 +292,7 @@ to = "/pratique-amateur/pratique/preparation-aux-concours/"
 
 [[redirects]]
 from = "/pratiquer-en-amateur/cours-et-stages-enfants/experience-imaginaire/index.html"
-to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-enfants/experience-imaginaire/"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-enfants/experiences-et-imaginaires/"
 
 [[redirects]]
 from = "/offres-d-emploi/lieu/index.html"
@@ -684,7 +688,7 @@ to = "/equipe/categories/agentes-administratifs-sgdg/direction-generale/directeu
 
 [[redirects]]
 from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-enfants/experience-imaginaire/index.html"
-to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-enfants/experience-imaginaire/"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-enfants/experiences-et-imaginaires/"
 
 [[redirects]]
 from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/quand-le-dessin-est-roi/index.html"
@@ -796,7 +800,7 @@ to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/atelier
 
 [[redirects]]
 from = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-enfants/experience-imaginaire/index.html"
-to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-enfants/experience-imaginaire/"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-enfants/experiences-et-imaginaires/"
 
 [[redirects]]
 from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-enfants/la-fabrication-de-la-peinture-1/index.html"
@@ -820,7 +824,7 @@ to = "/agenda/par-type-d-evenement/musique/"
 
 [[redirects]]
 from = "/pratiquer-en-amateur/cours-et-stages-adolescentes/peinture-bidouiller/index.html"
-to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adolescent-es/peinture-bidouiller/"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adolescent-es/en-vrai-vas-y/"
 
 [[redirects]]
 from = "/coproductions/sujet-dobservation-et-imagination-2-5/index.html"
@@ -951,6 +955,10 @@ from = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours
 to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/en-volume-ou-a-plat/"
 
 [[redirects]]
+from = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-enfants/experience-imaginaire/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-enfants/experiences-et-imaginaires/"
+
+[[redirects]]
 from = "/agenda/categorie/jazz-1/index.html"
 to = "/agenda/par-type-d-evenement/jazz-1/"
 
@@ -968,7 +976,7 @@ to = "/equipe/categories/agentes-administratifs-sgdg/direction-generale/directeu
 
 [[redirects]]
 from = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-enfants/latelier/index.html"
-to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-enfants/latelier/"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-enfants/mondes-imaginaires/"
 
 [[redirects]]
 from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/l-art-au-prisme-de-la-couleur/index.html"
@@ -1012,7 +1020,7 @@ to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/atelier
 
 [[redirects]]
 from = "/pratiquer-en-amateur/cours-et-stages-enfants/latelier/index.html"
-to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-enfants/latelier/"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-enfants/mondes-imaginaires/"
 
 [[redirects]]
 from = "/pratique/pratiques-graphiques/index.html"
@@ -1060,7 +1068,7 @@ to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/atelier
 
 [[redirects]]
 from = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adolescentes/peinture-bidouiller/index.html"
-to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adolescent-es/peinture-bidouiller/"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adolescent-es/en-vrai-vas-y/"
 
 [[redirects]]
 from = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/techniques-maitres/index.html"
@@ -1219,6 +1227,10 @@ from = "/public/enfants/6-11-ans/index.html"
 to = "/pratique-amateur/public/enfants/6-11-ans/"
 
 [[redirects]]
+from = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-enfants/latelier/index.html"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-enfants/mondes-imaginaires/"
+
+[[redirects]]
 from = "/laction-culturelle/residence-de-territoire/sujet-dobservation-et-imagination-2-3/index.html"
 to = "/laction-culturelle/residence-de-territoire/residence-de-territoire-dans-le-quartier-de-saint-andre/"
 
@@ -1284,7 +1296,7 @@ to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-e
 
 [[redirects]]
 from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adolescentes/peinture-bidouiller/index.html"
-to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adolescent-es/peinture-bidouiller/"
+to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adolescent-es/en-vrai-vas-y/"
 
 [[redirects]]
 from = "/pratiquer-en-amateur/cours-et-stages-adultes/dans-la-pinede/index.html"
