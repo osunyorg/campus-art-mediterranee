@@ -60,6 +60,8 @@
             .pages-meta
                 order: -1
                 margin-top: 0
+                @include media-breakpoint-down(desktop)
+                    margin-bottom: $spacing-3
         .taxonomies-single
             display: flex
             flex-wrap: wrap
