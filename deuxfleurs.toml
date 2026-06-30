@@ -1071,10 +1071,6 @@ from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/ex
 to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/grave-bien/"
 
 [[redirects]]
-from = "/offres-demplois/index.html"
-to = "/recrutement/offres-demplois/"
-
-[[redirects]]
 from = "/public/adolescente/10-15-ans/index.html"
 to = "/pratique-amateur/public/adolescente/10-15-ans/"
 
