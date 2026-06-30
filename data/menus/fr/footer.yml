@@ -19,6 +19,13 @@ items:
   descendants_targets: []
   path: "/events"
   file: content/fr/events/_index.html
+- title: Offres d'emploi
+  slug: offres-d-emploi
+  target: https://www.campusartmediterranee.fr/recrutement/offre-d-emploi/
+  kind: url
+  new_tab: false
+  children: []
+  descendants_targets: []
 - title: Ressources
   slug: ressources
   target: "/letablissement/ressources/"
