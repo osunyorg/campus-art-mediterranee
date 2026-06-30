@@ -519,6 +519,10 @@ from = "/agenda/evenementiel/exposition/index.html"
 to = "/agenda/par-type-d-evenement/exposition/"
 
 [[redirects]]
+from = "/equipe/peter-haddad-peter/index.html"
+to = "/equipe/peter-haddad/"
+
+[[redirects]]
 from = "/pratiquer-en-amateur/preparation-aux-concours-d-entree-des-ecoles-d-art/preparations-aux-concours-dentree-aux-ecoles-superieures/index.html"
 to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/preparations-aux-concours-dentree-aux-ecoles-superieures/"
 
