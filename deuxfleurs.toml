@@ -451,6 +451,10 @@ from = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours
 to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/grave-bien/"
 
 [[redirects]]
+from = "/se-former/formations-continus/concevoir-et-conduire-un-projet-d-education-artistique-et-culturelle-dans-le-domaine-des-musiques-ac/index.html"
+to = "/se-former/formations-continus/concevoir-et-conduire-un-projet-eac-musiques-actuelles/"
+
+[[redirects]]
 from = "/projets/2024-carliminot/index.html"
 to = "/projets/2023-carliminot/"
 
