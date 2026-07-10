@@ -16,7 +16,12 @@
                 @extend .button
                 @extend .button--small
         .hero-text
+            align-items: flex-start
+            display: flex
+            flex-direction: column
+            gap: $spacing-3
             padding-bottom: 0
+
     // call to action with image
     .block-call_to_action--no_background 
         .call_to_action--with-image
@@ -24,6 +29,7 @@
                 .description
                     p
                         @include meta
+
     &:not(.full-width)
         .block-call_to_action--no_background 
             .call_to_action--with-image
@@ -31,6 +37,7 @@
                 figure
                     margin-left: 0
                     order: -1
+
     // list titles more discreet
     .block.block-title + .block
         .top .block-title a
