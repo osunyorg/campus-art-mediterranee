@@ -675,6 +675,10 @@ from = "/pratiquer-en-amateur/le-conservateur-pierre-barbizet/index.html"
 to = "/pratiquer-en-amateur/le-conservatoire-pierre-barbizet/"
 
 [[redirects]]
+from = "/organisations/compagnie-vol-planee/index.html"
+to = "/organisations/compagnie-vol-plane/"
+
+[[redirects]]
 from = "/vitrification/index.html"
 to = "/pratique-amateur/pratique/vitrification/"
 
