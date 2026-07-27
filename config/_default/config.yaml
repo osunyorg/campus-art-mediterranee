@@ -55,6 +55,7 @@ params:
         position: hero
         options:
           reading_time: false
+          share: false
           with_labels: false
           year: false
     share_links:
