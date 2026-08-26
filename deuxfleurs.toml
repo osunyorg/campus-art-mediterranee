@@ -1407,6 +1407,10 @@ from = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours
 to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/dessiner-c-est-deriver/"
 
 [[redirects]]
+from = "/musique-2/index.html"
+to = "/parcours-pluridisciplinaires/disciplines/musique-2/"
+
+[[redirects]]
 from = "/equipe/categories/agentes-administratifs-sgdg/secretariat-general/pole-ingenierie-technique/service-technique/index.html"
 to = "/equipe/categories/agentes-administratifs-sgdg/secretariat-general/pole-gestion-patrimoniale-et-exploitation/service-technique/"
 
