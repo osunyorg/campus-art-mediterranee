@@ -1215,6 +1215,10 @@ from = "/pratique/photographie/index.html"
 to = "/pratique-amateur/pratique/photographie/"
 
 [[redirects]]
+from = "/fichiers/2026/index.html"
+to = "/fichiers/2026/arr-2026-572-delegation-signature-dg-rhpdf/"
+
+[[redirects]]
 from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/techniques-maitres/index.html"
 to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/techniques-maitres/"
 
