@@ -31,6 +31,7 @@ header#document-header
                 a.active::after
                     position: relative
                     height: auto
+
     @include media-breakpoint-up(desktop)
         .upper-menu
             .container
@@ -116,14 +117,13 @@ header#document-header
                     flex: 1
                 .nav-level-1
                     width: auto
+
     @include media-breakpoint-down(desktop)
         border-bottom: 1px solid var(--color-accent)
         .header-button 
             span
-                &:first-child
-                    opacity: 0
-                    height: 0
-                    width: 0
+                &.button-title
+                    @include sr-only
                 &:last-child::before
                     font-size: pxToRem(30)
         html.has-menu-opened &
