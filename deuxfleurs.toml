@@ -448,7 +448,7 @@ to = "/recrutement/type-de-poste/cdi/"
 
 [[redirects]]
 from = "/equipe/communication-campus-art-mediterranee/index.html"
-to = "/equipe/iris-betrancourt/"
+to = "/equipe/service-communication/"
 
 [[redirects]]
 from = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/explorations-et-empreintes/index.html"
@@ -1037,6 +1037,10 @@ to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/atelier
 [[redirects]]
 from = "/ateliers-publics-des-beaux-arts-de-marseille/cours-et-stages-adultes/l-art-au-prisme-de-la-couleur/index.html"
 to = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/l-art-au-prisme-de-la-couleur/"
+
+[[redirects]]
+from = "/equipe/iris-betrancourt/index.html"
+to = "/equipe/service-communication/"
 
 [[redirects]]
 from = "/pratique/gravure/index.html"
