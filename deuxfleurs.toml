@@ -415,6 +415,10 @@ from = "/offre-de-formation/option-design-cycle-2-master/index.html"
 to = "/offre-de-formation/option-design/option-design-cycle-2-master/"
 
 [[redirects]]
+from = "/equipe/elisabeth-ung/index.html"
+to = "/equipe/alexendre-prudhomme/"
+
+[[redirects]]
 from = "/expositions/2025-08-29-exposition-des-diplomees-2025--beaux-arts-de-marseille-inseamm-osuny-site/index.html"
 to = "/expositions/2025-08-29-exposition-des-diplomees-2025--www-beauxartsdemarseille-fr/"
 
@@ -853,6 +857,10 @@ to = "/pratique-amateur/pratique/nature/"
 [[redirects]]
 from = "/agenda/musique/index.html"
 to = "/agenda/par-type-d-evenement/musique/"
+
+[[redirects]]
+from = "/equipe/gabriela-campanella/index.html"
+to = "/equipe/aline-fino/"
 
 [[redirects]]
 from = "/pratiquer-en-amateur/ateliers-publics-des-beaux-arts-de-marseille/ateliers-adultes/explorations-et-empreintes/index.html"
